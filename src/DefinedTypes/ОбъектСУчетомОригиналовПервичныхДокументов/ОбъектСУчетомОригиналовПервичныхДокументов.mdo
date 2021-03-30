@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ff2d0c59-5956-4bdb-88ae-ab203fbbb134" extendedConfigurationObject="bf5faaef-3a03-40bc-8d3a-644c0874b9ce">
+  <producedTypes>
+    <containerType typeId="9969a403-77e6-4cec-a8a8-eb2796a48dfd" valueTypeId="efe1816c-c32c-4cbb-9bb7-4c30daff25a9"/>
+  </producedTypes>
+  <name>ОбъектСУчетомОригиналовПервичныхДокументов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <typeExtension/>
+  </extension>
+  <type/>
+</mdclass:DefinedType>

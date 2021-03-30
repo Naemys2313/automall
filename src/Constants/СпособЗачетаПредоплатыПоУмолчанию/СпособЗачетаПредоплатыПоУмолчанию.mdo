@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1e84fd13-68de-4a10-b7bb-852782aac92c" extendedConfigurationObject="51efb531-3081-473f-bfc6-fed5df7e5515">
+  <producedTypes>
+    <managerType typeId="417449dc-83ca-4eb7-8666-e952221b8d63" valueTypeId="84ab1daa-2bf2-4d79-8a27-3a8cd4226947"/>
+    <valueManagerType typeId="9082f582-00e3-4303-9777-9369feb9bd9b" valueTypeId="d45a2201-bb60-471e-bd82-90a70c999dd9"/>
+    <valueKeyType typeId="8d60682a-338e-4db9-8708-250e21047a57" valueTypeId="413bb65b-e4ad-41f4-ab19-54cec0f8dd4c"/>
+  </producedTypes>
+  <name>СпособЗачетаПредоплатыПоУмолчанию</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>EnumRef.СпособыЗачетаИРаспределенияПлатежей</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

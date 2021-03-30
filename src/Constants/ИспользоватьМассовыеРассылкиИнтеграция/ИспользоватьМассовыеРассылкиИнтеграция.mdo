@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="35415d07-c955-419d-a085-ae1b22b4bcba" extendedConfigurationObject="0620994c-585d-4f88-80d1-2021b3425efa">
+  <producedTypes>
+    <managerType typeId="784269d9-bdc7-4760-9cf1-1f4a3f6e8dfc" valueTypeId="19227e4a-cd5f-4134-bd7d-caffac090ecf"/>
+    <valueManagerType typeId="7afcb8b1-fdb3-4ce5-8229-2a16ad6aa55b" valueTypeId="e6fe49f5-7686-47fe-aa91-043446c9cbf9"/>
+    <valueKeyType typeId="2af5f5c0-cf7f-4d5e-b91a-83e955561833" valueTypeId="f20a378c-27af-4731-9423-96665bb3827a"/>
+  </producedTypes>
+  <name>ИспользоватьМассовыеРассылкиИнтеграция</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

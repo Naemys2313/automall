@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1e166b83-834e-4575-a4b0-cfc04835f56f" extendedConfigurationObject="85a1ca82-bc4b-49a8-84e1-77c8158aaf47">
+  <producedTypes>
+    <objectType typeId="86db1351-3b01-41e7-b095-af15a277914a" valueTypeId="9f59d8b7-92fd-4150-959c-33e43ae93686"/>
+    <refType typeId="c56a15dd-51a0-4a6f-875c-1a1e10d71cf6" valueTypeId="450ad79d-c44c-460e-8838-a8f09e91cfd7"/>
+    <selectionType typeId="3d5f06d6-7f35-441d-bce1-24c075dce0e7" valueTypeId="ffc0b242-e00c-413a-afe8-3bc660d58005"/>
+    <listType typeId="2d89bea9-9871-432c-a8b4-411087fbe677" valueTypeId="3a902880-1c46-46b9-9170-0931c888d19e"/>
+    <managerType typeId="f4716eac-fee6-4fc6-a46b-41a7bfab278d" valueTypeId="ef84e709-99c7-4fe5-b0c3-017a41ef86c4"/>
+  </producedTypes>
+  <name>ХранилищеШаблонов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <hierarchical>Checked</hierarchical>
+    <descriptionLength>Checked</descriptionLength>
+  </extension>
+  <hierarchical>true</hierarchical>
+  <descriptionLength>50</descriptionLength>
+  <attributes uuid="6326a579-39b6-4087-9d4b-78f49631b5af" extendedConfigurationObject="0f9ac73f-ee44-4d88-bf26-311c3dc52419">
+    <name>ТипШаблона</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ТипыШаблонов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="f9fbab3d-841c-4969-a8dd-36d8e5219c33" extendedConfigurationObject="24932582-6419-4e72-b67b-217012fa7dd5">
+    <name>ОбъектМетаданных</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="429ee279-8b82-483c-84f1-94aa1fbff02c" extendedConfigurationObject="65cdd434-e460-4d44-90e4-797f022eb72c">
+    <name>РазмерМакета</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>7</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="119ca3ef-b81b-42b9-baa5-2c235091bfd7">
+    <name>_ЧислоЦенниковНаМакете</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число ценников на макете</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>4</value>
+    </maxValue>
+    <fillValue xsi:type="core:NumberValue">
+      <value>1</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d0e7de4c-381c-4a23-802f-c3b22ab7d0ac" extendedConfigurationObject="32451415-19da-462f-b1fd-ba1d1bafe870">
+    <name>ФормаРедактированияШаблона</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="6c98df56-602d-486b-a458-001d68de8a8d" extendedConfigurationObject="d1d6d797-6c56-4681-a790-aba918de9a3f">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <templates uuid="f109bed2-366f-423f-b777-a479ca1a36b7">
+    <name>ШаблонЦенникаПоУмолчанию1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон ценника по умолчанию (1 на 1)</value>
+    </synonym>
+  </templates>
+  <templates uuid="1371f153-5cdd-4ada-ad89-e5aa8ebb2a61">
+    <name>ШаблонЦенникаПоУмолчанию2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон ценника по умолчанию (2 на 1)</value>
+    </synonym>
+  </templates>
+  <templates uuid="0585e7e5-f067-49f0-94c8-f7ad4a858644">
+    <name>ШаблонЦенникаПоУмолчанию3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон ценника по умолчанию (3 на 1)</value>
+    </synonym>
+  </templates>
+  <templates uuid="e31b84b7-3655-4b6a-b47f-9e52fcefbd01">
+    <name>ШаблонЦенникаПоУмолчанию4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон ценника по умолчанию (4 на 1)</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

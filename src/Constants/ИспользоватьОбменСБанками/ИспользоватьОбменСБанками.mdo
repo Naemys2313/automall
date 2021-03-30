@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a6e5f08d-62f4-4448-a1a2-d2bdb473d140" extendedConfigurationObject="245dbff7-16d0-4fb3-8123-1c6d2f072c62">
+  <producedTypes>
+    <managerType typeId="3f212a18-8b40-4650-830e-d083911ec3f6" valueTypeId="e85dbc1f-21e2-4581-9a81-4c1401924e00"/>
+    <valueManagerType typeId="d05c27a4-b263-4ebb-b19d-5ddf1824c819" valueTypeId="f660aef9-bb2a-41fd-b0b0-52c46d8a638c"/>
+    <valueKeyType typeId="3ff92d85-b577-4af9-b35c-783950f75510" valueTypeId="f7f4a5ab-227b-45ed-9b6a-5120f2be3f1b"/>
+  </producedTypes>
+  <name>ИспользоватьОбменСБанками</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

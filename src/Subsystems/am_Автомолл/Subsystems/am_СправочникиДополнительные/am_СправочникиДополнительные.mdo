@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c467f74-026c-4272-8dd7-7f66c3cea6e5">
+  <name>am_СправочникиДополнительные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники (дополнительные)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.am_Автомобили</content>
+  <content>Catalog.am_Модели</content>
+  <content>Catalog.am_Марки</content>
+  <content>Catalog.am_Цвета</content>
+  <content>Catalog.am_ТипДВС</content>
+  <content>Catalog.am_ТипКПП</content>
+  <content>Catalog.am_Бренды</content>
+  <content>InformationRegister.am_ПодходящиеАвто</content>
+  <content>ac18116a-97fa-4b8d-a95e-92fa68685c94</content>
+  <parentSubsystem>Subsystem.am_Автомолл</parentSubsystem>
+</mdclass:Subsystem>

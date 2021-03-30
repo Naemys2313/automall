@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="42dc2b02-4a51-4bcf-a818-6fa0b15bcf8e" extendedConfigurationObject="b6b4b04e-11e1-4863-abd0-935b3b246198">
+  <producedTypes>
+    <refType typeId="bb079293-9335-4cb1-b1ce-24523b6ce39f" valueTypeId="307e6ce6-03a1-42cc-a6d6-fa1658702cb1"/>
+    <listType typeId="8c6ce663-243d-4712-b5d7-cfb5b6a4b454" valueTypeId="7158fb68-47f5-4770-bb73-a58cedc24640"/>
+    <managerType typeId="34518cb6-56d9-458e-80ee-ca0148af4839" valueTypeId="b18e6d1d-d65e-4776-9e6b-2992c40f67a8"/>
+  </producedTypes>
+  <name>ВидыКонтрагентов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="96d9405b-11c9-45ce-8b3a-c33c27181e0c" extendedConfigurationObject="473e170d-f298-4de8-aa08-bb00f5100100">
+    <name>ИндивидуальныйПредприниматель</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="ab881442-73ef-4da8-920e-89d5b4517420" extendedConfigurationObject="443de79e-3c1d-4498-b53e-77ce4b2a5167">
+    <name>ФизическоеЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="92f1278f-179e-458c-86a8-e269d432bfa7" extendedConfigurationObject="cbb74a99-a3de-4a04-b39c-0c5fdfc6a1b0">
+    <name>ГосударственныйОрган</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="547eafd0-15a5-418a-ab53-20c269892232" extendedConfigurationObject="f1df639b-d0d6-4c5a-be9f-fe40514bb507">
+    <name>ЮридическоеЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

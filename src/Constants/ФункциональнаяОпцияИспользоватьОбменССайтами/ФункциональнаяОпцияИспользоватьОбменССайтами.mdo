@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b198b3f2-bd59-41cf-8718-fd3f57e84d87" extendedConfigurationObject="dd4ebbc5-496d-45eb-b992-56ecba3c376d">
+  <producedTypes>
+    <managerType typeId="5c27e198-c623-4c1e-a19e-09157ee0ccd7" valueTypeId="1513be05-f77f-4742-a90a-cd50a5ff538c"/>
+    <valueManagerType typeId="18000a36-358a-45a6-9e97-5c388402fae3" valueTypeId="f9e8b435-3d6e-4ab2-b911-5031d48cff6b"/>
+    <valueKeyType typeId="55558af7-ed7a-4877-879e-d3239764c3fd" valueTypeId="6b62de41-e8a1-47f8-bfe5-c50e870e269f"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияИспользоватьОбменССайтами</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

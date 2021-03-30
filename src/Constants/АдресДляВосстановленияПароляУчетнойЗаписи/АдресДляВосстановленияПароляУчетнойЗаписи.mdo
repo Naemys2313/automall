@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c51c26ca-7dce-46ae-9bd3-2ed78504aa55" extendedConfigurationObject="387d3bbf-cddd-4506-b14f-89c1f37adbbc">
+  <producedTypes>
+    <managerType typeId="93097bb5-9550-46ce-a57e-2b97eb01ba4d" valueTypeId="6e324464-ac1e-4a19-8db2-79eb22753fe5"/>
+    <valueManagerType typeId="0a4b1107-2245-409d-ad27-6e8a2bcba6ae" valueTypeId="52aaf5f4-2b8a-4070-8ac2-76b267c41cba"/>
+    <valueKeyType typeId="2e2645c0-68c3-4178-a83e-0935f767bdd5" valueTypeId="9bb73c41-731a-4f54-a2ba-cedb97f4798d"/>
+  </producedTypes>
+  <name>АдресДляВосстановленияПароляУчетнойЗаписи</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>String</type>
+      </types>
+      <stringQualifiers/>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

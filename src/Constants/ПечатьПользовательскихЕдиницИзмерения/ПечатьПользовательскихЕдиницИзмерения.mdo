@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="59d21990-e75e-4cb7-aaa8-cdb0dbf4c076" extendedConfigurationObject="ef013f9a-f504-4a1c-838c-e497886c97de">
+  <producedTypes>
+    <managerType typeId="a238436e-1eb7-46e1-85fe-1faef2e178ca" valueTypeId="5cb466b3-d75e-4a39-b22a-0af82b3fdf05"/>
+    <valueManagerType typeId="cb8b6e96-0824-40b2-aa7f-35a87fa78f76" valueTypeId="62ddc683-833f-4f70-97f1-ab94c17d1091"/>
+    <valueKeyType typeId="e6b2dbb2-f11f-4d70-a2ad-f946d1b29147" valueTypeId="ec43e3f4-b898-46ab-bef9-b430a4ae71db"/>
+  </producedTypes>
+  <name>ПечатьПользовательскихЕдиницИзмерения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>EnumRef.ПечатьПользовательскихЕдиницИзмерения</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

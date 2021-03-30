@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="86ea8ad0-aca8-4efe-8ad8-605e8298d0c3" extendedConfigurationObject="060b2bb4-ca03-4da9-930f-7f91f6299a35">
+  <producedTypes>
+    <selectionType typeId="eaabd291-8983-4ec9-a206-0c561f5de0b4" valueTypeId="c31cb274-701f-42b0-97cf-f4f2ba90cfd3"/>
+    <listType typeId="2f39d2f0-8e0d-4020-81ab-fe0036b42675" valueTypeId="b3ba1f33-6af0-4c72-b5c7-83dde27e24cb"/>
+    <managerType typeId="e0df7a02-894a-43f3-a777-8b52c100e830" valueTypeId="80abe975-03ca-4ef5-a4ae-b2e5c911cdf3"/>
+    <recordSetType typeId="e7efd7e5-6959-4fde-9e52-67edef4fec8d" valueTypeId="34c426e0-cddc-4c2c-8dd6-a471f47946c6"/>
+    <recordKeyType typeId="65e03acc-d2f6-4138-9454-42029b1f9bbe" valueTypeId="1f798c1c-bde4-41d9-ac97-8fa0d7149084"/>
+    <recordType typeId="77ef3379-a992-4824-9553-c80659ed31ac" valueTypeId="06f97d1b-63c9-439f-a0e4-046e634a6e1b"/>
+    <recordManagerType typeId="1b2ce7d3-8543-4d76-9aef-140b279d33eb" valueTypeId="504e6b87-cee2-48db-b600-a433939ee31c"/>
+  </producedTypes>
+  <name>НаличиеФайлов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="bfe6a6a1-0bb4-4db7-8f46-fbfae4467d87" extendedConfigurationObject="394b1a1c-a7ae-41b7-a346-4bac99fa567d">
+    <name>ЕстьФайлы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="f53e358c-9917-4aec-ac91-12bd7cd80dfa" extendedConfigurationObject="ccfe4e36-80b6-419f-8bb3-c1046203d023">
+    <name>ОбъектСФайлами</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ВладелецПрисоединенныхФайлов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

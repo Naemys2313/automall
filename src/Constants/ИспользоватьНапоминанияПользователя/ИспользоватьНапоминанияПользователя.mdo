@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="42e6dc0f-e2ce-4a47-bc5c-318c9f32ba93" extendedConfigurationObject="c1703a14-61a0-4461-8ad8-7173e2c431fe">
+  <producedTypes>
+    <managerType typeId="70e4841f-a24b-47d7-bb03-4ff6a5a85b5e" valueTypeId="65e3cb42-863c-4258-bb83-4fd34122fc43"/>
+    <valueManagerType typeId="3ff6af96-fbe1-4c33-8f70-60d024cba9e2" valueTypeId="6b67fd4f-3cc6-4f06-84a6-4226aafb1b5d"/>
+    <valueKeyType typeId="cc812fad-24d6-44d1-bee1-f43a11d60e3c" valueTypeId="d2c0f0f4-895b-44d8-8f30-619eec53dc68"/>
+  </producedTypes>
+  <name>ИспользоватьНапоминанияПользователя</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

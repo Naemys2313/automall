@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89b927a4-e1a4-4b2d-bbbc-2f9abb72fed2">
+  <name>am_Продажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ЗаказПокупателя</content>
+  <content>Document.РасходнаяНакладная</content>
+  <content>Document.ЧекККМ</content>
+  <content>Document.ЧекККМВозврат</content>
+  <content>Document.ОтчетОРозничныхПродажах</content>
+  <content>ac18116a-97fa-4b8d-a95e-92fa68685c94</content>
+  <parentSubsystem>Subsystem.am_Автомолл</parentSubsystem>
+</mdclass:Subsystem>

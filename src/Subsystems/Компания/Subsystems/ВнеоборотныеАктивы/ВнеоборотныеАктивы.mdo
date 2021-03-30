@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6aca804a-bb26-4ac0-b29c-b4fa4587f1ac" extendedConfigurationObject="85b2f46c-af48-4574-b494-fcf16773c49a">
+  <name>ВнеоборотныеАктивы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension"/>
+  <parentSubsystem>Subsystem.Компания</parentSubsystem>
+</mdclass:Subsystem>

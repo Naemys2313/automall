@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="afa95d09-bcd5-4e8c-abd5-9a8bfb83f86e" extendedConfigurationObject="421f2943-865f-4b89-b848-ace0d2b614d6">
+  <producedTypes>
+    <refType typeId="43ee5bdd-258d-42da-a885-01c4b8d0dc42" valueTypeId="0ea25222-976c-4ae9-921b-6d838c63a51c"/>
+    <listType typeId="0a42655d-38f7-40fc-92e8-dae457ffd721" valueTypeId="e1e2f858-4f40-40da-a82c-d92bfaa2d32a"/>
+    <managerType typeId="3b5d1dce-37da-40ea-bc5e-8208a1f200ac" valueTypeId="28173b2e-be5c-4db3-b963-58323514547c"/>
+  </producedTypes>
+  <name>ТипыШаблонов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="6eeaa7e5-c644-481a-999a-abf5c686b5c8" extendedConfigurationObject="834dc395-bee0-4309-9924-8d4c48f59e27">
+    <name>ЭтикеткаЦенник</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="1a99380d-174c-4759-89f9-f2f50d6004d1" extendedConfigurationObject="692c7edf-1ecd-4ac3-9608-2eaecf13902d">
+    <name>ЭтикеткаЦенникПринтераЭтикеток</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

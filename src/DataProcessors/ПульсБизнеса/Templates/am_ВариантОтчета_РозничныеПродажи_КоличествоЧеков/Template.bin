@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<userFields>
+		<item xsi:type="UserFieldExpression">
+			<dataPath>ПользовательскиеПоля.Поле1</dataPath>
+			<title>Продажа/Возврат</title>
+			<detailExpression>Выбор
+	Когда Подстрока(Представление(Регистратор), 1, 18) = "Чек ККМ на возврат"
+		Тогда "2. Возврат"
+	Когда Подстрока(Представление(Регистратор), 1, 7) = "Чек ККМ"
+		Тогда "1. Продажа"
+	Иначе "Прочее"
+Конец</detailExpression>
+			<detailExpressionPresentation>Выбор
+	Когда Подстрока(Представление([Документ движения]), 1, 18) = "Чек ККМ на возврат"
+		Тогда "2. Возврат"
+	Когда Подстрока(Представление([Документ движения]), 1, 7) = "Чек ККМ"
+		Тогда "1. Продажа"
+	Иначе "Прочее"
+Конец</detailExpressionPresentation>
+			<totalExpression/>
+			<totalExpressionPresentation/>
+		</item>
+	</userFields>
+	<selection>
+		<item xsi:type="SelectedItemField">
+			<field>Сумма</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>КоличествоЧеков</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>СреднийЧек</field>
+		</item>
+	</selection>
+	<filter>
+		<item xsi:type="FilterItemComparison">
+			<left xsi:type="dcscor:Field">Документ.ОперацияСДенежнымиСредствами</left>
+			<comparisonType>Equal</comparisonType>
+			<right xsi:type="xs:boolean">false</right>
+			<viewMode>Normal</viewMode>
+		</item>
+	</filter>
+	<dataParameters>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>КонецПериода</dcscor:parameter>
+			<dcscor:value xsi:type="xs:dateTime">2020-03-31T23:59:59</dcscor:value>
+		</dcscor:item>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>Период</dcscor:parameter>
+			<dcscor:value xsi:type="v8:StandardPeriod">
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>2020-03-01T00:00:00</v8:startDate>
+				<v8:endDate>2020-03-31T23:59:59</v8:endDate>
+			</dcscor:value>
+		</dcscor:item>
+	</dataParameters>
+	<order>
+		<item xsi:type="OrderItemField">
+			<field>ПользовательскиеПоля.Поле1</field>
+			<orderType>Asc</orderType>
+		</item>
+	</order>
+	<conditionalAppearance>
+		<item>
+			<selection>
+				<item>
+					<field>Сумма</field>
+				</item>
+			</selection>
+			<filter/>
+			<appearance>
+				<dcscor:item xsi:type="SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ЧДЦ=2</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</item>
+		<item>
+			<selection>
+				<item>
+					<field>Себестоимость</field>
+				</item>
+			</selection>
+			<filter/>
+			<appearance>
+				<dcscor:item xsi:type="SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ЧДЦ=2</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</item>
+		<item>
+			<selection>
+				<item>
+					<field>СуммаНДС</field>
+				</item>
+			</selection>
+			<filter/>
+			<appearance>
+				<dcscor:item xsi:type="SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ЧДЦ=2</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</item>
+		<item>
+			<selection>
+				<item>
+					<field>ВаловаяПрибыль</field>
+				</item>
+			</selection>
+			<filter/>
+			<appearance>
+				<dcscor:item xsi:type="SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ЧДЦ=2</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</item>
+		<item>
+			<selection>
+				<item>
+					<field>Количество</field>
+				</item>
+			</selection>
+			<filter/>
+			<appearance>
+				<dcscor:item xsi:type="SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ЧРГ=' '</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</item>
+	</conditionalAppearance>
+	<outputParameters>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:use>false</dcscor:use>
+			<dcscor:parameter>МакетОформления</dcscor:parameter>
+			<dcscor:value xsi:type="xs:string">Море</dcscor:value>
+		</dcscor:item>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>Заголовок</dcscor:parameter>
+			<dcscor:value xsi:type="xs:string">Розничные продажи по кассам ККМ</dcscor:value>
+		</dcscor:item>
+	</outputParameters>
+	<item xsi:type="StructureItemGroup">
+		<groupItems>
+			<item xsi:type="GroupItemField">
+				<field>ПользовательскиеПоля.Поле1</field>
+				<groupType>Items</groupType>
+				<periodAdditionType>None</periodAdditionType>
+				<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+				<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+			</item>
+		</groupItems>
+		<order>
+			<item xsi:type="OrderItemAuto"/>
+		</order>
+		<selection>
+			<item xsi:type="SelectedItemAuto"/>
+		</selection>
+	</item>
+	<additionalProperties>
+		<v8:Property name="НаименованиеВарианта">
+			<v8:Value xsi:type="xs:string">АМ "количество чеков"</v8:Value>
+		</v8:Property>
+		<v8:Property name="СортироватьПоПоказателям">
+			<v8:Value xsi:type="xs:boolean">false</v8:Value>
+		</v8:Property>
+		<v8:Property name="Заголовок">
+			<v8:Value xsi:type="xs:string">Розничные продажи по кассам ККМ за март 2020 г.</v8:Value>
+		</v8:Property>
+		<v8:Property name="ИспользоватьСравнение">
+			<v8:Value xsi:type="xs:boolean">true</v8:Value>
+		</v8:Property>
+		<v8:Property name="НачалоПериода">
+			<v8:Value xsi:type="xs:dateTime">2020-03-01T00:00:00</v8:Value>
+		</v8:Property>
+		<v8:Property name="КонецПериода">
+			<v8:Value xsi:type="xs:dateTime">2020-03-31T23:59:59</v8:Value>
+		</v8:Property>
+		<v8:Property name="НеДобавлятьПериод">
+			<v8:Value xsi:type="xs:boolean">true</v8:Value>
+		</v8:Property>
+		<v8:Property name="РежимРасшифровки">
+			<v8:Value xsi:type="xs:boolean">false</v8:Value>
+		</v8:Property>
+		<v8:Property name="ГруппировкаКолонок">
+			<v8:Value xsi:type="xs:string"/>
+		</v8:Property>
+		<v8:Property name="Сравнение">
+			<v8:Value xsi:nil="true"/>
+		</v8:Property>
+		<v8:Property name="ПоказыватьАбсолютноеИзменение">
+			<v8:Value xsi:type="xs:boolean">false</v8:Value>
+		</v8:Property>
+		<v8:Property name="ПоказыватьОтносительноеИзменение">
+			<v8:Value xsi:type="xs:boolean">false</v8:Value>
+		</v8:Property>
+	</additionalProperties>
+</Settings>

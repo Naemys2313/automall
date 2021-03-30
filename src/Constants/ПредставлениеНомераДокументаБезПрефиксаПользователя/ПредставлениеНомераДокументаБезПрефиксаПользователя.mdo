@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0931339a-310d-4036-a36b-404018c80376" extendedConfigurationObject="4fd29202-c7cc-4126-ae62-940cb402b63c">
+  <producedTypes>
+    <managerType typeId="73cc39fa-54c6-4791-8d28-4ba271d53ac9" valueTypeId="cd0fad6a-0b1a-4ab0-9a7c-d4c5e1e46502"/>
+    <valueManagerType typeId="90718edc-584e-4a2c-ac69-1873b8360606" valueTypeId="382dfeaa-f037-470b-b28e-b252de842f7d"/>
+    <valueKeyType typeId="b481cdcd-171e-4803-9b58-6d37450d3ca9" valueTypeId="ca110a55-aadf-405c-bcdf-718d7f89b536"/>
+  </producedTypes>
+  <name>ПредставлениеНомераДокументаБезПрефиксаПользователя</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ea0b7a4b-69ac-46f8-b178-19ceee143228" extendedConfigurationObject="30f4ccae-fa96-443a-960f-e45d0d4fe90b">
+  <producedTypes>
+    <selectionType typeId="5b0b6fc6-cf8e-4787-9bd9-1acdfc191265" valueTypeId="050fc42a-d382-44ee-bfde-ba800c07cf59"/>
+    <listType typeId="009bfc04-8774-4e9c-85b4-3d026caea133" valueTypeId="d5d9d43c-3faa-45c3-b880-b224e338392d"/>
+    <managerType typeId="bb0216f6-a0c4-4b5f-8d04-6cffe0fada9c" valueTypeId="1677ba30-ff22-40e1-932d-2249e83687c7"/>
+  </producedTypes>
+  <name>ЧекиККМ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentJournalExtension"/>
+  <forms uuid="188e4249-2939-4ec7-82b7-7f00a697c232" extendedConfigurationObject="bcb3e7a2-316d-4a61-9e78-69995fdd3205">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:DocumentJournal>

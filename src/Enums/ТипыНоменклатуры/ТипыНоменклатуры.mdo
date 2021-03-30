@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e97b2086-3ca6-4813-a018-684ca26d2c57" extendedConfigurationObject="26f5bd34-55fb-4583-a708-4a1aa18f4701">
+  <producedTypes>
+    <refType typeId="ce0b736f-bfd2-4ca2-8ae7-69df00a39b87" valueTypeId="88769e58-54cb-4380-bf64-45b88334ee0e"/>
+    <listType typeId="212e13e9-a4cc-4b67-bb32-f9795c30ea1e" valueTypeId="5ae23ef8-e70f-4c0a-9ee0-ecdb31cfabed"/>
+    <managerType typeId="8e20f87e-75bf-4a9c-a329-7b2981d790d5" valueTypeId="8efd609d-fc2c-471b-b4c2-4469fe3b44ed"/>
+  </producedTypes>
+  <name>ТипыНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="6c684bf6-c3ca-4b12-83b8-0bcdc2a96784" extendedConfigurationObject="55a3f7e4-3de3-47d1-ae22-29cc117b567d">
+    <name>Запас</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="e4bee4e1-6ccf-46cc-8ba5-2e48d7c4dee9" extendedConfigurationObject="78c63ce8-4298-4ddf-bdaa-d93bd267293a">
+    <name>ПодарочныйСертификат</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="958228e1-6817-4aba-b720-3423eca92114" extendedConfigurationObject="bb571f86-1462-437b-9ebb-1df93b741d6b">
+    <name>Услуга</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="0c8b501a-1794-48b2-b223-7aa3a18c5200" extendedConfigurationObject="3bf04f5c-0e2b-4597-b5ce-59a845276b86">
+    <name>Операция</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="b083a185-9c91-476a-84e0-c43897abe75c" extendedConfigurationObject="a65eacc7-20b4-4874-a8df-eeb4c78616c5">
+    <name>Работа</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="8a1f526d-4c84-4d22-a248-7d2c7da82caf" extendedConfigurationObject="6c7cb4e5-139e-4bc4-a35f-e6efc2523fec">
+    <name>ВидРабот</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

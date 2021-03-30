@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="509fc31c-c9a5-4eff-adeb-28feb926c3b8" extendedConfigurationObject="b85d59bf-9414-4a1e-8a24-669a968f7f4f">
+  <producedTypes>
+    <managerType typeId="cbed9bd8-e436-4011-a7bf-39371e864e0f" valueTypeId="acdf0ffa-4949-4eb3-8fc5-bd1a327a123b"/>
+    <valueManagerType typeId="da128910-345e-4925-a53f-edf1f7683585" valueTypeId="450dec95-b0ee-4008-b7dd-89e84079cc4b"/>
+    <valueKeyType typeId="80dfb1a5-f017-45fd-9105-5b7cdf1818c8" valueTypeId="661414e4-977e-4224-bc9d-6caa8376d5dd"/>
+  </producedTypes>
+  <name>ИспользоватьМобильныйЛичныйКабинет</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

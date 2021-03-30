@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c9419b7a-ed44-4b60-8ff7-d3652323564d" extendedConfigurationObject="48cefa96-46c7-4870-a096-951dcbae479a">
+  <producedTypes>
+    <managerType typeId="2643de2f-88f9-4b21-a27c-28f619c6fb6f" valueTypeId="93839a75-2f0f-434d-837a-f872354e4cdd"/>
+    <valueManagerType typeId="b64bc0e1-22d2-4d52-a08b-e5caf679426c" valueTypeId="b50471ec-7b10-4af7-b878-df1c6a69f58a"/>
+    <valueKeyType typeId="fb75a1d6-c979-4e77-866e-c732883983a1" valueTypeId="bf95f0d3-51e5-436b-b315-67add718d94b"/>
+  </producedTypes>
+  <name>ИспользоватьДатыЗапретаЗагрузки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

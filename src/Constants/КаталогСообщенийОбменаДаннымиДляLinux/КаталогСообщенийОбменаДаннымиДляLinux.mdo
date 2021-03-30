@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="48690ea7-e8ab-4904-9901-46f05b361316" extendedConfigurationObject="9c443dd3-4acb-4c5a-9c4b-af8b0c87e861">
+  <producedTypes>
+    <managerType typeId="7c37ccfa-c26b-49d8-9936-5c2d1f120fdc" valueTypeId="23e4da87-0f8a-4657-b536-86d6bfcbd9cd"/>
+    <valueManagerType typeId="0192f785-a980-4d5a-abc0-99492d202dc0" valueTypeId="1ab60c08-4390-4278-8f3e-c023e8ee3a6d"/>
+    <valueKeyType typeId="f11ed19f-e262-402f-ac4e-ed4b15605419" valueTypeId="a05442f4-8dd2-47bd-b652-8b0acc2379af"/>
+  </producedTypes>
+  <name>КаталогСообщенийОбменаДаннымиДляLinux</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>String</type>
+      </types>
+      <stringQualifiers/>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

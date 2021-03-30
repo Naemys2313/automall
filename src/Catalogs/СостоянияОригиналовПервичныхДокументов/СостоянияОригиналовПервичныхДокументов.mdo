@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="588a1862-2513-443c-9ea4-3ba54e873088" extendedConfigurationObject="8b5358e9-5810-45a7-a49e-fe7fe63c73f3">
+  <producedTypes>
+    <objectType typeId="502e08fa-3017-481f-b094-f24d4a53bc9b" valueTypeId="660a12c0-7510-4d37-9bd2-bc74069f101d"/>
+    <refType typeId="bd160fa6-8846-4b54-83a2-ad4a644bfb88" valueTypeId="3061babb-366f-4f52-b6ce-856013b8d261"/>
+    <selectionType typeId="5ea88f2c-4465-40b1-86cc-9c4629d0b2f8" valueTypeId="c565dde3-e379-47ab-948b-cd4e6a493690"/>
+    <listType typeId="42a84b2b-dec4-4166-9966-265ec1f59106" valueTypeId="52ad89a0-ccd3-492a-a2ae-41d0f1555079"/>
+    <managerType typeId="09c83b25-db07-4817-8f20-6c878c471cac" valueTypeId="ac045458-ca11-4b4b-9ff0-6b932fee5c42"/>
+  </producedTypes>
+  <name>СостоянияОригиналовПервичныхДокументов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

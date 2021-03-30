@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ca53bd9-2ea1-406e-a24a-5f016a81ab69">
+  <producedTypes>
+    <objectType typeId="050544dc-074d-4318-bda7-d4372a61fcf8" valueTypeId="e4ae8c23-b636-4669-afb3-d377e92be9ca"/>
+    <managerType typeId="241ce3a1-6af3-4a2a-af1e-e763d1edc7a5" valueTypeId="c8d1879e-15fb-4334-9a1d-f63f867a0e7a"/>
+  </producedTypes>
+  <name>am_РозничныеПродажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Am розничные продажи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчетаУНФ</defaultForm>
+  <mainDataCompositionSchema>Report.am_РозничныеПродажи.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="bbae4900-588c-48ab-99e4-acff9414b5a6">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

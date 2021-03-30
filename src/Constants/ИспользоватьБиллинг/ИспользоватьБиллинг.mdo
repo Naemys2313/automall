@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c1769856-8af7-497b-84a6-9c5fc2926abb" extendedConfigurationObject="bfbf40f4-0088-424e-af42-f62523d8982f">
+  <producedTypes>
+    <managerType typeId="56ab201e-2f36-44bd-8fab-cd0d3bb46df1" valueTypeId="8864e263-e446-4930-a852-79b6b92832c8"/>
+    <valueManagerType typeId="bbc59875-8cf0-4a54-a1d4-bb5535d97c3b" valueTypeId="bb995f3b-b151-46ec-a6b5-905c4c2b6a38"/>
+    <valueKeyType typeId="7ce561b4-73b4-4c14-9177-6d0c944a9507" valueTypeId="52e2ddf7-cbf3-4aac-a3a0-c494ee502c21"/>
+  </producedTypes>
+  <name>ИспользоватьБиллинг</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

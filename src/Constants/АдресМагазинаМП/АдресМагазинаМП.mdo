@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e7c45396-9e9a-4671-baa1-4a45769766aa" extendedConfigurationObject="a74dc5b6-1d2a-42e5-aa58-dad018156ab3">
+  <producedTypes>
+    <managerType typeId="26d0cea8-aa70-4f4d-8dba-ee0f1c939871" valueTypeId="7d8e563c-d23d-4abe-9f93-acf49c3cd86e"/>
+    <valueManagerType typeId="289c5217-b1e9-4177-99a6-5f360ab8af2c" valueTypeId="89d77262-9215-4ee7-8c47-a737b15dfd8b"/>
+    <valueKeyType typeId="d721096f-be32-4fd3-8a43-cafc80ac0db9" valueTypeId="314de57e-93c3-4285-8efa-e31b5b3c4056"/>
+  </producedTypes>
+  <name>АдресМагазинаМП</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>String</type>
+      </types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

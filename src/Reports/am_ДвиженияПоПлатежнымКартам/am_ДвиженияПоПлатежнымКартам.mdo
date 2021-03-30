@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22e7e33b-ac6f-42f2-80db-abf4c1725533">
+  <producedTypes>
+    <objectType typeId="594983c5-6d27-4c42-9655-b95a655ae173" valueTypeId="5b1ca96d-6196-4ca0-919c-ead2bea0e11a"/>
+    <managerType typeId="3c0158eb-c872-4dbb-b3ef-9ac2d81ac907" valueTypeId="4090e71a-97c6-4001-b504-2584bcc10d2d"/>
+  </producedTypes>
+  <name>am_ДвиженияПоПлатежнымКартам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движения по платежным картам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчетаУНФ</defaultForm>
+  <mainDataCompositionSchema>Report.am_ДвиженияПоПлатежнымКартам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <attributes uuid="f6ecc6cf-ec1e-4c2d-904c-0dbc3e1699ca">
+    <name>ЭтоОтчетУНФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширенные настройки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="dbfac4e8-08f7-4175-a6f4-98ddefa9f4ac">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

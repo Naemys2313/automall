@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d643475-1034-4793-830a-64fca09b9d05">
+  <name>am_Закупки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закупки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ЗаказПоставщику</content>
+  <content>Document.ПриходнаяНакладная</content>
+  <content>ac18116a-97fa-4b8d-a95e-92fa68685c94</content>
+  <parentSubsystem>Subsystem.am_Автомолл</parentSubsystem>
+</mdclass:Subsystem>

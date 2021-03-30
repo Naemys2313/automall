@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4dbe1db2-c508-4f12-8136-5d5c2a2691db" extendedConfigurationObject="10817a05-c443-4ea7-bffd-9e1ea6b93a60">
+  <producedTypes>
+    <objectType typeId="8e21d0f2-7930-4650-b893-1accc5160316" valueTypeId="c753f066-29db-44de-b4e5-54b4c6b3310e"/>
+    <refType typeId="ea9b468c-f1fa-442e-9c42-64d8d28c9f79" valueTypeId="d5b70c03-ab7b-4c62-adf5-14279805a5e6"/>
+    <selectionType typeId="e40e9141-8886-48a5-b0db-06e438a1e7c4" valueTypeId="df6461e0-a472-42c7-8774-0ff88849c05c"/>
+    <listType typeId="4a4a6992-a1e7-4dd3-badc-1e36301faa7e" valueTypeId="0f1abaf1-d715-480a-bfb4-fd1328f16ec8"/>
+    <managerType typeId="a3391726-4428-4251-8e3e-a3f8798b9c20" valueTypeId="bf08c981-e84a-4127-983c-2a519ae797bb"/>
+  </producedTypes>
+  <name>АктВыполненныхРабот</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="325ef77a-1f82-4433-9eee-f6f2c86b75be" extendedConfigurationObject="c7157ace-3fb6-47ad-b64e-b12a188cedaa">
+    <name>Контрагент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Контрагенты</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

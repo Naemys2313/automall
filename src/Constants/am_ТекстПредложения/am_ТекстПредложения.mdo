@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a43ec6b-6e14-4daa-b385-75086c350817">
+  <producedTypes>
+    <managerType typeId="6ac88d4c-f688-4051-8940-11049a8affe9" valueTypeId="43bdaf92-e4fc-452c-a037-df692ef69fb3"/>
+    <valueManagerType typeId="afdc9c60-4a8b-42be-b977-6cc8e07b8af4" valueTypeId="e621212f-e782-4d37-902c-be4719d12ff5"/>
+    <valueKeyType typeId="be1d9cbf-3d04-4c91-8282-6e5937943cf0" valueTypeId="da7aae59-a77c-4263-bdf3-409b9328f0fe"/>
+  </producedTypes>
+  <name>am_ТекстПредложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Am текст предложения</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

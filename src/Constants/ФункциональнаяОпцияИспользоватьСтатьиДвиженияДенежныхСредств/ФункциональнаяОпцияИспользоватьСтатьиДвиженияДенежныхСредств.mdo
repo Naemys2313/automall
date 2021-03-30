@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7b540f40-d0f1-43a4-b910-d9f113fe7435" extendedConfigurationObject="b0f95fcb-a933-4029-bcaf-81493afd71e6">
+  <producedTypes>
+    <managerType typeId="3047c676-db0e-4332-818b-235a6a0cf608" valueTypeId="30cbce00-b4ef-4f28-8fab-fb7b3608049d"/>
+    <valueManagerType typeId="005e034a-4344-4bd5-bcbc-c5f1fcb0b9aa" valueTypeId="d6ff5718-ee54-48fa-929e-3f67a81d135f"/>
+    <valueKeyType typeId="25d76543-0514-472d-801b-ff88cb67e711" valueTypeId="92d8e48a-30fb-42e0-bb3a-964b45adbb54"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияИспользоватьСтатьиДвиженияДенежныхСредств</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

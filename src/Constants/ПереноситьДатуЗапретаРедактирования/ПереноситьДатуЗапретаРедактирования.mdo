@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a03882db-cbc7-48cb-b3ea-b9c9f3f603a3" extendedConfigurationObject="3a30250e-5813-4a96-9469-da0941f8acec">
+  <producedTypes>
+    <managerType typeId="6e0fe156-2ef1-470c-a89a-9328286ae979" valueTypeId="ace5fdec-52c4-4602-ac65-5c7872cab2de"/>
+    <valueManagerType typeId="7d653b86-112c-4795-a9c1-e77e0020e305" valueTypeId="47996c7a-655a-4da6-ac0b-54c91dbb4a6f"/>
+    <valueKeyType typeId="92174b68-161c-4f79-bdeb-6bf224b20d0b" valueTypeId="e24d1a58-05fc-4f2f-be03-c925910195cd"/>
+  </producedTypes>
+  <name>ПереноситьДатуЗапретаРедактирования</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>EnumRef.ДаНет</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

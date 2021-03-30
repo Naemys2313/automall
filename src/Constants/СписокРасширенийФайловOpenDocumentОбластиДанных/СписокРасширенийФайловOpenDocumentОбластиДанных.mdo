@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="62581776-fe5b-4a30-b45d-ce6016b5a98f" extendedConfigurationObject="2bc2c4b7-dacb-4cb3-b5b2-712b19bebcd7">
+  <producedTypes>
+    <managerType typeId="ac6bc2af-ecb3-44b2-bdc6-040caf6ef48f" valueTypeId="e06966bc-24a8-42cd-b825-3d314fcd2137"/>
+    <valueManagerType typeId="ec1f5a1f-c29b-4a25-94af-e0d1df9fee35" valueTypeId="1589b203-5b26-4e86-8d09-5e3e3d1b6a29"/>
+    <valueKeyType typeId="c7a6c411-e0d2-40dd-a615-e2dd61aba519" valueTypeId="50e49e7e-7501-4355-b787-abfb2b1d8461"/>
+  </producedTypes>
+  <name>СписокРасширенийФайловOpenDocumentОбластиДанных</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>String</type>
+      </types>
+      <stringQualifiers/>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

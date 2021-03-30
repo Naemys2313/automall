@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b95a7035-8cac-45a4-b260-4a5a9f050b1c" extendedConfigurationObject="ba5d9393-6a49-49ab-b438-0b1158f2eee0">
+  <producedTypes>
+    <objectType typeId="e9dad899-8182-439d-a0e5-5ea89150011e" valueTypeId="729f631f-c0f2-462f-9a00-69def76ac970"/>
+    <managerType typeId="2a4bfae5-c2d6-4241-90bf-08f7af5807af" valueTypeId="64d8b7f3-8ed6-4d39-ac18-5e40e63b7ac7"/>
+  </producedTypes>
+  <name>ОбменСБанками</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension"/>
+</mdclass:DataProcessor>

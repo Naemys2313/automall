@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1c8ff00f-e241-41a0-ac40-4f49323a4c13" extendedConfigurationObject="e42ff5c7-b085-461e-9c96-02e9b5fef361">
+  <producedTypes>
+    <refType typeId="d942525f-9205-462a-8dff-998cdef37aa8" valueTypeId="dc2f87ef-eee6-47ce-9d3d-caa60eaa265d"/>
+    <listType typeId="4b6fe958-eec9-4eec-b7fa-727141d9c61c" valueTypeId="117d30a4-faf1-4418-b48c-2e2cbdb256da"/>
+    <managerType typeId="c110a422-d22b-4a18-a773-0c2b4e54cb3e" valueTypeId="a7a66325-1a80-464c-ae67-c097c13a3c28"/>
+  </producedTypes>
+  <name>СтатусыЧековККМ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="78b388c2-a81a-40e2-bd41-050aa6037791" extendedConfigurationObject="db87fd62-0a08-415d-8efd-994cf9ff7b9d">
+    <name>Пробит</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

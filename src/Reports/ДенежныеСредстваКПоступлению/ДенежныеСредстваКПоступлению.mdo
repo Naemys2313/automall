@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="41fd07cc-dc3d-4419-9cbf-1bb758da9ba2" extendedConfigurationObject="d55e4bb3-4c2c-4fc7-8760-65ca4dc7b555">
+  <producedTypes>
+    <objectType typeId="36322bb8-eb69-4444-9269-d51212595fcb" valueTypeId="6789035f-c9a3-4bd5-ac66-8c30755a6663"/>
+    <managerType typeId="3b790c82-1d58-43a4-ab08-4d535bcedb5c" valueTypeId="1de13ab1-b857-43bb-a9a4-324c9055a79c"/>
+  </producedTypes>
+  <name>ДенежныеСредстваКПоступлению</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ReportExtension"/>
+</mdclass:Report>

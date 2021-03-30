@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="76f45f91-eec2-46a7-b892-e048f4fee58b" extendedConfigurationObject="65a7f23d-03c4-4e66-af9c-dffa73c96960">
+  <producedTypes>
+    <managerType typeId="4622e620-8cef-46d5-bf77-fa4aabfdbbd5" valueTypeId="95ac3d9f-40d4-49b3-b827-044b66fe99ed"/>
+    <valueManagerType typeId="7989b08b-e677-419c-ab9f-b8695e310efc" valueTypeId="5485a38c-497f-4952-8c76-924528bc1334"/>
+    <valueKeyType typeId="b8ef5cc7-47bb-42a3-84dc-aa86dea4c82c" valueTypeId="2ac88a2f-6828-4500-a21a-0d5cd6af7b27"/>
+  </producedTypes>
+  <name>ЧастотаРасчетаКурсовыхРазниц</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>EnumRef.ЧастотаРасчетаКурсовыхРазниц</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

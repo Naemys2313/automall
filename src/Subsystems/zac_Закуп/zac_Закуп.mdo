@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0db82498-d20b-439d-9536-62b8e1650550">
+  <name>zac_Закуп</name>
+  <synonym>
+    <key>ru</key>
+    <value>1С:Закуп</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.GotoExternalURL</picture>
+  </picture>
+  <content>CommonModule.zac_ОбщийМодульСервер</content>
+  <content>Role.zac_Администратор</content>
+  <subsystems>zac_СправочникиОсновные</subsystems>
+  <subsystems>zac_Документы</subsystems>
+</mdclass:Subsystem>

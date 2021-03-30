@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ac07dc75-1bdc-43e4-9749-1875f4921cfc" extendedConfigurationObject="0fb98c57-bfa1-4411-b416-4cf2d6f0c076">
+  <name>НезаполненноеПолеТаблицы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:StyleItemExtension">
+    <type>Checked</type>
+  </extension>
+</mdclass:StyleItem>

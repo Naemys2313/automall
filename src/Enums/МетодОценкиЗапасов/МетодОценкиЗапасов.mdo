@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ee5af676-ffc9-4a47-8e43-5a2bf4183000" extendedConfigurationObject="13f6f75e-ef1a-4499-be4d-09d78e2d76df">
+  <producedTypes>
+    <refType typeId="1aa54746-d8c6-47ba-b42a-77e1c4ab7bce" valueTypeId="2ed4e90c-9a67-41fa-bd90-7620709fc588"/>
+    <listType typeId="5b6f6100-6c3b-4793-8f5e-455bbb32926c" valueTypeId="47e63401-b0c2-42eb-831e-15db9280d608"/>
+    <managerType typeId="ea10e284-48a0-498e-83a9-97248963e46e" valueTypeId="b514d588-af90-45e4-bfdb-0e08db325701"/>
+  </producedTypes>
+  <name>МетодОценкиЗапасов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="f7ac6f1d-7902-4f39-a547-c0b4fe2a46aa" extendedConfigurationObject="5475ac9d-c6c7-49b4-a3d9-71ace08ff249">
+    <name>FIFO</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

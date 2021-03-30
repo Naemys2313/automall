@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7980fc9f-dd75-4a12-8a40-31b3d03a5245" extendedConfigurationObject="500e51a6-0802-4258-83c0-0fdc7d8b8aaf">
+  <producedTypes>
+    <selectionType typeId="a9cbcb2b-9376-4c44-b791-a5286eeb5670" valueTypeId="588f022d-e751-424f-aa92-1d6467076ae1"/>
+    <listType typeId="800420b1-54b6-4b86-b678-203b23525ae5" valueTypeId="f069f6c9-721f-454c-b521-b08d10f2898d"/>
+    <managerType typeId="f4c6245f-50d1-406e-a855-0041e1542d29" valueTypeId="4a707399-bbc9-4eac-b656-1e916b06f996"/>
+    <recordSetType typeId="c645725c-6cc1-43f7-995a-15fbd9707105" valueTypeId="c82f4f01-65f2-421e-b4f5-d8041922de1d"/>
+    <recordKeyType typeId="970e5f35-0a0b-4d35-a4e9-431b2c0d02fe" valueTypeId="b291467c-18b2-46a4-bb29-654f89ecb5bd"/>
+    <recordType typeId="d56227bc-3c68-425d-b8d8-f3b3a7cb4f11" valueTypeId="a0ffa5eb-756c-46ac-8f81-a56453225355"/>
+  </producedTypes>
+  <name>БонусныеБаллы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <registerType>Checked</registerType>
+  </extension>
+  <resources uuid="517db680-b178-484b-ac19-f4d504030c0d" extendedConfigurationObject="e2437015-34f5-4c84-a0de-a83e445b9c5d">
+    <name>Начислено</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="07a3b33c-3541-46cf-92e5-5f732ef4b178" extendedConfigurationObject="08b1bc22-2029-4122-b772-41b3a2cfa08a">
+    <name>КСписанию</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <attributes uuid="f7702e1a-137b-4e53-b5d6-f62b19af8676" extendedConfigurationObject="f50b05c7-e93f-4d06-89f9-39b613843264">
+    <name>ДатаПервоначальногоНачисления</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <dimensions uuid="bb4fac00-ce6b-4139-a7d8-585f94251153" extendedConfigurationObject="f765843f-0889-47eb-91f6-7518d0bbf8f9">
+    <name>БонуснаяКарта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ДисконтныеКарты</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:AccumulationRegister>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3c0b0354-44aa-4b48-b9b9-6b0a537d8d71" extendedConfigurationObject="e557f2c9-6893-4523-9b13-07e678b2778a">
+  <producedTypes>
+    <objectType typeId="140821f6-3f84-46a2-8471-097be21856f0" valueTypeId="ee2561e3-5f5b-47f6-8bf6-18f1db8ca5a4"/>
+    <refType typeId="957d5deb-2c0f-4cf2-8ae0-2b52f0ff9d99" valueTypeId="0ea2b42d-4d51-4606-b377-95b3828c05bf"/>
+    <selectionType typeId="ca3a3331-0234-42d5-be8f-6eb5a1885bdd" valueTypeId="4f09a8ac-8e50-48fe-85b0-c780f5ca10dd"/>
+    <listType typeId="934a94d8-79c6-4620-8bb6-0fd2492998d1" valueTypeId="20ebeccf-c15c-4b58-b1b8-68c7084bf2e7"/>
+    <managerType typeId="6b366fb3-b5a2-4271-9062-24a2b73e3ec3" valueTypeId="227c32c1-5834-49b8-82bb-27deeab72a0d"/>
+  </producedTypes>
+  <name>РасходнаяНакладная</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+  <forms uuid="f6196dbd-9472-4a75-98e7-7833f0920211" extendedConfigurationObject="f2399716-997d-48c1-8d29-70d2ec17d5ff">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

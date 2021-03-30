@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d54f18d9-e633-452e-9a04-fd2fd318701e" extendedConfigurationObject="5dd47dfc-7acf-4abe-aa27-51438b9e6a28">
+  <name>БольшеВозможностейКомпания</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:BasicCommandExtension">
+    <group>Checked</group>
+  </extension>
+  <group>CommandGroup.Настройки</group>
+</mdclass:CommonCommand>

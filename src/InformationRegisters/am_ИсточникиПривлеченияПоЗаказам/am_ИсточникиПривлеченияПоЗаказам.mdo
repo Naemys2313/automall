@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51c04037-cb5c-41ee-9299-3bef1c6d8c99">
+  <producedTypes>
+    <selectionType typeId="c645617a-96f6-4ecf-9089-18860755a52e" valueTypeId="30bd1004-1f14-4ca0-8b55-958c0e37c73d"/>
+    <listType typeId="8ad700bb-cfd2-4df7-a627-422a702896db" valueTypeId="1393c416-6495-4a6b-8ffb-d9c70e275c8a"/>
+    <managerType typeId="0986de27-a2ce-4901-91bf-1599dacac9f3" valueTypeId="53eb3776-56cc-4691-ac49-a58f49542c44"/>
+    <recordSetType typeId="be4f1428-9d20-4cfa-a8ad-0c73d786d480" valueTypeId="322832d4-a7b4-428b-b0d9-4a7fb877483a"/>
+    <recordKeyType typeId="7f512814-e940-4980-a952-2fec8b3ed520" valueTypeId="a5562bdf-a257-4513-9d48-ee0215337e1f"/>
+    <recordType typeId="7566911e-28c8-47cf-aa5e-c4858614bf23" valueTypeId="e2b1164a-4493-42f2-81e2-8ceb94c09bb7"/>
+    <recordManagerType typeId="8216cd79-5504-4f22-b146-bb3065f3fcb4" valueTypeId="27f8c354-305b-4c17-a6c8-5ea01ca531c5"/>
+  </producedTypes>
+  <name>am_ИсточникиПривлеченияПоЗаказам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Am источники привлечения по заказам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="3192bf56-ed90-4f45-bf70-00c0399a6620">
+    <name>ИсточникПривлечения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник привлечения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИсточникиПривлеченияПокупателей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e67623d5-1283-42fe-9691-11ac12ad978d">
+    <name>Заказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказПокупателя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

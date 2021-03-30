@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e9e4e3db-7ae8-4bc5-83ca-f07dee9ce249" extendedConfigurationObject="2f66d23a-d105-4069-a0fb-7dffadd8f200">
+  <producedTypes>
+    <objectType typeId="861dee1a-7f4d-4766-83ea-95d963557acd" valueTypeId="6b3e3c1e-a5d3-47be-8133-6ff097123c2f"/>
+    <managerType typeId="c4cf737e-4b36-47a8-96a9-188077af2314" valueTypeId="ea87e9d5-5019-4e42-b8d6-2dd4c6978a7d"/>
+  </producedTypes>
+  <name>ЗагрузкаДанныхИзВнешнегоИсточника</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension"/>
+</mdclass:DataProcessor>

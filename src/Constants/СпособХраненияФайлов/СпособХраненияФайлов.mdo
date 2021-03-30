@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7546c995-5a1c-4065-8092-6424c9884607" extendedConfigurationObject="1e633034-6dcc-4564-9f40-348c32143314">
+  <producedTypes>
+    <managerType typeId="92a198cc-2f56-4dc2-bd5c-2a9a8289a535" valueTypeId="5c86efd1-73ed-4c9b-b751-0fe6dea88004"/>
+    <valueManagerType typeId="889afe1d-c8a0-4d2c-85e0-503115d59d87" valueTypeId="4e5b3bff-4567-45f1-bdd4-b1945a52b684"/>
+    <valueKeyType typeId="1c9292b0-08c0-4071-af35-9d14ca7a0cfe" valueTypeId="694a5975-b7dd-4138-a6f1-720f36068ec7"/>
+  </producedTypes>
+  <name>СпособХраненияФайлов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>String</type>
+      </types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

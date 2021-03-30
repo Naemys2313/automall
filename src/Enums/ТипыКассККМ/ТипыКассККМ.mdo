@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5d391946-fc00-4aaa-9198-0373540a48fe" extendedConfigurationObject="5048f040-3271-4ca0-b653-0336d63b80a2">
+  <producedTypes>
+    <refType typeId="5c399b19-f48a-408b-b4bd-bca76a76cef1" valueTypeId="85b0064c-ffdc-4903-ad46-f9c6ce551756"/>
+    <listType typeId="bf43e943-7801-41ef-9e5b-b28bde44972d" valueTypeId="d1aa0f85-13b3-42b3-b935-59518cf33891"/>
+    <managerType typeId="91892469-9b4a-4a0d-a622-5c45d78229bd" valueTypeId="22ce7c17-4b69-47e0-bbeb-cc709ce74168"/>
+  </producedTypes>
+  <name>ТипыКассККМ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="731cbb73-3faa-47f7-bef9-d82b9ddb1a62" extendedConfigurationObject="f8046981-182e-4ecb-9b9f-84c605f8ebf4">
+    <name>АвтономнаяККМ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="cbd4c89e-0e50-4b8a-a778-61fabf4807ee" extendedConfigurationObject="9c1f84f7-e798-4ff8-9abf-865fae170807">
+    <name>ФискальныйРегистратор</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

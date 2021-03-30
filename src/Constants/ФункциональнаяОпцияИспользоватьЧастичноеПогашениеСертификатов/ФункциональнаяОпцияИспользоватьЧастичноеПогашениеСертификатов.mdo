@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c32e8f56-2165-4a38-8e61-04659080cbcd" extendedConfigurationObject="21db0a53-797e-47e5-a9d0-6478cf53f0e0">
+  <producedTypes>
+    <managerType typeId="cdee275f-a2c6-438e-b51e-3ec1265bd185" valueTypeId="2f849929-5630-4f00-92f8-5a093d37f837"/>
+    <valueManagerType typeId="bd999393-f7a2-4041-8bea-0e5ed7703acf" valueTypeId="958c6e12-d1dd-40a9-9299-90bcf03dc920"/>
+    <valueKeyType typeId="d7f86668-9f81-45ef-9aec-753b61709494" valueTypeId="428d6d74-c41e-493d-89d1-52677f1cbfd6"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияИспользоватьЧастичноеПогашениеСертификатов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

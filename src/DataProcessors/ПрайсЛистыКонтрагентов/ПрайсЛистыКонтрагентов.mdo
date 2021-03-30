@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d228d2e7-d610-470d-935f-f312f6566c87" extendedConfigurationObject="918b9cde-acb7-4e44-83d9-ad212fa18d8b">
+  <producedTypes>
+    <objectType typeId="4f997b4b-1cb4-469e-acfb-01b8de7f3c7a" valueTypeId="839986d0-af85-4755-b083-f416b670868c"/>
+    <managerType typeId="6437bbf1-b6e8-4ac1-8c51-38df08469b7d" valueTypeId="9bcf6d5d-149c-483c-b035-6c8122fc9a4c"/>
+  </producedTypes>
+  <name>ПрайсЛистыКонтрагентов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+</mdclass:DataProcessor>

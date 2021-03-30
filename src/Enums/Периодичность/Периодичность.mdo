@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d1251159-de6e-4dff-99a4-a3b2a7fd038d" extendedConfigurationObject="70b1e79e-6d89-4577-b3d3-2578d976c69e">
+  <producedTypes>
+    <refType typeId="798ab87d-504a-4d15-b9a7-46af2d31e0cc" valueTypeId="2eb605f8-7dfe-4b41-8a5a-01d005f3ab8f"/>
+    <listType typeId="c876dfda-9eac-46cc-9b5a-c412dcd7f50b" valueTypeId="c76688d4-94e3-4150-bcaf-2675cad76a4f"/>
+    <managerType typeId="3aff8b7b-7350-4c88-a527-9311c03b9a4e" valueTypeId="fcca6ec1-c780-4bb3-b05b-088596bdceba"/>
+  </producedTypes>
+  <name>Периодичность</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="8b2dc445-486b-4ab6-ab26-345de2c9825b" extendedConfigurationObject="cd782aff-ea9b-4103-8f12-603ef7fd978c">
+    <name>Квартал</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="873b2b4e-9418-474b-9e3d-1a4f03d3b1b3" extendedConfigurationObject="fe152b63-f6d3-4c8b-8135-5312e16ca95f">
+    <name>Месяц</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="772f9733-e724-40d9-b0f5-0c37f78910bb" extendedConfigurationObject="10b30131-35ac-469e-aa8c-f87f5d09059b">
+    <name>Год</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

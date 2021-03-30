@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4740d62d-71d6-4a7a-9d7d-6a7424ac363c" extendedConfigurationObject="25b1a6ed-1a0e-4622-b22b-8b3b437f2d09">
+  <producedTypes>
+    <selectionType typeId="b73510c0-999f-4367-8065-e94549f50b01" valueTypeId="6f6ff1e7-5e5b-4978-9a7a-0fceaac8d025"/>
+    <listType typeId="3c57b058-fc82-4078-bafd-662f7a4c2be4" valueTypeId="4c1bd971-93ef-4652-b1e4-eab7ac8c9f61"/>
+    <managerType typeId="8fea61e3-fa24-456f-bcc8-03275265cd35" valueTypeId="7164ad10-bb4c-471a-a37c-671ff953c635"/>
+    <recordSetType typeId="dd8789a4-2e52-44da-b9ba-da2232842a86" valueTypeId="9f656e10-6653-4871-bb97-3dc875c4bff5"/>
+    <recordKeyType typeId="a6d3db79-399d-4d81-945e-bcdfd2a32ed0" valueTypeId="3fafe8d8-03f7-44e4-890c-27d403be35d9"/>
+    <recordType typeId="115d960c-44f7-41bf-8c74-56c9e800d882" valueTypeId="ba095162-eb0f-4343-8e46-489e7c0cd2b9"/>
+    <recordManagerType typeId="8d9f99f5-043c-4783-bbaf-f5612ac0b3f5" valueTypeId="d3f8128e-ec5b-444a-b593-170065946e98"/>
+  </producedTypes>
+  <name>НаличиеДублейУКонтрагентов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <dimensions uuid="f87d7059-21bd-4dfc-b60f-a2a3cd1aee4c" extendedConfigurationObject="cdc8ce22-58a5-4f4f-a7b7-6f7743992acf">
+    <name>Контрагент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Контрагенты</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="43d2f44e-b88e-496d-b0ef-0fc1ebaf84a4" extendedConfigurationObject="0fd88947-05fa-4ea3-a03e-fd298edf3a37">
+    <name>ИНН</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>12</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="eca561ef-21b2-4bb6-8ba4-7e245140b55f" extendedConfigurationObject="b938cfa6-d426-4ddc-9b04-da1bfbea60ce">
+    <name>КПП</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>9</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

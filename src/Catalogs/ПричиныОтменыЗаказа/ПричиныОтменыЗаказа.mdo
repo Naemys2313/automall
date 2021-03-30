@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2c29b5ad-3dd5-4cf0-b505-ba9080dd2510" extendedConfigurationObject="55483b17-d542-4cbd-b3fb-8d976b5bd6ea">
+  <producedTypes>
+    <objectType typeId="539f7c08-df76-4d7e-aa98-b4981d9a1add" valueTypeId="540ac751-3ad0-49f6-85b8-547107e58422"/>
+    <refType typeId="101ef193-e3ed-43a6-a78d-fe7068b4226f" valueTypeId="9a4c5696-936d-4594-bdd9-11a5db643a06"/>
+    <selectionType typeId="ff8e510a-0e63-48e2-ac8d-0c910dd11ec0" valueTypeId="7ac256c6-0395-4cbf-8f49-75dcf6cd5724"/>
+    <listType typeId="0ad17dcb-23f4-47fd-9aab-00dd48e371d0" valueTypeId="8b046b05-a920-4247-8aa9-dd3bc163c3df"/>
+    <managerType typeId="d4f43151-f594-47a4-bbb4-7962a613ab4e" valueTypeId="f1f47093-6a5b-48fb-8723-7cf82e8663cd"/>
+  </producedTypes>
+  <name>ПричиныОтменыЗаказа</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

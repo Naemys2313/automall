@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="37cdcf5c-59f2-4f2b-a9aa-a808742eca4d" extendedConfigurationObject="caf4a149-3793-4a5f-988c-d3e8c386a5fa">
+  <producedTypes>
+    <managerType typeId="a2618c6f-7ad5-478b-8e83-735bd3c6288d" valueTypeId="e1e54653-8011-448a-95fc-65a4f8b782ae"/>
+    <valueManagerType typeId="92078d21-1e43-44ed-a999-f832d4c954a8" valueTypeId="19390dcc-e188-4834-ad87-f9f4fce7f360"/>
+    <valueKeyType typeId="30bfd68f-cc17-4ee3-b272-723cd64a4b7e" valueTypeId="4bc53920-b80a-4773-9005-19443a189808"/>
+  </producedTypes>
+  <name>ПрефиксШтрихкодовУзлаРИБ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Number</type>
+      </types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

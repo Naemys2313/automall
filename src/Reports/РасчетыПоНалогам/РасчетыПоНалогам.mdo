@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="70a4b7a1-ebdf-49a8-bec4-bae84d22316a" extendedConfigurationObject="79af36e8-0da4-4f46-b1f0-57704c7b32cd">
+  <producedTypes>
+    <objectType typeId="6f1590e1-4249-470a-87d1-8cdc9549baef" valueTypeId="0ac983c6-d4ae-4eae-ae9f-af44e1a819a7"/>
+    <managerType typeId="ae794467-91ac-4d04-a8dd-2070fdea7edf" valueTypeId="a4b0c1fe-4acc-401b-b78c-b054c2874d69"/>
+  </producedTypes>
+  <name>РасчетыПоНалогам</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ReportExtension"/>
+</mdclass:Report>

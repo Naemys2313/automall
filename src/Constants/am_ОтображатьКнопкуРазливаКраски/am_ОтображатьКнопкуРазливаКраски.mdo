@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c89c0d3-1f8b-4299-a9d3-4d98f4d302a9">
+  <producedTypes>
+    <managerType typeId="d0a08d52-81c5-4417-8f34-0cc79c674bc4" valueTypeId="bcc23d66-149f-4d9b-a733-20b747a9901d"/>
+    <valueManagerType typeId="d2cd9664-3429-49b0-8a64-0d33f3e6aa8b" valueTypeId="f9d6a226-dca8-4b47-8ba4-8cbca1c39184"/>
+    <valueKeyType typeId="a7c5b5f9-4b16-414a-8859-b9597ffa52b7" valueTypeId="acc0e887-55d5-4194-8a2f-139fc8920bc3"/>
+  </producedTypes>
+  <name>am_ОтображатьКнопкуРазливаКраски</name>
+  <synonym>
+    <key>ru</key>
+    <value>Am отображать кнопку разлива краски</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

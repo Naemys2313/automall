@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d6995051-dba6-476f-8a35-231ce9e0934d" extendedConfigurationObject="7689fafe-778f-4677-a08b-c5e302076130">
+  <name>Аналитика</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension"/>
+  <parentSubsystem>Subsystem.Компания</parentSubsystem>
+</mdclass:Subsystem>

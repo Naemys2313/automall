@@ -1,0 +1,2032 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<selection>
+		<item xsi:type="SelectedItemField">
+			<field>Сумма</field>
+		</item>
+	</selection>
+	<dataParameters>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>Период</dcscor:parameter>
+			<dcscor:value xsi:type="v8:StandardPeriod">
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Today</v8:variant>
+			</dcscor:value>
+			<userSettingID>6751f832-4ea4-456c-a256-eb5c203e32ed</userSettingID>
+		</dcscor:item>
+	</dataParameters>
+	<outputParameters>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>МакетОформления</dcscor:parameter>
+			<dcscor:value xsi:type="xs:string">Основной</dcscor:value>
+		</dcscor:item>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>ВыводитьЗаголовок</dcscor:parameter>
+			<dcscor:value xsi:type="DataCompositionTextOutputType">DontOutput</dcscor:value>
+			<viewMode>Inaccessible</viewMode>
+		</dcscor:item>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:use>false</dcscor:use>
+			<dcscor:parameter>Заголовок</dcscor:parameter>
+			<dcscor:value xsi:type="xs:string">Универсальный отчет</dcscor:value>
+			<viewMode>Normal</viewMode>
+		</dcscor:item>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+			<dcscor:value xsi:type="DataCompositionTextOutputType">Auto</dcscor:value>
+			<viewMode>Normal</viewMode>
+		</dcscor:item>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+			<dcscor:value xsi:type="DataCompositionTextOutputType">Auto</dcscor:value>
+			<viewMode>Inaccessible</viewMode>
+		</dcscor:item>
+	</outputParameters>
+	<item xsi:type="StructureItemGroup">
+		<groupItems>
+			<item xsi:type="GroupItemField">
+				<field>КассаККМ</field>
+				<groupType>Items</groupType>
+				<periodAdditionType>None</periodAdditionType>
+				<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+				<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+			</item>
+		</groupItems>
+		<order>
+			<item xsi:type="OrderItemAuto"/>
+		</order>
+		<selection>
+			<item xsi:type="SelectedItemAuto"/>
+		</selection>
+		<item xsi:type="StructureItemGroup">
+			<groupItems>
+				<item xsi:type="GroupItemField">
+					<field>Регистратор</field>
+					<groupType>Items</groupType>
+					<periodAdditionType>None</periodAdditionType>
+					<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+					<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+				</item>
+			</groupItems>
+			<order>
+				<item xsi:type="OrderItemAuto"/>
+			</order>
+			<selection>
+				<item xsi:type="SelectedItemAuto"/>
+			</selection>
+		</item>
+	</item>
+	<additionalProperties>
+		<v8:Property name="СхемаКомпоновкиДанных">
+			<v8:Value xsi:type="xs:base64Binary">77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxEYXRh
+Q29tcG9zaXRpb25TY2hlbWEgeG1sbnM9Imh0dHA6Ly92OC4xYy5ydS84LjEvZGF0
+YS1jb21wb3NpdGlvbi1zeXN0ZW0vc2NoZW1hIiB4bWxuczpkY3Njb209Imh0dHA6
+Ly92OC4xYy5ydS84LjEvZGF0YS1jb21wb3NpdGlvbi1zeXN0ZW0vY29tbW9uIiB4
+bWxuczpkY3Njb3I9Imh0dHA6Ly92OC4xYy5ydS84LjEvZGF0YS1jb21wb3NpdGlv
+bi1zeXN0ZW0vY29yZSIgeG1sbnM6ZGNzc2V0PSJodHRwOi8vdjguMWMucnUvOC4x
+L2RhdGEtY29tcG9zaXRpb24tc3lzdGVtL3NldHRpbmdzIiB4bWxuczp2OD0iaHR0
+cDovL3Y4LjFjLnJ1LzguMS9kYXRhL2NvcmUiIHhtbG5zOnY4dWk9Imh0dHA6Ly92
+OC4xYy5ydS84LjEvZGF0YS91aSIgeG1sbnM6eHM9Imh0dHA6Ly93d3cudzMub3Jn
+LzIwMDEvWE1MU2NoZW1hIiB4bWxuczp4c2k9Imh0dHA6Ly93d3cudzMub3JnLzIw
+MDEvWE1MU2NoZW1hLWluc3RhbmNlIj4NCgk8ZGF0YVNvdXJjZT4NCgkJPG5hbWU+
+0JjRgdGC0L7Rh9C90LjQutCU0LDQvdC90YvRhTE8L25hbWU+DQoJCTxkYXRhU291
+cmNlVHlwZT5Mb2NhbDwvZGF0YVNvdXJjZVR5cGU+DQoJPC9kYXRhU291cmNlPg0K
+CTxkYXRhU2V0IHhzaTp0eXBlPSJEYXRhU2V0UXVlcnkiPg0KCQk8bmFtZT7QndCw
+0LHQvtGA0JTQsNC90L3Ri9GFMTwvbmFtZT4NCgkJPGZpZWxkIHhzaTp0eXBlPSJE
+YXRhU2V0RmllbGRGaWVsZCI+DQoJCQk8ZGF0YVBhdGg+0J7RgNCz0LDQvdC40LfQ
+sNGG0LjRjzwvZGF0YVBhdGg+DQoJCQk8ZmllbGQ+0J7RgNCz0LDQvdC40LfQsNGG
+0LjRjzwvZmllbGQ+DQoJCQk8cm9sZT4NCgkJCQk8ZGNzY29tOmRpbWVuc2lvbj50
+cnVlPC9kY3Njb206ZGltZW5zaW9uPg0KCQkJPC9yb2xlPg0KCQkJPGFwcGVhcmFu
+Y2UvPg0KCQkJPGlucHV0UGFyYW1ldGVycy8+DQoJCTwvZmllbGQ+DQoJCTxmaWVs
+ZCB4c2k6dHlwZT0iRGF0YVNldEZpZWxkRmllbGQiPg0KCQkJPGRhdGFQYXRoPtCh
+0YPQvNC80LA8L2RhdGFQYXRoPg0KCQkJPGZpZWxkPtCh0YPQvNC80LA8L2ZpZWxk
+Pg0KCQkJPGFwcGVhcmFuY2U+DQoJCQkJPGRjc2NvcjppdGVtIHhzaTp0eXBlPSJk
+Y3NzZXQ6U2V0dGluZ3NQYXJhbWV0ZXJWYWx1ZSI+DQoJCQkJCTxkY3Njb3I6cGFy
+YW1ldGVyPtCk0L7RgNC80LDRgjwvZGNzY29yOnBhcmFtZXRlcj4NCgkJCQkJPGRj
+c2Nvcjp2YWx1ZSB4c2k6dHlwZT0idjg6TG9jYWxTdHJpbmdUeXBlIj4NCgkJCQkJ
+CTx2ODppdGVtPg0KCQkJCQkJCTx2ODpsYW5nPnJ1PC92ODpsYW5nPg0KCQkJCQkJ
+CTx2ODpjb250ZW50PtCn0JTQpj0yPC92ODpjb250ZW50Pg0KCQkJCQkJPC92ODpp
+dGVtPg0KCQkJCQk8L2Rjc2Nvcjp2YWx1ZT4NCgkJCQk8L2Rjc2NvcjppdGVtPg0K
+CQkJCTxkY3Njb3I6aXRlbSB4c2k6dHlwZT0iZGNzc2V0OlNldHRpbmdzUGFyYW1l
+dGVyVmFsdWUiPg0KCQkJCQk8ZGNzY29yOnBhcmFtZXRlcj7QnNCw0LrRgdC40LzQ
+sNC70YzQvdCw0Y/QqNC40YDQuNC90LA8L2Rjc2NvcjpwYXJhbWV0ZXI+DQoJCQkJ
+CTxkY3Njb3I6dmFsdWUgeHNpOnR5cGU9InhzOmRlY2ltYWwiPjE4PC9kY3Njb3I6
+dmFsdWU+DQoJCQkJPC9kY3Njb3I6aXRlbT4NCgkJCTwvYXBwZWFyYW5jZT4NCgkJ
+CTxpbnB1dFBhcmFtZXRlcnMvPg0KCQk8L2ZpZWxkPg0KCQk8ZmllbGQgeHNpOnR5
+cGU9IkRhdGFTZXRGaWVsZEZpZWxkIj4NCgkJCTxkYXRhUGF0aD7QmtCw0YHRgdCw
+0JrQmtCcPC9kYXRhUGF0aD4NCgkJCTxmaWVsZD7QmtCw0YHRgdCw0JrQmtCcPC9m
+aWVsZD4NCgkJCTxyb2xlPg0KCQkJCTxkY3Njb206ZGltZW5zaW9uPnRydWU8L2Rj
+c2NvbTpkaW1lbnNpb24+DQoJCQk8L3JvbGU+DQoJCQk8YXBwZWFyYW5jZS8+DQoJ
+CQk8aW5wdXRQYXJhbWV0ZXJzLz4NCgkJPC9maWVsZD4NCgkJPGZpZWxkIHhzaTp0
+eXBlPSJEYXRhU2V0RmllbGRGaWVsZCI+DQoJCQk8ZGF0YVBhdGg+0KDQtdCz0LjR
+gdGC0YDQsNGC0L7RgDwvZGF0YVBhdGg+DQoJCQk8ZmllbGQ+0KDQtdCz0LjRgdGC
+0YDQsNGC0L7RgDwvZmllbGQ+DQoJCQk8cm9sZT4NCgkJCQk8ZGNzY29tOnBlcmlv
+ZE51bWJlcj4xPC9kY3Njb206cGVyaW9kTnVtYmVyPg0KCQkJCTxkY3Njb206cGVy
+aW9kVHlwZT5NYWluPC9kY3Njb206cGVyaW9kVHlwZT4NCgkJCTwvcm9sZT4NCgkJ
+CTxhcHBlYXJhbmNlLz4NCgkJCTxpbnB1dFBhcmFtZXRlcnMvPg0KCQk8L2ZpZWxk
+Pg0KCQk8ZGF0YVNvdXJjZT7QmNGB0YLQvtGH0L3QuNC60JTQsNC90L3Ri9GFMTwv
+ZGF0YVNvdXJjZT4NCgkJPHF1ZXJ5PtCS0KvQkdCg0JDQotCsCgnQktC70L7QttC1
+0L3QvdGL0LnQl9Cw0L/RgNC+0YEu0J7RgNCz0LDQvdC40LfQsNGG0LjRjyDQmtCQ
+0Jog0J7RgNCz0LDQvdC40LfQsNGG0LjRjywKCdCS0LvQvtC20LXQvdC90YvQudCX
+0LDQv9GA0L7RgS7QmtCw0YHRgdCw0JrQmtCcINCa0JDQmiDQmtCw0YHRgdCw0JrQ
+mtCcLAoJ0JLQu9C+0LbQtdC90L3Ri9C50JfQsNC/0YDQvtGBLtCh0YPQvNC80LAg
+0JrQkNCaINCh0YPQvNC80LAsCgnQktC70L7QttC10L3QvdGL0LnQl9Cw0L/RgNC+
+0YEu0KDQtdCz0LjRgdGC0YDQsNGC0L7RgCDQmtCQ0Jog0KDQtdCz0LjRgdGC0YDQ
+sNGC0L7RgArQmNCXCgko0JLQq9CR0KDQkNCi0KwKCQnQlNChLtCe0YDQs9Cw0L3Q
+uNC30LDRhtC40Y8g0JrQkNCaINCe0YDQs9Cw0L3QuNC30LDRhtC40Y8sCgkJ0JTQ
+oS7QmtCw0YHRgdCw0JrQmtCcINCa0JDQmiDQmtCw0YHRgdCw0JrQmtCcLAoJCdCU
+0KEu0KHRg9C80LzQsCDQmtCQ0Jog0KHRg9C80LzQsCwKCQnQlNChLtCg0LXQs9C4
+0YHRgtGA0LDRgtC+0YAg0JrQkNCaINCg0LXQs9C40YHRgtGA0LDRgtC+0YAKCdCY
+0JcKCQnQoNC10LPQuNGB0YLRgNCd0LDQutC+0L/Qu9C10L3QuNGPLtCU0LXQvdC1
+0LbQvdGL0LXQodGA0LXQtNGB0YLQstCw0JLQmtCw0YHRgdCw0YXQmtCa0Jwg0JrQ
+kNCaINCU0KEKCdCT0JTQlQoJCdCS0KvQkdCe0KAKCQkJCdCa0J7Qk9CU0JAgJmFt
+cDvQmtC+0L3QtdGG0J/QtdGA0LjQvtC00LAgPSDQlNCQ0KLQkNCS0KDQldCc0K8o
+MSwgMSwgMSkKCQkJCQnQotCe0JPQlNCQINCU0KEu0J/QtdGA0LjQvtC0ICZndDs9
+ICZhbXA70J3QsNGH0LDQu9C+0J/QtdGA0LjQvtC00LAKCQkJCdCY0J3QkNCn0JUg
+0JTQoS7Qn9C10YDQuNC+0LQg0JzQldCW0JTQoyAmYW1wO9Cd0LDRh9Cw0LvQvtCf
+0LXRgNC40L7QtNCwINCYICZhbXA70JrQvtC90LXRhtCf0LXRgNC40L7QtNCwCgkJ
+CdCa0J7QndCV0KYKCQnQmCDQlNChLtCS0LjQtNCU0LLQuNC20LXQvdC40Y8gPSDQ
+l9Cd0JDQp9CV0J3QmNCVKNCS0LjQtNCU0LLQuNC20LXQvdC40Y/QndCw0LrQvtC/
+0LvQtdC90LjRjy7Qn9GA0LjRhdC+0LQpCgkKCdCe0JHQqtCV0JTQmNCd0JjQotCs
+INCS0KHQlQoJCgnQktCr0JHQoNCQ0KLQrAoJCdCU0KEu0J7RgNCz0LDQvdC40LfQ
+sNGG0LjRjywKCQnQlNChLtCa0LDRgdGB0LDQmtCa0JwsCgkJLdCU0KEu0KHRg9C8
+0LzQsCwKCQnQlNChLtCg0LXQs9C40YHRgtGA0LDRgtC+0YAKCdCY0JcKCQnQoNC1
+0LPQuNGB0YLRgNCd0LDQutC+0L/Qu9C10L3QuNGPLtCU0LXQvdC10LbQvdGL0LXQ
+odGA0LXQtNGB0YLQstCw0JLQmtCw0YHRgdCw0YXQmtCa0Jwg0JrQkNCaINCU0KEK
+CdCT0JTQlQoJCdCS0KvQkdCe0KAKCQkJCdCa0J7Qk9CU0JAgJmFtcDvQmtC+0L3Q
+tdGG0J/QtdGA0LjQvtC00LAgPSDQlNCQ0KLQkNCS0KDQldCc0K8oMSwgMSwgMSkK
+CQkJCQnQotCe0JPQlNCQINCU0KEu0J/QtdGA0LjQvtC0ICZndDs9ICZhbXA70J3Q
+sNGH0LDQu9C+0J/QtdGA0LjQvtC00LAKCQkJCdCY0J3QkNCn0JUg0JTQoS7Qn9C1
+0YDQuNC+0LQg0JzQldCW0JTQoyAmYW1wO9Cd0LDRh9Cw0LvQvtCf0LXRgNC40L7Q
+tNCwINCYICZhbXA70JrQvtC90LXRhtCf0LXRgNC40L7QtNCwCgkJCdCa0J7QndCV
+0KYKCQnQmCDQlNChLtCS0LjQtNCU0LLQuNC20LXQvdC40Y8gPSDQl9Cd0JDQp9CV
+0J3QmNCVKNCS0LjQtNCU0LLQuNC20LXQvdC40Y/QndCw0LrQvtC/0LvQtdC90LjR
+jy7QoNCw0YHRhdC+0LQpCgkJ0Jgg0KLQmNCf0JfQndCQ0KfQldCd0JjQryjQlNCh
+LtCg0LXQs9C40YHRgtGA0LDRgtC+0YApINCSICjQotCY0J8o0JTQvtC60YPQvNC1
+0L3Rgi7QntGC0YfQtdGC0J7QoNC+0LfQvdC40YfQvdGL0YXQn9GA0L7QtNCw0LbQ
+sNGFKSwg0KLQmNCfKNCU0L7QutGD0LzQtdC90YIu0KfQtdC60JrQmtCcKSwg0KLQ
+mNCfKNCU0L7QutGD0LzQtdC90YIu0KfQtdC60JrQmtCc0JLQvtC30LLRgNCw0YIp
+KQoJCgnQntCR0KrQldCU0JjQndCY0KLQrCDQktCh0JUKCQoJ0JLQq9CR0KDQkNCi
+0KwKCQnQp9C10LrQmtCa0JzQktC+0LfQstGA0LDRgtCX0LDQv9Cw0YHRiy7QodGB
+0YvQu9C60LAu0J7RgNCz0LDQvdC40LfQsNGG0LjRjywKCQnQp9C10LrQmtCa0JzQ
+ktC+0LfQstGA0LDRgtCX0LDQv9Cw0YHRiy7QodGB0YvQu9C60LAu0JrQsNGB0YHQ
+sNCa0JrQnCwKCQnQp9C10LrQmtCa0JzQktC+0LfQstGA0LDRgtCX0LDQv9Cw0YHR
+iy7QodGD0LzQvNCwLAoJCdCn0LXQutCa0JrQnNCS0L7Qt9Cy0YDQsNGC0JfQsNC/
+0LDRgdGLLtCh0YHRi9C70LrQsAoJ0JjQlwoJCdCU0L7QutGD0LzQtdC90YIu0KfQ
+tdC60JrQmtCc0JLQvtC30LLRgNCw0YIu0JfQsNC/0LDRgdGLINCa0JDQmiDQp9C1
+0LrQmtCa0JzQktC+0LfQstGA0LDRgtCX0LDQv9Cw0YHRiwoJ0JPQlNCVCgkJ0KfQ
+tdC60JrQmtCc0JLQvtC30LLRgNCw0YLQl9Cw0L/QsNGB0Ysu0KHRgdGL0LvQutCw
+LtCf0YDQvtCy0LXQtNC10L0KCQnQmCDQp9C10LrQmtCa0JzQktC+0LfQstGA0LDR
+gtCX0LDQv9Cw0YHRiy7QodGB0YvQu9C60LAu0JTQsNGC0LAg0JzQldCW0JTQoyAm
+YW1wO9Cd0LDRh9Cw0LvQvtCf0LXRgNC40L7QtNCwINCYICZhbXA70JrQvtC90LXR
+htCf0LXRgNC40L7QtNCwCgkKCdCe0JHQqtCV0JTQmNCd0JjQotCsINCS0KHQlQoJ
+CgnQktCr0JHQoNCQ0KLQrAoJCdCn0LXQutCa0JrQnNCS0L7Qt9Cy0YDQsNGC0JHQ
+tdC30L3QsNC70LjRh9C90LDRj9Ce0L/Qu9Cw0YLQsC7QodGB0YvQu9C60LAu0J7R
+gNCz0LDQvdC40LfQsNGG0LjRjywKCQnQp9C10LrQmtCa0JzQktC+0LfQstGA0LDR
+gtCR0LXQt9C90LDQu9C40YfQvdCw0Y/QntC/0LvQsNGC0LAu0KHRgdGL0LvQutCw
+LtCa0LDRgdGB0LDQmtCa0JwsCgkJLdCn0LXQutCa0JrQnNCS0L7Qt9Cy0YDQsNGC
+0JHQtdC30L3QsNC70LjRh9C90LDRj9Ce0L/Qu9Cw0YLQsC7QodGD0LzQvNCwLAoJ
+CdCn0LXQutCa0JrQnNCS0L7Qt9Cy0YDQsNGC0JHQtdC30L3QsNC70LjRh9C90LDR
+j9Ce0L/Qu9Cw0YLQsC7QodGB0YvQu9C60LAKCdCY0JcKCQnQlNC+0LrRg9C80LXQ
+vdGCLtCn0LXQutCa0JrQnNCS0L7Qt9Cy0YDQsNGCLtCR0LXQt9C90LDQu9C40YfQ
+vdCw0Y/QntC/0LvQsNGC0LAg0JrQkNCaINCn0LXQutCa0JrQnNCS0L7Qt9Cy0YDQ
+sNGC0JHQtdC30L3QsNC70LjRh9C90LDRj9Ce0L/Qu9Cw0YLQsAoJ0JPQlNCVCgkJ
+0KfQtdC60JrQmtCc0JLQvtC30LLRgNCw0YLQkdC10LfQvdCw0LvQuNGH0L3QsNGP
+0J7Qv9C70LDRgtCwLtCh0YHRi9C70LrQsC7Qn9GA0L7QstC10LTQtdC9CgkJ0Jgg
+0KfQtdC60JrQmtCc0JLQvtC30LLRgNCw0YLQkdC10LfQvdCw0LvQuNGH0L3QsNGP
+0J7Qv9C70LDRgtCwLtCh0YHRi9C70LrQsC7QlNCw0YLQsCDQnNCV0JbQlNCjICZh
+bXA70J3QsNGH0LDQu9C+0J/QtdGA0LjQvtC00LAg0JggJmFtcDvQmtC+0L3QtdGG
+0J/QtdGA0LjQvtC00LApINCa0JDQmiDQktC70L7QttC10L3QvdGL0LnQl9Cw0L/R
+gNC+0YE8L3F1ZXJ5Pg0KCTwvZGF0YVNldD4NCgk8dG90YWxGaWVsZD4NCgkJPGRh
+dGFQYXRoPtCh0YPQvNC80LA8L2RhdGFQYXRoPg0KCQk8ZXhwcmVzc2lvbj7QodGD
+0LzQvNCwKNCh0YPQvNC80LApPC9leHByZXNzaW9uPg0KCTwvdG90YWxGaWVsZD4N
+Cgk8cGFyYW1ldGVyPg0KCQk8bmFtZT7Qn9C10YDQuNC+0LQ8L25hbWU+DQoJCTx0
+aXRsZSB4c2k6dHlwZT0idjg6TG9jYWxTdHJpbmdUeXBlIj4NCgkJCTx2ODppdGVt
+Pg0KCQkJCTx2ODpsYW5nPnJ1PC92ODpsYW5nPg0KCQkJCTx2ODpjb250ZW50PtCf
+0LXRgNC40L7QtDwvdjg6Y29udGVudD4NCgkJCTwvdjg6aXRlbT4NCgkJPC90aXRs
+ZT4NCgkJPHZhbHVlVHlwZT4NCgkJCTx2ODpUeXBlPnY4OlN0YW5kYXJkUGVyaW9k
+PC92ODpUeXBlPg0KCQk8L3ZhbHVlVHlwZT4NCgkJPHZhbHVlIHhzaTp0eXBlPSJ2
+ODpTdGFuZGFyZFBlcmlvZCI+DQoJCQk8djg6dmFyaWFudCB4c2k6dHlwZT0idjg6
+U3RhbmRhcmRQZXJpb2RWYXJpYW50Ij5DdXN0b208L3Y4OnZhcmlhbnQ+DQoJCQk8
+djg6c3RhcnREYXRlPjAwMDEtMDEtMDFUMDA6MDA6MDA8L3Y4OnN0YXJ0RGF0ZT4N
+CgkJCTx2ODplbmREYXRlPjAwMDEtMDEtMDFUMDA6MDA6MDA8L3Y4OmVuZERhdGU+
+DQoJCTwvdmFsdWU+DQoJCTx1c2VSZXN0cmljdGlvbj5mYWxzZTwvdXNlUmVzdHJp
+Y3Rpb24+DQoJCTxpbnB1dFBhcmFtZXRlcnMvPg0KCTwvcGFyYW1ldGVyPg0KCTxw
+YXJhbWV0ZXI+DQoJCTxuYW1lPtCa0L7QvdC10YbQn9C10YDQuNC+0LTQsDwvbmFt
+ZT4NCgkJPHRpdGxlIHhzaTp0eXBlPSJ2ODpMb2NhbFN0cmluZ1R5cGUiPg0KCQkJ
+PHY4Oml0ZW0+DQoJCQkJPHY4Omxhbmc+cnU8L3Y4Omxhbmc+DQoJCQkJPHY4OmNv
+bnRlbnQ+0JrQvtC90LXRhiDQv9C10YDQuNC+0LTQsDwvdjg6Y29udGVudD4NCgkJ
+CTwvdjg6aXRlbT4NCgkJPC90aXRsZT4NCgkJPHZhbHVlVHlwZT4NCgkJCTx2ODpU
+eXBlPnhzOmRhdGVUaW1lPC92ODpUeXBlPg0KCQkJPHY4OkRhdGVRdWFsaWZpZXJz
+Pg0KCQkJCTx2ODpEYXRlRnJhY3Rpb25zPkRhdGVUaW1lPC92ODpEYXRlRnJhY3Rp
+b25zPg0KCQkJPC92ODpEYXRlUXVhbGlmaWVycz4NCgkJPC92YWx1ZVR5cGU+DQoJ
+CTx2YWx1ZSB4c2k6dHlwZT0ieHM6ZGF0ZVRpbWUiPjAwMDEtMDEtMDFUMDA6MDA6
+MDA8L3ZhbHVlPg0KCQk8dXNlUmVzdHJpY3Rpb24+dHJ1ZTwvdXNlUmVzdHJpY3Rp
+b24+DQoJCTxleHByZXNzaW9uPiZhbXA70J/QtdGA0LjQvtC0LtCU0LDRgtCw0J7Q
+utC+0L3Rh9Cw0L3QuNGPPC9leHByZXNzaW9uPg0KCQk8aW5wdXRQYXJhbWV0ZXJz
+Lz4NCgk8L3BhcmFtZXRlcj4NCgk8cGFyYW1ldGVyPg0KCQk8bmFtZT7QndCw0YfQ
+sNC70L7Qn9C10YDQuNC+0LTQsDwvbmFtZT4NCgkJPHRpdGxlIHhzaTp0eXBlPSJ2
+ODpMb2NhbFN0cmluZ1R5cGUiPg0KCQkJPHY4Oml0ZW0+DQoJCQkJPHY4Omxhbmc+
+cnU8L3Y4Omxhbmc+DQoJCQkJPHY4OmNvbnRlbnQ+0J3QsNGH0LDQu9C+INC/0LXR
+gNC40L7QtNCwPC92ODpjb250ZW50Pg0KCQkJPC92ODppdGVtPg0KCQk8L3RpdGxl
+Pg0KCQk8dmFsdWVUeXBlPg0KCQkJPHY4OlR5cGU+eHM6ZGF0ZVRpbWU8L3Y4OlR5
+cGU+DQoJCQk8djg6RGF0ZVF1YWxpZmllcnM+DQoJCQkJPHY4OkRhdGVGcmFjdGlv
+bnM+RGF0ZVRpbWU8L3Y4OkRhdGVGcmFjdGlvbnM+DQoJCQk8L3Y4OkRhdGVRdWFs
+aWZpZXJzPg0KCQk8L3ZhbHVlVHlwZT4NCgkJPHZhbHVlIHhzaTp0eXBlPSJ4czpk
+YXRlVGltZSI+MDAwMS0wMS0wMVQwMDowMDowMDwvdmFsdWU+DQoJCTx1c2VSZXN0
+cmljdGlvbj50cnVlPC91c2VSZXN0cmljdGlvbj4NCgkJPGV4cHJlc3Npb24+JmFt
+cDvQn9C10YDQuNC+0LQu0JTQsNGC0LDQndCw0YfQsNC70LA8L2V4cHJlc3Npb24+
+DQoJCTxpbnB1dFBhcmFtZXRlcnMvPg0KCTwvcGFyYW1ldGVyPg0KCTxzZXR0aW5n
+c1ZhcmlhbnQ+DQoJCTxkY3NzZXQ6bmFtZT7Qn9C+0YHRgtGD0L/Qu9C10L3QuNC1
+0J3QsNC70LjRh9C90YvRhdCa0LDRgdGB0LDQmtCa0Jw8L2Rjc3NldDpuYW1lPg0K
+CQk8ZGNzc2V0OnByZXNlbnRhdGlvbiB4c2k6dHlwZT0idjg6TG9jYWxTdHJpbmdU
+eXBlIj4NCgkJCTx2ODppdGVtPg0KCQkJCTx2ODpsYW5nPnJ1PC92ODpsYW5nPg0K
+CQkJCTx2ODpjb250ZW50PtCf0L7RgdGC0YPQv9C70LXQvdC40LUg0L3QsNC70LjR
+h9C90YvRhSAo0JrQsNGB0YHQsNCa0JrQnCk8L3Y4OmNvbnRlbnQ+DQoJCQk8L3Y4
+Oml0ZW0+DQoJCTwvZGNzc2V0OnByZXNlbnRhdGlvbj4NCgkJPGRjc3NldDpzZXR0
+aW5ncyB4bWxuczpzdHlsZT0iaHR0cDovL3Y4LjFjLnJ1LzguMS9kYXRhL3VpL3N0
+eWxlIiB4bWxuczpzeXM9Imh0dHA6Ly92OC4xYy5ydS84LjEvZGF0YS91aS9mb250
+cy9zeXN0ZW0iIHhtbG5zOndlYj0iaHR0cDovL3Y4LjFjLnJ1LzguMS9kYXRhL3Vp
+L2NvbG9ycy93ZWIiIHhtbG5zOndpbj0iaHR0cDovL3Y4LjFjLnJ1LzguMS9kYXRh
+L3VpL2NvbG9ycy93aW5kb3dzIj4NCgkJCTxkY3NzZXQ6c2VsZWN0aW9uPg0KCQkJ
+CTxkY3NzZXQ6aXRlbSB4c2k6dHlwZT0iZGNzc2V0OlNlbGVjdGVkSXRlbUZpZWxk
+Ij4NCgkJCQkJPGRjc3NldDpmaWVsZD7QodGD0LzQvNCwPC9kY3NzZXQ6ZmllbGQ+
+DQoJCQkJPC9kY3NzZXQ6aXRlbT4NCgkJCTwvZGNzc2V0OnNlbGVjdGlvbj4NCgkJ
+CTxkY3NzZXQ6ZGF0YVBhcmFtZXRlcnM+DQoJCQkJPGRjc2NvcjppdGVtIHhzaTp0
+eXBlPSJkY3NzZXQ6U2V0dGluZ3NQYXJhbWV0ZXJWYWx1ZSI+DQoJCQkJCTxkY3Nj
+b3I6cGFyYW1ldGVyPtCf0LXRgNC40L7QtDwvZGNzY29yOnBhcmFtZXRlcj4NCgkJ
+CQkJPGRjc2Nvcjp2YWx1ZSB4c2k6dHlwZT0idjg6U3RhbmRhcmRQZXJpb2QiPg0K
+CQkJCQkJPHY4OnZhcmlhbnQgeHNpOnR5cGU9InY4OlN0YW5kYXJkUGVyaW9kVmFy
+aWFudCI+VG9kYXk8L3Y4OnZhcmlhbnQ+DQoJCQkJCTwvZGNzY29yOnZhbHVlPg0K
+CQkJCQk8ZGNzc2V0OnVzZXJTZXR0aW5nSUQ+Njc1MWY4MzItNGVhNC00NTZjLWEy
+NTYtZWI1YzIwM2UzMmVkPC9kY3NzZXQ6dXNlclNldHRpbmdJRD4NCgkJCQk8L2Rj
+c2NvcjppdGVtPg0KCQkJPC9kY3NzZXQ6ZGF0YVBhcmFtZXRlcnM+DQoJCQk8ZGNz
+c2V0Om91dHB1dFBhcmFtZXRlcnM+DQoJCQkJPGRjc2NvcjppdGVtIHhzaTp0eXBl
+PSJkY3NzZXQ6U2V0dGluZ3NQYXJhbWV0ZXJWYWx1ZSI+DQoJCQkJCTxkY3Njb3I6
+cGFyYW1ldGVyPtCc0LDQutC10YLQntGE0L7RgNC80LvQtdC90LjRjzwvZGNzY29y
+OnBhcmFtZXRlcj4NCgkJCQkJPGRjc2Nvcjp2YWx1ZSB4c2k6dHlwZT0ieHM6c3Ry
+aW5nIj7QntGB0L3QvtCy0L3QvtC5PC9kY3Njb3I6dmFsdWU+DQoJCQkJPC9kY3Nj
+b3I6aXRlbT4NCgkJCTwvZGNzc2V0Om91dHB1dFBhcmFtZXRlcnM+DQoJCQk8ZGNz
+c2V0Oml0ZW0geHNpOnR5cGU9ImRjc3NldDpTdHJ1Y3R1cmVJdGVtR3JvdXAiPg0K
+CQkJCTxkY3NzZXQ6Z3JvdXBJdGVtcz4NCgkJCQkJPGRjc3NldDppdGVtIHhzaTp0
+eXBlPSJkY3NzZXQ6R3JvdXBJdGVtRmllbGQiPg0KCQkJCQkJPGRjc3NldDpmaWVs
+ZD7QmtCw0YHRgdCw0JrQmtCcPC9kY3NzZXQ6ZmllbGQ+DQoJCQkJCQk8ZGNzc2V0
+Omdyb3VwVHlwZT5JdGVtczwvZGNzc2V0Omdyb3VwVHlwZT4NCgkJCQkJCTxkY3Nz
+ZXQ6cGVyaW9kQWRkaXRpb25UeXBlPk5vbmU8L2Rjc3NldDpwZXJpb2RBZGRpdGlv
+blR5cGU+DQoJCQkJCQk8ZGNzc2V0OnBlcmlvZEFkZGl0aW9uQmVnaW4geHNpOnR5
+cGU9InhzOmRhdGVUaW1lIj4wMDAxLTAxLTAxVDAwOjAwOjAwPC9kY3NzZXQ6cGVy
+aW9kQWRkaXRpb25CZWdpbj4NCgkJCQkJCTxkY3NzZXQ6cGVyaW9kQWRkaXRpb25F
+bmQgeHNpOnR5cGU9InhzOmRhdGVUaW1lIj4wMDAxLTAxLTAxVDAwOjAwOjAwPC9k
+Y3NzZXQ6cGVyaW9kQWRkaXRpb25FbmQ+DQoJCQkJCTwvZGNzc2V0Oml0ZW0+DQoJ
+CQkJPC9kY3NzZXQ6Z3JvdXBJdGVtcz4NCgkJCQk8ZGNzc2V0Om9yZGVyPg0KCQkJ
+CQk8ZGNzc2V0Oml0ZW0geHNpOnR5cGU9ImRjc3NldDpPcmRlckl0ZW1BdXRvIi8+
+DQoJCQkJPC9kY3NzZXQ6b3JkZXI+DQoJCQkJPGRjc3NldDpzZWxlY3Rpb24+DQoJ
+CQkJCTxkY3NzZXQ6aXRlbSB4c2k6dHlwZT0iZGNzc2V0OlNlbGVjdGVkSXRlbUF1
+dG8iLz4NCgkJCQk8L2Rjc3NldDpzZWxlY3Rpb24+DQoJCQkJPGRjc3NldDpvdXRw
+dXRQYXJhbWV0ZXJzLz4NCgkJCQk8ZGNzc2V0Oml0ZW0geHNpOnR5cGU9ImRjc3Nl
+dDpTdHJ1Y3R1cmVJdGVtR3JvdXAiPg0KCQkJCQk8ZGNzc2V0Omdyb3VwSXRlbXM+
+DQoJCQkJCQk8ZGNzc2V0Oml0ZW0geHNpOnR5cGU9ImRjc3NldDpHcm91cEl0ZW1G
+aWVsZCI+DQoJCQkJCQkJPGRjc3NldDpmaWVsZD7QoNC10LPQuNGB0YLRgNCw0YLQ
+vtGAPC9kY3NzZXQ6ZmllbGQ+DQoJCQkJCQkJPGRjc3NldDpncm91cFR5cGU+SXRl
+bXM8L2Rjc3NldDpncm91cFR5cGU+DQoJCQkJCQkJPGRjc3NldDpwZXJpb2RBZGRp
+dGlvblR5cGU+Tm9uZTwvZGNzc2V0OnBlcmlvZEFkZGl0aW9uVHlwZT4NCgkJCQkJ
+CQk8ZGNzc2V0OnBlcmlvZEFkZGl0aW9uQmVnaW4geHNpOnR5cGU9InhzOmRhdGVU
+aW1lIj4wMDAxLTAxLTAxVDAwOjAwOjAwPC9kY3NzZXQ6cGVyaW9kQWRkaXRpb25C
+ZWdpbj4NCgkJCQkJCQk8ZGNzc2V0OnBlcmlvZEFkZGl0aW9uRW5kIHhzaTp0eXBl
+PSJ4czpkYXRlVGltZSI+MDAwMS0wMS0wMVQwMDowMDowMDwvZGNzc2V0OnBlcmlv
+ZEFkZGl0aW9uRW5kPg0KCQkJCQkJPC9kY3NzZXQ6aXRlbT4NCgkJCQkJPC9kY3Nz
+ZXQ6Z3JvdXBJdGVtcz4NCgkJCQkJPGRjc3NldDpvcmRlcj4NCgkJCQkJCTxkY3Nz
+ZXQ6aXRlbSB4c2k6dHlwZT0iZGNzc2V0Ok9yZGVySXRlbUF1dG8iLz4NCgkJCQkJ
+PC9kY3NzZXQ6b3JkZXI+DQoJCQkJCTxkY3NzZXQ6c2VsZWN0aW9uPg0KCQkJCQkJ
+PGRjc3NldDppdGVtIHhzaTp0eXBlPSJkY3NzZXQ6U2VsZWN0ZWRJdGVtQXV0byIv
+Pg0KCQkJCQk8L2Rjc3NldDpzZWxlY3Rpb24+DQoJCQkJCTxkY3NzZXQ6b3V0cHV0
+UGFyYW1ldGVycy8+DQoJCQkJPC9kY3NzZXQ6aXRlbT4NCgkJCTwvZGNzc2V0Oml0
+ZW0+DQoJCTwvZGNzc2V0OnNldHRpbmdzPg0KCTwvc2V0dGluZ3NWYXJpYW50Pg0K
+PC9EYXRhQ29tcG9zaXRpb25TY2hlbWE+</v8:Value>
+		</v8:Property>
+		<v8:Property name="ОтчетИнициализирован">
+			<v8:Value xsi:type="xs:boolean">true</v8:Value>
+		</v8:Property>
+		<v8:Property name="ДоступныеЗначения">
+			<v8:Value xsi:type="v8:Structure">
+				<v8:Property name="ТипОбъектаМетаданных">
+					<v8:Value xsi:type="v8:ValueListType">
+						<v8:valueType/>
+						<v8:lastId xsi:type="xs:decimal">4</v8:lastId>
+						<v8:item>
+							<v8:value xsi:type="xs:string">Справочники</v8:value>
+							<v8:presentation>Справочник</v8:presentation>
+							<v8:picture xsi:type="v8ui:Picture" t="false" ref="v8ui:Catalog"/>
+							<v8:id xsi:type="xs:decimal">0</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">Документы</v8:value>
+							<v8:presentation>Документ</v8:presentation>
+							<v8:picture xsi:type="v8ui:Picture" t="false" ref="v8ui:Document"/>
+							<v8:id xsi:type="xs:decimal">1</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">РегистрыСведений</v8:value>
+							<v8:presentation>Регистр сведений</v8:presentation>
+							<v8:picture xsi:type="v8ui:Picture" t="false" ref="v8ui:InformationRegister"/>
+							<v8:id xsi:type="xs:decimal">2</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">РегистрыНакопления</v8:value>
+							<v8:presentation>Регистр накопления</v8:presentation>
+							<v8:picture xsi:type="v8ui:Picture" t="false" ref="v8ui:AccumulationRegister"/>
+							<v8:id xsi:type="xs:decimal">3</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">РегистрыБухгалтерии</v8:value>
+							<v8:presentation>Регистр бухгалтерии</v8:presentation>
+							<v8:picture xsi:type="v8ui:Picture" t="false" ref="v8ui:AccountingRegister"/>
+							<v8:id xsi:type="xs:decimal">4</v8:id>
+						</v8:item>
+					</v8:Value>
+				</v8:Property>
+				<v8:Property name="ИмяОбъектаМетаданных">
+					<v8:Value xsi:type="v8:ValueListType">
+						<v8:valueType/>
+						<v8:lastId xsi:type="xs:decimal">318</v8:lastId>
+						<v8:item>
+							<v8:value xsi:type="xs:string">АналитикаНачисленияБонусов</v8:value>
+							<v8:presentation>Аналитика начисления бонусов</v8:presentation>
+							<v8:id xsi:type="xs:decimal">6</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">Банки</v8:value>
+							<v8:presentation>Банки</v8:presentation>
+							<v8:id xsi:type="xs:decimal">7</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">БанковскиеСчета</v8:value>
+							<v8:presentation>Банковские счета</v8:presentation>
+							<v8:id xsi:type="xs:decimal">8</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">БонусныеПрограммы</v8:value>
+							<v8:presentation>Бонусные программы</v8:presentation>
+							<v8:id xsi:type="xs:decimal">9</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">Бригады</v8:value>
+							<v8:presentation>Бригады</v8:presentation>
+							<v8:id xsi:type="xs:decimal">10</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ВариантыДополнительныхОтчетов</v8:value>
+							<v8:presentation>Варианты дополнительных отчетов</v8:presentation>
+							<v8:id xsi:type="xs:decimal">11</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ВерсииРасширений</v8:value>
+							<v8:presentation>Версии расширений</v8:presentation>
+							<v8:id xsi:type="xs:decimal">13</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ВерсииФайлов</v8:value>
+							<v8:presentation>Версии файлов</v8:presentation>
+							<v8:id xsi:type="xs:decimal">14</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">АвтоматическиеСкидки</v8:value>
+							<v8:presentation>Виды автоматических скидок, наценок</v8:presentation>
+							<v8:id xsi:type="xs:decimal">4</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ВидыДеятельностиЕНВД</v8:value>
+							<v8:presentation>Виды деятельности (для ЕНВД)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">15</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ВидыДисконтныхКарт</v8:value>
+							<v8:presentation>Виды дисконтных карт</v8:presentation>
+							<v8:id xsi:type="xs:decimal">16</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ВидыДокументовФизическихЛиц</v8:value>
+							<v8:presentation>Виды документов физических лиц</v8:presentation>
+							<v8:id xsi:type="xs:decimal">17</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ВидыДоходовПоСтраховымВзносам</v8:value>
+							<v8:presentation>Виды доходов по страховым взносам</v8:presentation>
+							<v8:id xsi:type="xs:decimal">18</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ВидыЗаказНарядов</v8:value>
+							<v8:presentation>Виды заказ-нарядов</v8:presentation>
+							<v8:id xsi:type="xs:decimal">19</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ВидыЗаказовПокупателей</v8:value>
+							<v8:presentation>Виды заказов покупателей</v8:presentation>
+							<v8:id xsi:type="xs:decimal">20</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ВидыКонтактнойИнформации</v8:value>
+							<v8:presentation>Виды контактной информации</v8:presentation>
+							<v8:id xsi:type="xs:decimal">21</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ВидыНалогов</v8:value>
+							<v8:presentation>Виды налогов</v8:presentation>
+							<v8:id xsi:type="xs:decimal">22</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ВидыНалоговыхОрганов</v8:value>
+							<v8:presentation>Виды налоговых органов</v8:presentation>
+							<v8:id xsi:type="xs:decimal">23</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ВидыНачисленийИУдержаний</v8:value>
+							<v8:presentation>Виды начислений и удержаний</v8:presentation>
+							<v8:id xsi:type="xs:decimal">24</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ВидыОтправляемыхДокументов</v8:value>
+							<v8:presentation>Виды отправляемых документов</v8:presentation>
+							<v8:id xsi:type="xs:decimal">25</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ВидыПлатежныхКарт</v8:value>
+							<v8:presentation>Виды платежных карт</v8:presentation>
+							<v8:id xsi:type="xs:decimal">26</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ВидыПредпринимательскойДеятельности</v8:value>
+							<v8:presentation>Виды предпринимательской деятельности</v8:presentation>
+							<v8:id xsi:type="xs:decimal">27</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ВидыРабочегоВремени</v8:value>
+							<v8:presentation>Виды рабочего времени</v8:presentation>
+							<v8:id xsi:type="xs:decimal">28</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ВидыСкидокНаценок</v8:value>
+							<v8:presentation>Виды скидок, наценок</v8:presentation>
+							<v8:id xsi:type="xs:decimal">29</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ВидыТарифовСтраховыхВзносов</v8:value>
+							<v8:presentation>Виды тарифов страховых взносов</v8:presentation>
+							<v8:id xsi:type="xs:decimal">30</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ВидыЦен</v8:value>
+							<v8:presentation>Виды цен</v8:presentation>
+							<v8:id xsi:type="xs:decimal">31</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ВидыЦенКонтрагентов</v8:value>
+							<v8:presentation>Виды цен поставщиков</v8:presentation>
+							<v8:id xsi:type="xs:decimal">32</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ВнешниеКомпоненты</v8:value>
+							<v8:presentation>Внешние компоненты</v8:presentation>
+							<v8:id xsi:type="xs:decimal">34</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ВычетыНДФЛ</v8:value>
+							<v8:presentation>Вычеты по НДФЛ</v8:presentation>
+							<v8:id xsi:type="xs:decimal">35</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ГрафикиРаботы</v8:value>
+							<v8:presentation>Графики работы</v8:presentation>
+							<v8:id xsi:type="xs:decimal">36</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">Календари</v8:value>
+							<v8:presentation>Графики работы</v8:presentation>
+							<v8:id xsi:type="xs:decimal">84</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ГруппыДоступа</v8:value>
+							<v8:presentation>Группы доступа</v8:presentation>
+							<v8:id xsi:type="xs:decimal">37</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ДанныеОбменаШтрихМПЭЙ</v8:value>
+							<v8:presentation>Данные обмена штрих МПЭЙ</v8:presentation>
+							<v8:id xsi:type="xs:decimal">38</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ДействияРабочегоПроцесса</v8:value>
+							<v8:presentation>Действия рабочего процесса</v8:presentation>
+							<v8:id xsi:type="xs:decimal">40</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">Делегирование</v8:value>
+							<v8:presentation>Делегирование права подписи</v8:presentation>
+							<v8:id xsi:type="xs:decimal">41</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ДисконтныеКарты</v8:value>
+							<v8:presentation>Дисконтные карты</v8:presentation>
+							<v8:id xsi:type="xs:decimal">42</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ДоверенностиНалогоплательщика</v8:value>
+							<v8:presentation>Доверенности налогоплательщика</v8:presentation>
+							<v8:id xsi:type="xs:decimal">43</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ДоговорыКонтрагентов</v8:value>
+							<v8:presentation>Договоры</v8:presentation>
+							<v8:id xsi:type="xs:decimal">45</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ДокументыРеализацииПолномочийНалоговыхОрганов</v8:value>
+							<v8:presentation>Документы реализации полномочий налоговых органов</v8:presentation>
+							<v8:id xsi:type="xs:decimal">47</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">Должности</v8:value>
+							<v8:presentation>Должности</v8:presentation>
+							<v8:id xsi:type="xs:decimal">48</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПараметрыИсчисляемогоСтраховогоСтажа</v8:value>
+							<v8:presentation>Доп. сведения для исчисления стажа</v8:presentation>
+							<v8:id xsi:type="xs:decimal">161</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ДополнительныеВнешниеКомпоненты</v8:value>
+							<v8:presentation>Дополнительные внешние компоненты</v8:presentation>
+							<v8:id xsi:type="xs:decimal">49</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ЗначенияСвойствОбъектов</v8:value>
+							<v8:presentation>Дополнительные значения</v8:presentation>
+							<v8:id xsi:type="xs:decimal">71</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ЗначенияСвойствОбъектовИерархия</v8:value>
+							<v8:presentation>Дополнительные значения (иерархия)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">72</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ДополнительныеОбработчикиОчередиЗаданий</v8:value>
+							<v8:presentation>Дополнительные обработчики очереди заданий</v8:presentation>
+							<v8:id xsi:type="xs:decimal">50</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ДополнительныеОтчетыИОбработки</v8:value>
+							<v8:presentation>Дополнительные отчеты и обработки</v8:presentation>
+							<v8:id xsi:type="xs:decimal">51</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ДополнительныеУсловия</v8:value>
+							<v8:presentation>Дополнительные условия</v8:presentation>
+							<v8:id xsi:type="xs:decimal">53</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ДрайверыОборудования</v8:value>
+							<v8:presentation>Драйверы оборудования</v8:presentation>
+							<v8:id xsi:type="xs:decimal">54</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ЭлектронныеПредставленияРегламентированныхОтчетов</v8:value>
+							<v8:presentation>Загруженные отчеты</v8:presentation>
+							<v8:id xsi:type="xs:decimal">297</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ЗадачиАссистентаПоНапоминаниямОЗаписи</v8:value>
+							<v8:presentation>Задачи ассистента по напоминаниям о записи</v8:presentation>
+							<v8:id xsi:type="xs:decimal">57</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ЗадачиАссистентаПоРасчетуНалогов</v8:value>
+							<v8:presentation>Задачи ассистента по расчету налогов</v8:presentation>
+							<v8:id xsi:type="xs:decimal">58</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ЗадачиАссистентаУправления</v8:value>
+							<v8:presentation>Задачи ассистента управления</v8:presentation>
+							<v8:id xsi:type="xs:decimal">59</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ЗадачиКалендаряПодготовкиОтчетности</v8:value>
+							<v8:presentation>Задачи календаря подготовки отчетности</v8:presentation>
+							<v8:id xsi:type="xs:decimal">60</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ЗамещениеГосударственныхМуниципальныхДолжностейПФР</v8:value>
+							<v8:presentation>Замещение государственных муниципальных должностей ПФР</v8:presentation>
+							<v8:id xsi:type="xs:decimal">64</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ЗаписиКалендаряПодготовкиОтчетности</v8:value>
+							<v8:presentation>Записи календаря подготовки отчетности</v8:presentation>
+							<v8:id xsi:type="xs:decimal">65</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ЗаписиКалендаряСотрудника</v8:value>
+							<v8:presentation>Записи календаря сотрудника</v8:presentation>
+							<v8:id xsi:type="xs:decimal">66</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ЗаявлениеОНазначенииПенсии</v8:value>
+							<v8:presentation>Заявление о назначении пенсии</v8:presentation>
+							<v8:id xsi:type="xs:decimal">68</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ЗначенияКатегорийНовостей</v8:value>
+							<v8:presentation>Значения категорий новостей</v8:presentation>
+							<v8:id xsi:type="xs:decimal">70</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ЗоныТарифыДоставки</v8:value>
+							<v8:presentation>Зоны/тарифы доставки</v8:presentation>
+							<v8:id xsi:type="xs:decimal">73</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ИдентификаторыОбъектовМетаданных</v8:value>
+							<v8:presentation>Идентификаторы объектов метаданных</v8:presentation>
+							<v8:id xsi:type="xs:decimal">74</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ИдентификаторыОбъектовРасширений</v8:value>
+							<v8:presentation>Идентификаторы объектов расширений</v8:presentation>
+							<v8:id xsi:type="xs:decimal">75</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ИдентификаторыСервисовСопровождения</v8:value>
+							<v8:presentation>Идентификаторы сервисов сопровождения</v8:presentation>
+							<v8:id xsi:type="xs:decimal">76</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ВнеоборотныеАктивы</v8:value>
+							<v8:presentation>Имущество</v8:presentation>
+							<v8:id xsi:type="xs:decimal">33</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ИнтервалыДоставки</v8:value>
+							<v8:presentation>Интервалы доставки</v8:presentation>
+							<v8:id xsi:type="xs:decimal">78</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ИнформационныеСсылкиДляФорм</v8:value>
+							<v8:presentation>Информационные ссылки для форм</v8:presentation>
+							<v8:id xsi:type="xs:decimal">79</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ИсторияПроверкиИКорректировкиДанных</v8:value>
+							<v8:presentation>История проверки и корректировки данных</v8:presentation>
+							<v8:id xsi:type="xs:decimal">81</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ИсточникиПривлеченияПокупателей</v8:value>
+							<v8:presentation>Источники привлечения</v8:presentation>
+							<v8:id xsi:type="xs:decimal">83</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">КалендариСотрудников</v8:value>
+							<v8:presentation>Календари сотрудников</v8:presentation>
+							<v8:id xsi:type="xs:decimal">85</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">КалендарьПерсональныхЗадачОтчетности</v8:value>
+							<v8:presentation>Календарь персональных задач отчетности</v8:presentation>
+							<v8:id xsi:type="xs:decimal">86</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">КалендарьПодготовкиОтчетности</v8:value>
+							<v8:presentation>Календарь подготовки отчетности</v8:presentation>
+							<v8:id xsi:type="xs:decimal">87</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">Кассы</v8:value>
+							<v8:presentation>Кассы</v8:presentation>
+							<v8:id xsi:type="xs:decimal">88</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">КассыККМ</v8:value>
+							<v8:presentation>Кассы ККМ</v8:presentation>
+							<v8:id xsi:type="xs:decimal">89</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">КассыККММП</v8:value>
+							<v8:presentation>Кассы ККММП</v8:presentation>
+							<v8:id xsi:type="xs:decimal">90</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">КатегорииНоменклатуры</v8:value>
+							<v8:presentation>Категории номенклатуры</v8:presentation>
+							<v8:id xsi:type="xs:decimal">91</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">КлассификаторБанков</v8:value>
+							<v8:presentation>Классификатор банков</v8:presentation>
+							<v8:id xsi:type="xs:decimal">92</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">КлассификаторЕдиницИзмерения</v8:value>
+							<v8:presentation>Классификатор единиц измерения</v8:presentation>
+							<v8:id xsi:type="xs:decimal">93</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">КлассификаторКонтактов</v8:value>
+							<v8:presentation>Классификатор контактов</v8:presentation>
+							<v8:id xsi:type="xs:decimal">94</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">КлючевыеОперации</v8:value>
+							<v8:presentation>Ключевые операции</v8:presentation>
+							<v8:id xsi:type="xs:decimal">95</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">КлючевыеРесурсыПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Ключевые ресурсы присоединенные файлы</v8:presentation>
+							<v8:id xsi:type="xs:decimal">97</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">КодыДоходовНДФЛ</v8:value>
+							<v8:presentation>Коды доходов НДФЛ</v8:presentation>
+							<v8:id xsi:type="xs:decimal">98</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">Комиссии</v8:value>
+							<v8:presentation>Комиссии</v8:presentation>
+							<v8:id xsi:type="xs:decimal">99</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">КомплектыОтчетностиПерсучета</v8:value>
+							<v8:presentation>Комплекты отчетности персонифицированного учета</v8:presentation>
+							<v8:id xsi:type="xs:decimal">100</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">КонтактныеЛица</v8:value>
+							<v8:presentation>Контакты</v8:presentation>
+							<v8:id xsi:type="xs:decimal">101</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">КонтрагентыМП</v8:value>
+							<v8:presentation>Контрагенты</v8:presentation>
+							<v8:id xsi:type="xs:decimal">104</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">Контрагенты</v8:value>
+							<v8:presentation>Контрагенты</v8:presentation>
+							<v8:id xsi:type="xs:decimal">103</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ЛентыНовостей</v8:value>
+							<v8:presentation>Ленты новостей</v8:presentation>
+							<v8:id xsi:type="xs:decimal">108</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">Лиды</v8:value>
+							<v8:presentation>Лиды</v8:presentation>
+							<v8:id xsi:type="xs:decimal">109</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ЛицензииПоставщиковАлкогольнойПродукции</v8:value>
+							<v8:presentation>Лицензии поставщиков алкогольной продукции</v8:presentation>
+							<v8:id xsi:type="xs:decimal">111</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ЛицензионныеКарточкиТранспортныхСредств</v8:value>
+							<v8:presentation>Лицензионные карточки транспортных средств</v8:presentation>
+							<v8:id xsi:type="xs:decimal">112</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">МакетыПенсионныхДел</v8:value>
+							<v8:presentation>Макеты пенсионных дел</v8:presentation>
+							<v8:id xsi:type="xs:decimal">113</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">МаппингПолейЗагрузкиДанныхИзВнешнегоИсточника</v8:value>
+							<v8:presentation>Маппинг полей загрузки данных из внешнего истоничка</v8:presentation>
+							<v8:id xsi:type="xs:decimal">115</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">МаршрутыПодписания</v8:value>
+							<v8:presentation>Маршруты подписания</v8:presentation>
+							<v8:id xsi:type="xs:decimal">116</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">НаборыДополнительныхРеквизитовИСведений</v8:value>
+							<v8:presentation>Наборы дополнительных реквизитов и сведений</v8:presentation>
+							<v8:id xsi:type="xs:decimal">118</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">НалоговыеОрганы</v8:value>
+							<v8:presentation>Налоговые органы</v8:presentation>
+							<v8:id xsi:type="xs:decimal">119</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">НаправленияДеятельности</v8:value>
+							<v8:presentation>Направления деятельности</v8:presentation>
+							<v8:id xsi:type="xs:decimal">120</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">НаправленияСдачиОтчетности</v8:value>
+							<v8:presentation>Направления сдачи отчетности</v8:presentation>
+							<v8:id xsi:type="xs:decimal">121</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">НастройкиИнтеграцииCRM</v8:value>
+							<v8:presentation>Настройки интеграции CRM</v8:presentation>
+							<v8:id xsi:type="xs:decimal">122</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">НастройкиНумерацииДоговоровКонтрагентов</v8:value>
+							<v8:presentation>Настройки нумерации договоров контрагентов</v8:presentation>
+							<v8:id xsi:type="xs:decimal">123</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">НастройкиОбменСБанками</v8:value>
+							<v8:presentation>Настройки обмена с банками</v8:presentation>
+							<v8:id xsi:type="xs:decimal">124</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">НастройкиПубликацииМЛК</v8:value>
+							<v8:presentation>Настройки публикации МЛК</v8:presentation>
+							<v8:id xsi:type="xs:decimal">125</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">НастройкиРМК</v8:value>
+							<v8:presentation>Настройки рабочего места кассира</v8:presentation>
+							<v8:id xsi:type="xs:decimal">127</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">НастройкиРассылкиСостояниеКомпании</v8:value>
+							<v8:presentation>Настройки рассылки Состояние компании</v8:presentation>
+							<v8:id xsi:type="xs:decimal">126</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">НастройкиЭДО</v8:value>
+							<v8:presentation>Настройки ЭДО</v8:presentation>
+							<v8:id xsi:type="xs:decimal">128</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">НастройкиЯндексДоставки</v8:value>
+							<v8:presentation>Настройки Яндекс.Доставки</v8:presentation>
+							<v8:id xsi:type="xs:decimal">129</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">Новости</v8:value>
+							<v8:presentation>Новости</v8:presentation>
+							<v8:id xsi:type="xs:decimal">130</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">Номенклатура</v8:value>
+							<v8:presentation>Номенклатура</v8:presentation>
+							<v8:id xsi:type="xs:decimal">131</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">НоменклатураПоставщиков</v8:value>
+							<v8:presentation>Номенклатура поставщиков</v8:presentation>
+							<v8:id xsi:type="xs:decimal">132</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ОбщиеВнешниеКомпоненты</v8:value>
+							<v8:presentation>Общие внешние компоненты</v8:presentation>
+							<v8:id xsi:type="xs:decimal">134</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ОбщиеДанныеИнформационногоЦентра</v8:value>
+							<v8:presentation>Общие данные информационного центра</v8:presentation>
+							<v8:id xsi:type="xs:decimal">135</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">_Объекты</v8:value>
+							<v8:presentation>Объекты</v8:presentation>
+							<v8:id xsi:type="xs:decimal">0</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ОКУН</v8:value>
+							<v8:presentation>ОКУН</v8:presentation>
+							<v8:id xsi:type="xs:decimal">136</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ОписиВходящихДокументовИзНалоговыхОрганов</v8:value>
+							<v8:presentation>Описи входящих документов, полученных из налоговых органов</v8:presentation>
+							<v8:id xsi:type="xs:decimal">137</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">Организации</v8:value>
+							<v8:presentation>Организации</v8:presentation>
+							<v8:id xsi:type="xs:decimal">140</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ОрганыПФР</v8:value>
+							<v8:presentation>Органы ПФР</v8:presentation>
+							<v8:id xsi:type="xs:decimal">142</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ОрганыФСГС</v8:value>
+							<v8:presentation>Органы ФСГС</v8:presentation>
+							<v8:id xsi:type="xs:decimal">143</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ОснованияДосрочногоНазначенияПенсии</v8:value>
+							<v8:presentation>Основания для досрочной пенсии</v8:presentation>
+							<v8:id xsi:type="xs:decimal">144</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ОснованияДосрочногоНазначенияПенсииДляСЗВК</v8:value>
+							<v8:presentation>Основания для досрочной пенсии (СЗВ-К)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">145</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ОснованияИсчисляемогоСтраховогоСтажа</v8:value>
+							<v8:presentation>Основания для исчисления стажа</v8:presentation>
+							<v8:id xsi:type="xs:decimal">146</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ОсобыеУсловияТрудаПФР</v8:value>
+							<v8:presentation>Особые условия труда ПФР</v8:presentation>
+							<v8:id xsi:type="xs:decimal">148</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ОписиИсходящихДокументовВНалоговыеОрганы</v8:value>
+							<v8:presentation>Ответы на требования о представлении документов</v8:presentation>
+							<v8:id xsi:type="xs:decimal">138</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ОтправкиРПН</v8:value>
+							<v8:presentation>Отправки в РПН</v8:presentation>
+							<v8:id xsi:type="xs:decimal">150</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ОтправкиФСРАР</v8:value>
+							<v8:presentation>Отправки в ФСРАР</v8:presentation>
+							<v8:id xsi:type="xs:decimal">151</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ОтправкиФСС</v8:value>
+							<v8:presentation>Отправки в ФСС</v8:presentation>
+							<v8:id xsi:type="xs:decimal">152</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ОтправкиФТС</v8:value>
+							<v8:presentation>Отправки в ФТС</v8:presentation>
+							<v8:id xsi:type="xs:decimal">153</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ОтправкиОтчетности</v8:value>
+							<v8:presentation>Отправки отчетности</v8:presentation>
+							<v8:id xsi:type="xs:decimal">149</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ВариантыОтчетов</v8:value>
+							<v8:presentation>Отчеты</v8:presentation>
+							<v8:id xsi:type="xs:decimal">12</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ОчередьЗаданий</v8:value>
+							<v8:presentation>Очередь заданий</v8:presentation>
+							<v8:id xsi:type="xs:decimal">155</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ОчередьЗаданийОбластейДанных</v8:value>
+							<v8:presentation>Очередь заданий областей данных</v8:presentation>
+							<v8:id xsi:type="xs:decimal">156</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ОчередьЭлектронныхЧековКОтправке</v8:value>
+							<v8:presentation>Очередь электронных чеков к отправке</v8:presentation>
+							<v8:id xsi:type="xs:decimal">157</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПапкиФайлов</v8:value>
+							<v8:presentation>Папки</v8:presentation>
+							<v8:id xsi:type="xs:decimal">160</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПараметрыРасчетов</v8:value>
+							<v8:presentation>Параметры расчетов</v8:presentation>
+							<v8:id xsi:type="xs:decimal">162</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПараметрыРасчетовДоставки</v8:value>
+							<v8:presentation>Параметры расчетов доставки</v8:presentation>
+							<v8:id xsi:type="xs:decimal">163</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПартииНоменклатуры</v8:value>
+							<v8:presentation>Партии номенклатуры</v8:presentation>
+							<v8:id xsi:type="xs:decimal">164</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">Патенты</v8:value>
+							<v8:presentation>Патенты</v8:presentation>
+							<v8:id xsi:type="xs:decimal">166</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПерепискаСКонтролирующимиОрганами</v8:value>
+							<v8:presentation>Переписка с контролирующими органами</v8:presentation>
+							<v8:id xsi:type="xs:decimal">168</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПодключаемоеОборудование</v8:value>
+							<v8:presentation>Подключаемое оборудование</v8:presentation>
+							<v8:id xsi:type="xs:decimal">173</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">Подписи</v8:value>
+							<v8:presentation>Подписи</v8:presentation>
+							<v8:id xsi:type="xs:decimal">174</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПоказателиБизнеса</v8:value>
+							<v8:presentation>Показатели бизнеса</v8:presentation>
+							<v8:id xsi:type="xs:decimal">175</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПолныеПутиКФормам</v8:value>
+							<v8:presentation>Полные пути к формам</v8:presentation>
+							<v8:id xsi:type="xs:decimal">176</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">Пользователи</v8:value>
+							<v8:presentation>Пользователи</v8:presentation>
+							<v8:id xsi:type="xs:decimal">177</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПользователиМП</v8:value>
+							<v8:presentation>Пользователи МП</v8:presentation>
+							<v8:id xsi:type="xs:decimal">178</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПользовательскиеНастройкиОтчетов</v8:value>
+							<v8:presentation>Пользовательские настройки отчетов</v8:presentation>
+							<v8:id xsi:type="xs:decimal">179</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПоставляемыеДанные</v8:value>
+							<v8:presentation>Поставляемые данные</v8:presentation>
+							<v8:id xsi:type="xs:decimal">180</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПоставляемыеДополнительныеОтчетыИОбработки</v8:value>
+							<v8:presentation>Поставляемые дополнительные отчеты и обработки</v8:presentation>
+							<v8:id xsi:type="xs:decimal">181</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПоставляемыеРасширения</v8:value>
+							<v8:presentation>Поставляемые расширения</v8:presentation>
+							<v8:id xsi:type="xs:decimal">182</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПравилаРабочегоПроцесса</v8:value>
+							<v8:presentation>Правила рабочего процесса</v8:presentation>
+							<v8:id xsi:type="xs:decimal">184</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПрайсЛисты</v8:value>
+							<v8:presentation>Прайс-листы</v8:presentation>
+							<v8:id xsi:type="xs:decimal">185</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПрайсЛистыКонтрагентов</v8:value>
+							<v8:presentation>Прайс-листы контрагентов</v8:presentation>
+							<v8:id xsi:type="xs:decimal">186</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПредопределенныеВариантыОтчетов</v8:value>
+							<v8:presentation>Предопределенные варианты отчетов</v8:presentation>
+							<v8:id xsi:type="xs:decimal">189</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПредопределенныеВариантыОтчетовРасширений</v8:value>
+							<v8:presentation>Предопределенные варианты отчетов расширений</v8:presentation>
+							<v8:id xsi:type="xs:decimal">190</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ТранспортноеСообщениеКонтейнерыПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные транспортные контейнеры (Транспортное сообщение)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">266</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">АвансовыйОтчетПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (АвансовыйОтчет)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">3</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">АктВыполненныхРаботПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Акт выполненных работ)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">5</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ДанныеОКорректировкеСведенийЗастрахованныхЛицСЗВ_КОРРПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Данные о корректировке сведений застрахованных лиц, СЗВ-КОРР)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">39</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ДоговорКредитаИЗаймаПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (ДоговорКредитаИЗайма)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">44</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ДоговорыКонтрагентовПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (ДоговорыКонтрагентов)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">46</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ДополнительныеРасходыПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Дополнительные расходы)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">52</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ЗаданиеНаРаботуПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (ЗаданиеНаРаботу)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">56</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ЗаказНаПроизводствоПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Заказ на производство)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">61</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ЗаказПокупателяПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (ЗаказПокупателя)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">62</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ЗаказПоставщикуПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (ЗаказПоставщику)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">63</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ЗаявлениеАбонентаСпецоператораСвязиПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Заявление абонента оператора электронного документооборота)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">67</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ЗаявлениеОНазначенииПенсииПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Заявление о назначении пенсии)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">69</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ИнвентаризацияЗапасовПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (ИнвентаризацияЗапасов)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">77</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ИсторияПроверкиИКорректировкиДанныхПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (История проверки и корректировки данных)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">82</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">КонтактныеЛицаПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Контактные лица)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">102</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">КонтрагентыПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Контрагенты)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">105</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">КорректировкаПоступленияПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (КорректировкаПоступления)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">106</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">КорректировкаРеализацииПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (КорректировкаРеализации)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">107</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ЛидыПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Лиды)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">110</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">МакетыПенсионныхДелПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Макеты пенсионных дел)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">114</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">МассоваяРассылкаПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Массовая рассылка)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">117</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">НоменклатураПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Номенклатура)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">133</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ОписьОДВ_1ПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Опись ОДВ-1)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">139</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ОрганизацииПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Организации)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">141</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ОтчетОРозничныхПродажахПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (ОтчетОРозничныхПродажах)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">154</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПакетОбменСБанкамиПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Пакет обмена с банками)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">158</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПакетЭДПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Пакет электронных документов)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">159</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПартииНоменклатурыПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Партии номенклатуры)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">165</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПеремещениеЗапасовПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Перемещение запасов)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">167</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПерепискаСКонтролирующимиОрганамиПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Переписка с контролирующими органами)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">169</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПересортицаЗапасовПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Пересортица запасов)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">170</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПисьмоОбменСБанкамиПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Письма с банками)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">171</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПлатежноеПоручениеПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (ПлатежноеПоручение)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">172</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПоступлениеНаСчетПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (ПоступлениеНаСчет)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">183</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПрайсЛистыКонтрагентовПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (прайс-листы контрагентов)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">187</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПрайсЛистыПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (прайс-листы)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">188</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПриемИПередачаВРемонтПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (ПриемИПередачаВРемонт)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">191</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПриходнаяНакладнаяПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (ПриходнаяНакладная)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">192</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СборкаЗапасовПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Производство)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">210</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">РасходДСПланПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (РасходДСПлан)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">202</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">РасходИзКассыПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (РасходИзКассы)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">203</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">РасходнаяНакладнаяПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Расходная накладная)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">204</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">РасходСоСчетаПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (РасходСоСчета)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">205</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">РегламентированныйОтчетПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Регламентированный отчет)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">208</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СведенияОСтраховомСтажеЗастрахованныхЛицСЗВ_СТАЖПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Сведения о страховом стаже застрахованных лиц, СЗВ_СТАЖ)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">211</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СверкаВзаиморасчетовПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (СверкаВзаиморасчетов)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">212</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СдельныйНарядПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Сдельный наряд)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">213</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СканированныеДокументыДляПередачиВЭлектронномВидеПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Сканированные документы для передачи в электронном виде)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">221</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СобытиеПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Событие)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">224</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СообщениеОбменСБанкамиПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Сообщение обмена с банками)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">226</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СпецификацииПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Спецификации)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">240</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СправкиСПАРКРискиПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Справки 1СПАРК Риски)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">242</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СчетНаОплатуПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Счет на оплату)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">253</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СчетНаОплатуПоставщикаПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (СчетНаОплатуПоставщика)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">252</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СчетФактураПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (СчетФактураВыданный)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">255</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СчетФактураПолученныйПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (СчетФактураПолученный)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">254</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ТранспортноеСообщениеПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Транспортное сообщение)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">267</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">УведомлениеОСпецрежимахНалогообложенияПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Уведомление о спецрежимах налогообложения)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">269</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ФизическиеЛицаПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (ФизическиеЛица)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">275</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ХарактеристикиНоменклатурыПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (ХарактеристикиНоменклатуры)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">276</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ШаблоныПечатиОфисныхДокументовПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Шаблоны печати офисных документов)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">289</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ШаблоныСообщенийПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Шаблоны сообщений)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">292</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ЭДПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (Электронные документы)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">295</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПричиныНеуспешногоЗавершенияРаботыСЛидом</v8:value>
+							<v8:presentation>Причины завершения работы с лидом</v8:presentation>
+							<v8:id xsi:type="xs:decimal">193</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПричиныОтменыЗаказа</v8:value>
+							<v8:presentation>Причины отмены заказа</v8:presentation>
+							<v8:id xsi:type="xs:decimal">194</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПрограммыЭлектроннойПодписиИШифрования</v8:value>
+							<v8:presentation>Программы электронной подписи и шифрования</v8:presentation>
+							<v8:id xsi:type="xs:decimal">195</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПроизводственныеКалендари</v8:value>
+							<v8:presentation>Производственные календари</v8:presentation>
+							<v8:id xsi:type="xs:decimal">196</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ЕГАИСПрисоединенныеФайлы</v8:value>
+							<v8:presentation>Протокол обмена ЕГАИС</v8:presentation>
+							<v8:id xsi:type="xs:decimal">55</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ИСМППрисоединенныеФайлы</v8:value>
+							<v8:presentation>Протокол обмена ИС МП</v8:presentation>
+							<v8:id xsi:type="xs:decimal">80</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПрофилиГруппДоступа</v8:value>
+							<v8:presentation>Профили групп доступа</v8:presentation>
+							<v8:id xsi:type="xs:decimal">197</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПрофилиКлючевыхОпераций</v8:value>
+							<v8:presentation>Профили ключевых операций</v8:presentation>
+							<v8:id xsi:type="xs:decimal">198</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">obisoft_finance_ПрочиеРасходы</v8:value>
+							<v8:presentation>Прочие расходы (obisoft)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">2</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ПунктыВыдачиЗаказа</v8:value>
+							<v8:presentation>Пункты выдачи заказа</v8:presentation>
+							<v8:id xsi:type="xs:decimal">199</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">РабочиеМеста</v8:value>
+							<v8:presentation>Рабочие места</v8:presentation>
+							<v8:id xsi:type="xs:decimal">200</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">РассылкиОтчетов</v8:value>
+							<v8:presentation>Рассылки отчетов</v8:presentation>
+							<v8:id xsi:type="xs:decimal">201</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">РегистрацииВНалоговомОргане</v8:value>
+							<v8:presentation>Регистрации в налоговом органе</v8:presentation>
+							<v8:id xsi:type="xs:decimal">206</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">РегламентированныеОтчеты</v8:value>
+							<v8:presentation>Регламентированные отчеты</v8:presentation>
+							<v8:id xsi:type="xs:decimal">207</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">КлючевыеРесурсы</v8:value>
+							<v8:presentation>Ресурсы</v8:presentation>
+							<v8:id xsi:type="xs:decimal">96</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">РолиКонтактныхЛиц</v8:value>
+							<v8:presentation>Роли контактных лиц</v8:presentation>
+							<v8:id xsi:type="xs:decimal">209</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СеансыСвязиСКонтролирующимиОрганами</v8:value>
+							<v8:presentation>Сеансы связи с контролирующими органами</v8:presentation>
+							<v8:id xsi:type="xs:decimal">214</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">Сегменты</v8:value>
+							<v8:presentation>Сегменты</v8:presentation>
+							<v8:id xsi:type="xs:decimal">215</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СерверыДокументооборота</v8:value>
+							<v8:presentation>Серверы документооборота</v8:presentation>
+							<v8:id xsi:type="xs:decimal">216</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СерийныеНомера</v8:value>
+							<v8:presentation>Серийные номера</v8:presentation>
+							<v8:id xsi:type="xs:decimal">217</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">Сертификаты1СОтчетности</v8:value>
+							<v8:presentation>Сертификаты 1С-Отчетности</v8:presentation>
+							<v8:id xsi:type="xs:decimal">218</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СертификатыКлючейЭлектроннойПодписиИШифрования</v8:value>
+							<v8:presentation>Сертификаты ключей электронной подписи и шифрования</v8:presentation>
+							<v8:id xsi:type="xs:decimal">219</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СканированныеДокументыДляПередачиВЭлектронномВиде</v8:value>
+							<v8:presentation>Сканированные документы для передачи в электронном виде</v8:presentation>
+							<v8:id xsi:type="xs:decimal">220</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СкладыСлужбДоставки</v8:value>
+							<v8:presentation>Склады служб доставки</v8:presentation>
+							<v8:id xsi:type="xs:decimal">222</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СлужбыДоставки</v8:value>
+							<v8:presentation>Службы доставки</v8:presentation>
+							<v8:id xsi:type="xs:decimal">223</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СобытияОтправкиОтчетности</v8:value>
+							<v8:presentation>События отправки отчетности</v8:presentation>
+							<v8:id xsi:type="xs:decimal">225</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СообщенияОбластейДанных</v8:value>
+							<v8:presentation>Сообщения областей данных</v8:presentation>
+							<v8:id xsi:type="xs:decimal">227</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СообщенияОбсуждений</v8:value>
+							<v8:presentation>Сообщения обсуждений</v8:presentation>
+							<v8:id xsi:type="xs:decimal">228</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СообщенияСистемы</v8:value>
+							<v8:presentation>Сообщения системы</v8:presentation>
+							<v8:id xsi:type="xs:decimal">229</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СоответствияНазначенийПлатежаИРеквизитовПлатежа</v8:value>
+							<v8:presentation>Соответствия назначений платежа и реквизитов платежа</v8:presentation>
+							<v8:id xsi:type="xs:decimal">230</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СостоянияЗаказНарядов</v8:value>
+							<v8:presentation>Состояния заказ-нарядов</v8:presentation>
+							<v8:id xsi:type="xs:decimal">231</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СостоянияЗаказовНаПроизводство</v8:value>
+							<v8:presentation>Состояния заказов на производство</v8:presentation>
+							<v8:id xsi:type="xs:decimal">232</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СостоянияЗаказовПокупателей</v8:value>
+							<v8:presentation>Состояния заказов покупателей</v8:presentation>
+							<v8:id xsi:type="xs:decimal">233</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СостоянияЗаказовПоставщикам</v8:value>
+							<v8:presentation>Состояния заказов поставщикам</v8:presentation>
+							<v8:id xsi:type="xs:decimal">234</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СостоянияЛидов</v8:value>
+							<v8:presentation>Состояния лидов</v8:presentation>
+							<v8:id xsi:type="xs:decimal">235</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СостоянияСобытий</v8:value>
+							<v8:presentation>Состояния событий и заданий</v8:presentation>
+							<v8:id xsi:type="xs:decimal">236</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">Сотрудники</v8:value>
+							<v8:presentation>Сотрудники</v8:presentation>
+							<v8:id xsi:type="xs:decimal">237</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">Спецификации</v8:value>
+							<v8:presentation>Спецификации</v8:presentation>
+							<v8:id xsi:type="xs:decimal">238</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СпецификацииМП</v8:value>
+							<v8:presentation>Спецификации МП</v8:presentation>
+							<v8:id xsi:type="xs:decimal">239</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СпискиПрофессийДолжностейЛьготногоПенсионногоОбеспечения</v8:value>
+							<v8:presentation>Список льготных профессий (ПФР)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">241</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СтавкиНДС</v8:value>
+							<v8:presentation>Ставки НДС</v8:presentation>
+							<v8:id xsi:type="xs:decimal">243</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СтавкиНДСМП</v8:value>
+							<v8:presentation>Ставки НДСМП</v8:presentation>
+							<v8:id xsi:type="xs:decimal">244</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СтанцииУправленияЗаказамиИСМП</v8:value>
+							<v8:presentation>Станции управления заказами ИСМП</v8:presentation>
+							<v8:id xsi:type="xs:decimal">245</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СтатьиМП</v8:value>
+							<v8:presentation>Статьи МП</v8:presentation>
+							<v8:id xsi:type="xs:decimal">247</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СтатьиДвиженияДенежныхСредств</v8:value>
+							<v8:presentation>Статья движения денежных средств</v8:presentation>
+							<v8:id xsi:type="xs:decimal">246</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СтраныМира</v8:value>
+							<v8:presentation>Страны мира</v8:presentation>
+							<v8:id xsi:type="xs:decimal">248</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СтруктурныеЕдиницы</v8:value>
+							<v8:presentation>Структурные единицы</v8:presentation>
+							<v8:id xsi:type="xs:decimal">249</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СтруктурныеЕдиницыМП</v8:value>
+							<v8:presentation>Структурные единицы МП</v8:presentation>
+							<v8:id xsi:type="xs:decimal">250</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">СценарииПланирования</v8:value>
+							<v8:presentation>Сценарии планирования</v8:presentation>
+							<v8:id xsi:type="xs:decimal">251</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">Теги</v8:value>
+							<v8:presentation>Теги</v8:presentation>
+							<v8:id xsi:type="xs:decimal">256</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ТегиОтчетов</v8:value>
+							<v8:presentation>Теги отчетов</v8:presentation>
+							<v8:id xsi:type="xs:decimal">257</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ТемыСобытий</v8:value>
+							<v8:presentation>Темы событий (шаблоны)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">258</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ТерриториальныеУсловияПФР</v8:value>
+							<v8:presentation>Территориальные условия</v8:presentation>
+							<v8:id xsi:type="xs:decimal">259</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ТипыИнформацииИнформационногоЦентра</v8:value>
+							<v8:presentation>Типы информации информационного центра</v8:presentation>
+							<v8:id xsi:type="xs:decimal">260</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ТипыПисемОбменСБанками</v8:value>
+							<v8:presentation>Типы писем обмен с банками</v8:presentation>
+							<v8:id xsi:type="xs:decimal">261</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ТипыСобытийСПАРКРиски</v8:value>
+							<v8:presentation>Типы событий 1СПАРК Риски</v8:presentation>
+							<v8:id xsi:type="xs:decimal">262</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ТоварыМП</v8:value>
+							<v8:presentation>Товары и услуги</v8:presentation>
+							<v8:id xsi:type="xs:decimal">263</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ТорговыеПредложения</v8:value>
+							<v8:presentation>Торговые предложения</v8:presentation>
+							<v8:id xsi:type="xs:decimal">264</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ТорговыеТочки</v8:value>
+							<v8:presentation>Торговые точки</v8:presentation>
+							<v8:id xsi:type="xs:decimal">265</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ТранспортныеСредства</v8:value>
+							<v8:presentation>Транспортные средства</v8:presentation>
+							<v8:id xsi:type="xs:decimal">268</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">УсловияПредоставленияСкидокНаценок</v8:value>
+							<v8:presentation>Условия предоставления скидок (наценок, ограничений)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">270</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ОсобыеУсловияТрудаДляСЗВКПФР</v8:value>
+							<v8:presentation>Условия труда (форма СЗВ-К)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">147</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">УчетныеЗаписиДокументооборота</v8:value>
+							<v8:presentation>Учетные записи документооборота</v8:presentation>
+							<v8:id xsi:type="xs:decimal">271</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">УчетныеЗаписиЭлектроннойПочты</v8:value>
+							<v8:presentation>Учетные записи электронной почты</v8:presentation>
+							<v8:id xsi:type="xs:decimal">272</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">Файлы</v8:value>
+							<v8:presentation>Файлы</v8:presentation>
+							<v8:id xsi:type="xs:decimal">273</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ФизическиеЛица</v8:value>
+							<v8:presentation>Физические лица</v8:presentation>
+							<v8:id xsi:type="xs:decimal">274</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">obisoft_finance_Фонды</v8:value>
+							<v8:presentation>Фонды (obisoft)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">1</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ХозяйственныеОперации</v8:value>
+							<v8:presentation>Хозяйственные операции</v8:presentation>
+							<v8:id xsi:type="xs:decimal">277</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ХранилищеШаблонов</v8:value>
+							<v8:presentation>Хранилище шаблонов</v8:presentation>
+							<v8:id xsi:type="xs:decimal">278</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ЦеновыеГруппы</v8:value>
+							<v8:presentation>Ценовые группы</v8:presentation>
+							<v8:id xsi:type="xs:decimal">279</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ЦиклыОбмена</v8:value>
+							<v8:presentation>Циклы обмена</v8:presentation>
+							<v8:id xsi:type="xs:decimal">280</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ШаблоныДисконтныхКарт</v8:value>
+							<v8:presentation>Шаблоны дисконтных карт</v8:presentation>
+							<v8:id xsi:type="xs:decimal">281</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ШаблоныДокументов</v8:value>
+							<v8:presentation>Шаблоны документов</v8:presentation>
+							<v8:id xsi:type="xs:decimal">282</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ШаблоныЗаданийОчереди</v8:value>
+							<v8:presentation>Шаблоны заданий очереди</v8:presentation>
+							<v8:id xsi:type="xs:decimal">283</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ШаблоныЗаполненияГрафиковРабочегоВремени</v8:value>
+							<v8:presentation>Шаблоны заполнения графиков рабочего времени</v8:presentation>
+							<v8:id xsi:type="xs:decimal">284</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ШаблоныКалькуляций</v8:value>
+							<v8:presentation>Шаблоны калькуляций</v8:presentation>
+							<v8:id xsi:type="xs:decimal">285</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ШаблоныПечатиОфисныхДокументов</v8:value>
+							<v8:presentation>Шаблоны КП и договоров</v8:presentation>
+							<v8:id xsi:type="xs:decimal">288</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ШаблоныМагнитныхКарт</v8:value>
+							<v8:presentation>Шаблоны магнитных карт</v8:presentation>
+							<v8:id xsi:type="xs:decimal">286</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ШаблоныНаименований</v8:value>
+							<v8:presentation>Шаблоны наименований</v8:presentation>
+							<v8:id xsi:type="xs:decimal">287</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ШаблоныСерийныхНомеров</v8:value>
+							<v8:presentation>Шаблоны серийных номеров</v8:presentation>
+							<v8:id xsi:type="xs:decimal">290</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ШаблоныСообщений</v8:value>
+							<v8:presentation>Шаблоны сообщений</v8:presentation>
+							<v8:id xsi:type="xs:decimal">291</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ШаблоныЭтикетокИЦенников</v8:value>
+							<v8:presentation>Шаблоны этикеток и ценников</v8:presentation>
+							<v8:id xsi:type="xs:decimal">293</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ШтрихкодыУпаковокТоваров</v8:value>
+							<v8:presentation>Штрихкоды упаковок и товаров</v8:presentation>
+							<v8:id xsi:type="xs:decimal">294</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ЭквайринговыеТерминалы</v8:value>
+							<v8:presentation>Эквайринговые терминалы</v8:presentation>
+							<v8:id xsi:type="xs:decimal">296</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">ЭтапыРемонта</v8:value>
+							<v8:presentation>Этапы ремонта</v8:presentation>
+							<v8:id xsi:type="xs:decimal">298</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">Ячейки</v8:value>
+							<v8:presentation>Ячейки склада</v8:presentation>
+							<v8:id xsi:type="xs:decimal">299</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">УдалитьКлассификаторКатегорийНоменклатуры</v8:value>
+							<v8:presentation>(к удалению) Классификатор категорий</v8:presentation>
+							<v8:id xsi:type="xs:decimal">300</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">УдалитьВидыНалоговыхОрганов</v8:value>
+							<v8:presentation>(не используется) Виды налоговых органов</v8:presentation>
+							<v8:id xsi:type="xs:decimal">301</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">УдалитьВидыОбъектовЕГАИС</v8:value>
+							<v8:presentation>(не используется) Виды объектов ЕГАИС</v8:presentation>
+							<v8:id xsi:type="xs:decimal">302</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">УдалитьВидыОтправляемыхДокументов</v8:value>
+							<v8:presentation>(не используется) Виды отправляемых документов</v8:presentation>
+							<v8:id xsi:type="xs:decimal">303</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">УдалитьДокументыРеализацииПолномочийНалоговыхОрганов</v8:value>
+							<v8:presentation>(не используется) Документы реализации полномочий налоговых органов</v8:presentation>
+							<v8:id xsi:type="xs:decimal">304</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">УдалитьНалоговыеОрганы</v8:value>
+							<v8:presentation>(не используется) Налоговые органы</v8:presentation>
+							<v8:id xsi:type="xs:decimal">305</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">УдалитьСоглашенияОбИспользованииЭД</v8:value>
+							<v8:presentation>(не используется) Настройки ЭДО</v8:presentation>
+							<v8:id xsi:type="xs:decimal">306</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">УдалитьОрганыПФР</v8:value>
+							<v8:presentation>(не используется) Органы ПФР</v8:presentation>
+							<v8:id xsi:type="xs:decimal">307</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">УдалитьОтправкиФСС</v8:value>
+							<v8:presentation>(не используется) Отправки в ФСС</v8:presentation>
+							<v8:id xsi:type="xs:decimal">308</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">УдалитьПерепискаСКонтролирующимиОрганами</v8:value>
+							<v8:presentation>(не используется) Переписка с контролирующими органами</v8:presentation>
+							<v8:id xsi:type="xs:decimal">309</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">УдалитьПрофилиНастроекЭДО</v8:value>
+							<v8:presentation>(не используется) Профили настроек ЭДО</v8:presentation>
+							<v8:id xsi:type="xs:decimal">310</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">УдалитьРегламентированныеОтчеты</v8:value>
+							<v8:presentation>(не используется) Регламентированные отчеты</v8:presentation>
+							<v8:id xsi:type="xs:decimal">311</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">УдалитьСерверыДокументооборота</v8:value>
+							<v8:presentation>(не используется) Серверы документооборота</v8:presentation>
+							<v8:id xsi:type="xs:decimal">312</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">УдалитьСертификатыЭП</v8:value>
+							<v8:presentation>(не используется) Сертификаты ЭП</v8:presentation>
+							<v8:id xsi:type="xs:decimal">313</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">УдалитьУчетныеЗаписиДокументооборота</v8:value>
+							<v8:presentation>(не используется) Учетные записи документооборота</v8:presentation>
+							<v8:id xsi:type="xs:decimal">314</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">УдалитьЭлектронныеПредставленияРегламентированныхОтчетов</v8:value>
+							<v8:presentation>(не используется) Электронные представления регламентированных отчетов</v8:presentation>
+							<v8:id xsi:type="xs:decimal">315</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">УдалитьВидыАлкогольнойПродукцииЕГАИС</v8:value>
+							<v8:presentation>Виды алкогольной и спиртосодержащей продукции</v8:presentation>
+							<v8:id xsi:type="xs:decimal">316</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">УдалитьПапкиФайловПрисоединенныеУдалитьФайлы</v8:value>
+							<v8:presentation>Присоединенные файлы (ПапкиФайлов)</v8:presentation>
+							<v8:id xsi:type="xs:decimal">317</v8:id>
+						</v8:item>
+						<v8:item>
+							<v8:value xsi:type="xs:string">УдалитьДанныеОбменаШтрихМПЭЙ</v8:value>
+							<v8:presentation>Удалить данные обмена штрих МПЭЙ</v8:presentation>
+							<v8:id xsi:type="xs:decimal">318</v8:id>
+						</v8:item>
+					</v8:Value>
+				</v8:Property>
+				<v8:Property name="ИмяТаблицы">
+					<v8:Value xsi:type="v8:ValueListType">
+						<v8:valueType/>
+						<v8:lastId xsi:type="xs:decimal">0</v8:lastId>
+						<v8:item>
+							<v8:value xsi:type="xs:string"/>
+							<v8:presentation>Основные данные</v8:presentation>
+							<v8:id xsi:type="xs:decimal">0</v8:id>
+						</v8:item>
+					</v8:Value>
+				</v8:Property>
+			</v8:Value>
+		</v8:Property>
+		<v8:Property name="КлючВарианта">
+			<v8:Value xsi:type="xs:string">76280b31-79cf-4ff8-81c6-506eeea5282f</v8:Value>
+		</v8:Property>
+		<v8:Property name="ВариантНаименование">
+			<v8:Value xsi:type="xs:string">АМ "поступление наличных (КассаККМ)"</v8:Value>
+		</v8:Property>
+		<v8:Property name="АдресСхемы">
+			<v8:Value xsi:type="xs:string">e1cib/tempstorage/3c47dd52-d5c8-43d3-923e-e4235d80c22a?seanceId=60669782-98c1-4f69-97e7-e2de6260ca08</v8:Value>
+		</v8:Property>
+		<v8:Property name="ПараметрыПодбора">
+			<v8:Value xsi:type="v8:Map"/>
+		</v8:Property>
+		<v8:Property name="РасширенноеОписаниеТипов">
+			<v8:Value xsi:type="v8:Map">
+				<v8:pair>
+					<v8:Key xsi:type="xs:decimal">0</v8:Key>
+					<v8:Value xsi:type="v8:Structure">
+						<v8:Property name="СодержитТипТип">
+							<v8:Value xsi:type="xs:boolean">false</v8:Value>
+						</v8:Property>
+						<v8:Property name="СодержитТипДата">
+							<v8:Value xsi:type="xs:boolean">false</v8:Value>
+						</v8:Property>
+						<v8:Property name="СодержитТипБулево">
+							<v8:Value xsi:type="xs:boolean">false</v8:Value>
+						</v8:Property>
+						<v8:Property name="СодержитТипСтрока">
+							<v8:Value xsi:type="xs:boolean">false</v8:Value>
+						</v8:Property>
+						<v8:Property name="СодержитТипЧисло">
+							<v8:Value xsi:type="xs:boolean">false</v8:Value>
+						</v8:Property>
+						<v8:Property name="СодержитТипПериод">
+							<v8:Value xsi:type="xs:boolean">true</v8:Value>
+						</v8:Property>
+						<v8:Property name="СодержитТипУИД">
+							<v8:Value xsi:type="xs:boolean">false</v8:Value>
+						</v8:Property>
+						<v8:Property name="СодержитТипХранилище">
+							<v8:Value xsi:type="xs:boolean">false</v8:Value>
+						</v8:Property>
+						<v8:Property name="СодержитОбъектныеТипы">
+							<v8:Value xsi:type="xs:boolean">false</v8:Value>
+						</v8:Property>
+						<v8:Property name="ОграниченнойДлины">
+							<v8:Value xsi:type="xs:boolean">true</v8:Value>
+						</v8:Property>
+						<v8:Property name="КоличествоТипов">
+							<v8:Value xsi:type="xs:decimal">1</v8:Value>
+						</v8:Property>
+						<v8:Property name="КоличествоПримитивныхТипов">
+							<v8:Value xsi:type="xs:decimal">0</v8:Value>
+						</v8:Property>
+						<v8:Property name="ОбъектныеТипы">
+							<v8:Value xsi:type="v8:Array"/>
+						</v8:Property>
+						<v8:Property name="ОписаниеТиповИсходное">
+							<v8:Value xsi:type="v8:TypeDescription">
+								<v8:Type>v8:StandardPeriod</v8:Type>
+							</v8:Value>
+						</v8:Property>
+						<v8:Property name="ОписаниеТиповДляФормы">
+							<v8:Value xsi:type="v8:TypeDescription">
+								<v8:Type>v8:StandardPeriod</v8:Type>
+							</v8:Value>
+						</v8:Property>
+					</v8:Value>
+				</v8:pair>
+			</v8:Value>
+		</v8:Property>
+	</additionalProperties>
+</Settings>

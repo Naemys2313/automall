@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e68eaec8-4614-419e-82b2-e26648ec4ceb" extendedConfigurationObject="21498f58-ab47-49df-8a64-57fca100b91c">
+  <producedTypes>
+    <objectType typeId="123dc631-034d-47d3-affd-3596ae5a7f71" valueTypeId="922f8415-070d-4317-9499-e202a703f22f"/>
+    <managerType typeId="4ca58972-e9f8-4acd-bfc5-229ca24a8009" valueTypeId="634b530d-ebf5-484e-82f2-2f0fbde94efe"/>
+  </producedTypes>
+  <name>ВыработкаВнеоборотныхАктивов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ReportExtension"/>
+</mdclass:Report>

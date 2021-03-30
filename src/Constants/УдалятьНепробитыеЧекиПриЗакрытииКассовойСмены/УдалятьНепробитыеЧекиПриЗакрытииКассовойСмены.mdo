@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9fe9cdac-4b7c-443a-9403-1df3784d34fc" extendedConfigurationObject="26b40e50-3c8f-44a6-89bd-6ddf0ee56c1c">
+  <producedTypes>
+    <managerType typeId="97a0be27-881c-4107-a826-5404a883dc4f" valueTypeId="c5c4635b-bbb2-4ab4-a878-ba3bb8a51306"/>
+    <valueManagerType typeId="c4c63763-3822-42e7-8201-436b339c7f6b" valueTypeId="0f3ae0c2-d484-4cc6-b3bc-e6d4038e178e"/>
+    <valueKeyType typeId="b468e821-69b2-4b78-b670-8e150568cdb6" valueTypeId="accacbb0-d406-41c9-bac2-dd74e9673a2b"/>
+  </producedTypes>
+  <name>УдалятьНепробитыеЧекиПриЗакрытииКассовойСмены</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

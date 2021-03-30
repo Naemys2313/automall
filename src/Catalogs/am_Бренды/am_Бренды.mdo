@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fad8b72-2f07-473f-87bf-2a5966f4caa4">
+  <producedTypes>
+    <objectType typeId="dc2bcf26-7bc0-4617-bbac-f116d57806d8" valueTypeId="c6fb2c68-83b8-422e-81b5-4ec449cd399a"/>
+    <refType typeId="8c67d915-a983-4c35-8fe9-2b5101c3740b" valueTypeId="85ed8171-1ade-472a-8a13-c09a0c74342b"/>
+    <selectionType typeId="9ab94594-a1b7-4e8e-bf6e-e50fd5f06099" valueTypeId="70fc18fc-1e99-416f-a737-3754df92f83d"/>
+    <listType typeId="1cbf90e1-6359-42f2-9416-50cf43bb67e1" valueTypeId="2d0e6b23-08c8-4f6f-8a82-7f987554a0b0"/>
+    <managerType typeId="27c05077-7849-4cf8-a7d5-1e443e66fb17" valueTypeId="47fae396-b15a-45b1-a798-ae9ccb36bc04"/>
+  </producedTypes>
+  <name>am_Бренды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бренды</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.am_Бренды.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.am_Бренды.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.am_Бренды.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="4d265d5b-264b-4cb1-a285-d446e973559f">
+    <name>Качество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Качество</value>
+    </synonym>
+    <type>
+      <types>EnumRef.am_КачествоТовара</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3790ad02-a693-4b3a-ab67-6383e282e79f">
+    <name>ПроцентНаценки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент наценки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>1</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="9ea65b59-ae6d-4776-963b-9a019aec612f">
+    <producedTypes>
+      <objectType typeId="b9ddc74f-d583-467f-be0c-e12d1e948ee8" valueTypeId="be667176-b2fd-42ff-b21b-226dab2438dd"/>
+      <rowType typeId="d27a86ba-ded1-4cdf-90a2-d465b7ccbad6" valueTypeId="91ef6505-642d-4eb4-b511-d6e08e8ff7d8"/>
+    </producedTypes>
+    <name>Диапазон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон</value>
+    </synonym>
+    <attributes uuid="937d506e-e662-45b8-81d1-042ad849ebe5">
+      <name>От</name>
+      <synonym>
+        <key>ru</key>
+        <value>От</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4ebd67f5-4e08-4c8a-a331-cdd1be625d0d">
+      <name>До</name>
+      <synonym>
+        <key>ru</key>
+        <value>До</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1d196143-dce1-4854-91cc-fe11b8584595">
+      <name>Процент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Процент</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="f9437944-8022-4040-a98e-9b8d6c7139bc">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

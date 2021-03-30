@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f68fca33-a54a-44c3-80d9-b669cf37ee72" extendedConfigurationObject="68e2c777-712b-4484-a224-3e2bdea17ba8">
+  <producedTypes>
+    <managerType typeId="679d74f3-6abc-4031-8eaa-95e40e47a439" valueTypeId="8c806655-f364-42c7-9465-43590c23c66f"/>
+    <valueManagerType typeId="f6d5062d-7f1d-4cf6-a214-c637385e55ed" valueTypeId="8feaf0c3-d5df-42b9-9c2e-1d0107023868"/>
+    <valueKeyType typeId="a1c4a528-7c92-4f87-b46e-f68609174648" valueTypeId="9a62bcf6-6267-4a2f-b2f6-efb5457ecbc5"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияУчетВРазличныхЕдиницахИзмерения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

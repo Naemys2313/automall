@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6d5e4a55-ed38-4162-920b-c353782eed34" extendedConfigurationObject="ed68948d-3fd8-4036-aa26-132ecd3ce6c8">
+  <producedTypes>
+    <managerType typeId="169b08ff-79e6-4d41-8124-e5ac87089c9c" valueTypeId="29155af0-b861-45cc-9031-c48a2b26d60e"/>
+    <valueManagerType typeId="259bb619-bfd6-4be4-9c6d-09fa05e065f4" valueTypeId="da25e377-ef3c-4444-9da9-2582faf8c529"/>
+    <valueKeyType typeId="a5fac54e-177c-4953-b0ea-96fa48041ddc" valueTypeId="ea2e6f7a-6150-4fc7-842e-69e775055698"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияКредитыИЗаймы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

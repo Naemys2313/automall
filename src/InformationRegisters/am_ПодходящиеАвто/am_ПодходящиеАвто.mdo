@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b27e418-9b65-4cfb-a3bf-95426b9f53fb">
+  <producedTypes>
+    <selectionType typeId="478045cb-01d7-4fc2-bf85-f3837f9f0d75" valueTypeId="1d4797f7-005c-4d70-ada2-c9dd51f422e7"/>
+    <listType typeId="1bf28875-cf2c-4826-9fe2-1b6b84f11ad8" valueTypeId="43511a0d-963b-4152-9ecc-c501fc322790"/>
+    <managerType typeId="f53d786b-815b-42ac-a8b0-cf3b4fa12b05" valueTypeId="c5aebd3d-118a-446c-bb40-51e82c1be9ab"/>
+    <recordSetType typeId="a3d9dcc6-7152-42fa-876f-3fce4529fc61" valueTypeId="fd8e0e8d-d78d-409e-ba07-a16d1ff9ec23"/>
+    <recordKeyType typeId="cb670af2-5899-4e8a-9b42-4805dcaa60c3" valueTypeId="33c57866-7136-41c8-810e-048983b83163"/>
+    <recordType typeId="f2e9cd2d-fad3-42a4-8f72-5e6a36900684" valueTypeId="c37c7d97-aa67-4090-8258-d8b57005853a"/>
+    <recordManagerType typeId="be1c0b69-fd9b-4702-96a7-37771845a446" valueTypeId="109d2603-f959-436d-a3ef-0e2d50255d8b"/>
+  </producedTypes>
+  <name>am_ПодходящиеАвто</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подходящие авто</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.am_ПодходящиеАвто.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.am_ПодходящиеАвто.Form.ФормаДляНоменклатуры</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8549efac-3715-4258-aece-f2cd85625393">
+    <name>Приоритет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9864282d-7915-4e9f-a7f1-8dd3dfcb5847">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="16a871c5-80af-4693-96b6-c1194e27bfec">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="25327a7c-a756-406f-b036-8c66db11d3f3">
+    <name>Автомобиль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автомобиль</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.am_Модели</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="76460717-d84a-4e91-ad7d-ffaf19bde0fd">
+    <name>ФормаДляНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма для номенклатуры</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e44ca9f6-e21b-43ba-a982-4d5587456956">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="4ae6a1be-4fc9-456d-a89c-7bef83029f87">
+    <name>КомандаСоответствиеАвто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подходит на авто</value>
+    </synonym>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType>
+      <types>CatalogRef.Номенклатура</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:InformationRegister>

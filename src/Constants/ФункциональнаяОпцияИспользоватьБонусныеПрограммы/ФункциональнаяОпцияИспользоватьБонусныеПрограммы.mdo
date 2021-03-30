@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9851a378-34b0-4301-aa50-3bf5dd4b8b54" extendedConfigurationObject="bc49eab1-539e-4e78-a7e0-be548595fbb0">
+  <producedTypes>
+    <managerType typeId="31cb1302-c8f1-4426-acef-a096229ff978" valueTypeId="b313c451-da2d-4a04-acba-fb33c35c5b3c"/>
+    <valueManagerType typeId="519461c1-e890-46e9-8c06-fb50c1defc6a" valueTypeId="3a2eb781-22ce-480b-9e31-7e711eace43c"/>
+    <valueKeyType typeId="e34ee62e-1236-4f5d-9480-4b6b48b1243e" valueTypeId="d8bfdc56-044e-4859-af22-45e45c4c05eb"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияИспользоватьБонусныеПрограммы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="24134efd-2db5-4513-8695-da58a124f7fd" extendedConfigurationObject="de17c9d0-3671-4e08-96b3-800794525358">
+  <producedTypes>
+    <managerType typeId="bd604479-d0d8-455b-b884-502dbb267569" valueTypeId="ac9ab0fe-dbd6-44a3-be10-a8155dcb0c5c"/>
+    <valueManagerType typeId="b6fc26a7-3df0-4dc1-b035-e9c7fe1f2f1d" valueTypeId="7401fbf1-a67e-4ead-8576-4c502e9e29e1"/>
+    <valueKeyType typeId="1ed0ac91-e4cc-45da-ad27-409bf89ef445" valueTypeId="16807308-e76b-422b-8a75-99c1807a31a4"/>
+  </producedTypes>
+  <name>ИспользоватьНеуникальныеШтрихКоды</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

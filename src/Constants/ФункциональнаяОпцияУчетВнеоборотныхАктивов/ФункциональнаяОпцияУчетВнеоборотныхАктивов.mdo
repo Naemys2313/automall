@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b58029d5-18dd-4287-a877-0e2ebba09317" extendedConfigurationObject="0e982e67-0a36-4fee-9d5a-40defcea3a86">
+  <producedTypes>
+    <managerType typeId="562c0d86-8677-46a2-809a-d8d3f3eaf7fe" valueTypeId="a04c8ffb-3762-4492-b882-d2352ead2a8d"/>
+    <valueManagerType typeId="904bd83f-6394-47d4-bfef-7f8ac7b9fc54" valueTypeId="078c23a3-d347-40e6-8ce0-a03d473b2c7b"/>
+    <valueKeyType typeId="d33a68b9-ca74-4779-825f-e91c25d35a43" valueTypeId="45fd8294-350c-4c96-aaf6-46ccc254fe3e"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияУчетВнеоборотныхАктивов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="53b3e35b-049b-41e9-81e1-a0aa2120de9f" extendedConfigurationObject="08552af7-3c44-42c6-94c5-63a2316127fc">
+  <producedTypes>
+    <managerType typeId="038936e1-7b0e-4b08-910c-7363270053cb" valueTypeId="4a60fcc5-d1d4-4803-b806-a143411dd10c"/>
+    <valueManagerType typeId="5588f63d-7c37-45cd-a5b3-62de7386f626" valueTypeId="3050e7ed-11d9-4fd0-b12b-742bb5ca07b7"/>
+    <valueKeyType typeId="220b4c1d-d55b-4e94-b23f-01ce656bf9f9" valueTypeId="21370e62-1909-435e-bf85-1d9d28a8ba99"/>
+  </producedTypes>
+  <name>ИспользоватьШаблоныСообщений</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

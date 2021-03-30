@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fccc6c9a-4a33-4451-8512-a8f5d2b2487e" extendedConfigurationObject="e2861b7a-4d37-4d36-a5b4-2245e8ec61da">
+  <producedTypes>
+    <selectionType typeId="a303db7e-24c0-4ae2-a8b1-b41bba923e79" valueTypeId="6befddd3-eb48-41df-807f-2d2c8151604e"/>
+    <listType typeId="6cca78ef-2bec-4860-8673-167f9cd70cef" valueTypeId="cf1fa50a-07de-48fc-8b46-aab0f3c8fa3a"/>
+    <managerType typeId="c4962c71-e8ad-405c-aeb8-6afe84647120" valueTypeId="4374bc54-e613-4902-9b90-f1ce426f99bb"/>
+    <recordSetType typeId="b07709d3-3b32-4120-b1b3-8b19f6586f20" valueTypeId="7c9a9541-e991-48c2-a7f7-e376424a3db3"/>
+    <recordKeyType typeId="30c3c767-c7f4-4f16-a2f2-cdb6b35d128b" valueTypeId="c6f213c8-5385-4cd4-85f6-b49f28c2340c"/>
+    <recordType typeId="d158a0ab-c2f7-4f0f-8884-d666b9f74a2d" valueTypeId="f9653f1e-b036-49e5-a5ad-19ad6f51f949"/>
+    <recordManagerType typeId="674a4e8e-720c-4e30-9f2f-46b6b7dd75df" valueTypeId="3cd7176a-e4cd-4f35-a6b1-b59e05536f38"/>
+  </producedTypes>
+  <name>СвязиКонтрагентКонтакт</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <resources uuid="428fa34d-374f-43ae-aca5-8bfbf351e856" extendedConfigurationObject="11cd3a37-4efe-485c-8c2e-e30f6f3fefb1">
+    <name>СвязьНедействительна</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="9cb71e15-98a0-4653-8507-0ecebf370e50" extendedConfigurationObject="e563b4fc-c298-4536-ba17-05e9eec145c6">
+    <name>Контрагент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Контрагенты</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="ff81ffe9-03e7-4851-8f1d-c8608f6933a9" extendedConfigurationObject="9ec600b8-e08b-462b-966e-5a728376cd5a">
+    <name>Контакт</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.КонтактныеЛица</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

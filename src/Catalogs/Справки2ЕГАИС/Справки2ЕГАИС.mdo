@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c0998210-e26d-4853-9697-b962b52cca29" extendedConfigurationObject="7c1672d3-a660-46af-8f5e-1d6dc1e4ae7c">
+  <producedTypes>
+    <objectType typeId="034d0ce0-4698-48b9-b2cc-636725ab860a" valueTypeId="dd6c87b2-4443-4395-9b7d-b5788cb22058"/>
+    <refType typeId="d8b64cf2-8167-4ac0-8b5b-71fe0f8aa298" valueTypeId="98c02068-63a9-4f0f-9b3f-5fed90489fca"/>
+    <selectionType typeId="81a1a0ee-9d1e-406b-aad6-d59c2d880b35" valueTypeId="13a5f498-2e01-4700-affd-bca3c49424fa"/>
+    <listType typeId="634dc4ed-e8d5-4679-b850-1bac561bd405" valueTypeId="842cbb1f-04fc-4adf-817a-7103f3263be7"/>
+    <managerType typeId="ab865e47-2b0b-44ce-bbd5-fa6af53319f7" valueTypeId="50c0662a-0037-48ae-b27e-16123e93ead8"/>
+  </producedTypes>
+  <name>Справки2ЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e73edc5b-2fc2-4952-85ab-953396c3f571" extendedConfigurationObject="f624014a-8962-4f84-8e9a-856178fd3fae">
+  <producedTypes>
+    <managerType typeId="69e56738-b240-4893-bc5b-d69b5ab3ca0c" valueTypeId="52670fbf-3a14-4f63-8ef4-ca344112dc53"/>
+    <valueManagerType typeId="7b00c933-07c0-49a5-9912-b766cc9a3d2f" valueTypeId="f372af83-4962-4278-82a0-0d727a34c299"/>
+    <valueKeyType typeId="96e68f0b-9c23-4669-96b6-a6258500ccc5" valueTypeId="9f81aaa4-6435-4477-8a49-7a8cf61f0c27"/>
+  </producedTypes>
+  <name>УдалитьИдентификацияПриложенияGoogle</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>String</type>
+      </types>
+      <stringQualifiers/>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="37edc1f9-1c07-46ea-a032-931c1b791097" extendedConfigurationObject="95bda699-abd7-44e4-865d-74de980dda47">
+  <producedTypes>
+    <objectType typeId="d9d475f2-5625-4158-acc1-c4000c1f0cb5" valueTypeId="bb95b86c-4eee-4dc9-b0de-a8edada571b6"/>
+    <refType typeId="0544a31d-aad0-4a0f-80b8-9cf1b700be10" valueTypeId="0b835d96-2738-4570-8e95-42b08cdebe18"/>
+    <selectionType typeId="f9338cba-0caf-49de-ac20-f625405fe04d" valueTypeId="c2505de4-7508-44cf-807e-8911bcdf2dbe"/>
+    <listType typeId="29e62793-7983-401b-8048-b7ba3d823d89" valueTypeId="40ef2b11-9ed7-477b-9acd-0529be7fef71"/>
+    <managerType typeId="e2c4c749-d5a1-43ac-a6ab-6ba39c266ec4" valueTypeId="d8d05f9b-8da5-4fd9-bbaf-9560aa5e3136"/>
+  </producedTypes>
+  <name>ТегиЗадач</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

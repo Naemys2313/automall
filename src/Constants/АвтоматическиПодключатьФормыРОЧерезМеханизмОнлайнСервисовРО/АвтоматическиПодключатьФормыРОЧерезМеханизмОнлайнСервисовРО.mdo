@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6d2290d0-d15c-4080-b4c3-313f9ef538c4" extendedConfigurationObject="d9330d16-743e-4ee8-9dc6-5b69935f8cb0">
+  <producedTypes>
+    <managerType typeId="cf165a90-0d54-45a7-ac86-4ee996c98062" valueTypeId="5320615e-b9b2-4ab4-887d-1dca37dc97a9"/>
+    <valueManagerType typeId="318466aa-d0b3-4b5d-957f-614e95d5ecc6" valueTypeId="1d4e4765-a9eb-4565-839b-d2068368aee1"/>
+    <valueKeyType typeId="6134a5f6-2fdf-434c-b053-c35b439bd19e" valueTypeId="3b44eb19-1d02-4cad-a3a6-dd7a3ff09f0e"/>
+  </producedTypes>
+  <name>АвтоматическиПодключатьФормыРОЧерезМеханизмОнлайнСервисовРО</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

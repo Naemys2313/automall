@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c647f733-6e79-4291-bb9b-3b087816c81a" extendedConfigurationObject="be7d6af6-dd09-4fdf-9a4e-595331854f78">
+  <producedTypes>
+    <objectType typeId="9d2fc05d-c9b9-431b-98f0-484dd075d8f2" valueTypeId="1cb70724-3506-408e-a5ca-19dcb578c931"/>
+    <refType typeId="4a46ec50-3fe2-4190-a9bc-05c1c003f71e" valueTypeId="6cadeb92-244b-4ba5-aa1b-476cd239b61b"/>
+    <selectionType typeId="26918ec4-09cf-4ac0-a898-f93d7f556bfc" valueTypeId="6f4f2a23-94d9-4eff-a76c-d63d87c0037b"/>
+    <listType typeId="12b35228-42d8-4f19-a9b0-71f64fbb17a6" valueTypeId="1e7e91a0-1340-4faf-ba12-2173a7d8f689"/>
+    <managerType typeId="b2ec4800-c6b7-4ea3-97a3-c4ec1f44122b" valueTypeId="45879eef-d8cc-4031-aa3e-2bb961f15fe9"/>
+  </producedTypes>
+  <name>ПодключаемоеОборудование</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

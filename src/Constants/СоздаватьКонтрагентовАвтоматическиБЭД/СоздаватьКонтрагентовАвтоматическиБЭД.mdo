@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b10e4919-fccc-45a0-b8c3-fc789f943f35" extendedConfigurationObject="89a68610-c3ec-4a30-9b47-ccff3c1f7ac7">
+  <producedTypes>
+    <managerType typeId="dcbab7cf-7c75-475f-a30b-c3dc470b9edc" valueTypeId="d2eb41be-9c78-4401-8605-9a4a1d27dd6a"/>
+    <valueManagerType typeId="d879e5c1-30a7-4b84-9969-8aa643cdf59c" valueTypeId="90991815-365f-4f7d-b83c-da8906c34ce3"/>
+    <valueKeyType typeId="6c8c5805-0286-4e2f-a560-11c1e431994f" valueTypeId="737c8af0-e105-4678-9139-efc9edf92b04"/>
+  </producedTypes>
+  <name>СоздаватьКонтрагентовАвтоматическиБЭД</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

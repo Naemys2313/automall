@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fe4a7c45-e6f4-40c3-a587-ef08b24b46bc" extendedConfigurationObject="fcd18b30-3465-4181-aa99-8605973166f4">
+  <producedTypes>
+    <managerType typeId="1e3e2cfa-39ed-416b-b296-69216c45cc45" valueTypeId="d993bc5b-20f8-4243-896d-dd40d2b6f116"/>
+    <valueManagerType typeId="3d7f877d-001f-49a8-80a9-2090414854ee" valueTypeId="36d0ddc7-3d59-49dd-95ff-4c82c4a453e9"/>
+    <valueKeyType typeId="a80a6a9d-4e76-4003-bc60-e710f70e7a9a" valueTypeId="dd99987e-4da5-4309-9655-2274a97f53a6"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияРазрешитьСкладыВТабличныхЧастях</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

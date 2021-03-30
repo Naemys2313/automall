@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6245716a-93c4-4558-90c6-cc49f4f1e429" extendedConfigurationObject="c397f196-114a-445a-b54f-2e5e254f2f0e">
+  <producedTypes>
+    <managerType typeId="bd580448-4bb9-4b8b-9b0e-c75df19106be" valueTypeId="9d490120-59f1-43e1-93ba-815fdc6a7f3e"/>
+    <valueManagerType typeId="4b1a3907-1471-4a40-a2b5-f90b01dbf971" valueTypeId="e0ea8a28-ba74-416c-a625-0f5d4487344e"/>
+    <valueKeyType typeId="8b3bafe4-69ae-4592-a838-c247d5369a50" valueTypeId="b98b6435-279a-4da6-a6bd-e642aab90770"/>
+  </producedTypes>
+  <name>ФункциональнаяУчетВалютныхОпераций</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

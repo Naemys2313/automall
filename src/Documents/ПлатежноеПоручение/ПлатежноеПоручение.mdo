@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="645636ef-b02b-4b0f-acbb-ba454ab45b96" extendedConfigurationObject="2535829d-240e-44b9-b585-67b4c66ccb2f">
+  <producedTypes>
+    <objectType typeId="40a3b45f-af91-4935-b657-eecad29a0982" valueTypeId="14591abb-0582-4324-902c-377e81963cd1"/>
+    <refType typeId="541beb48-ce8f-418e-b15b-016f180f8869" valueTypeId="155e6403-959e-46b9-b490-f174b0b7b4dd"/>
+    <selectionType typeId="440c5c26-e225-4a8a-9873-112ce58df5ea" valueTypeId="d56a48ed-277b-4e89-9343-e44d534c6e21"/>
+    <listType typeId="0c034569-3177-495a-9540-98c6c41e01b6" valueTypeId="116a3815-b62e-4629-bc2d-2644db6dd1ce"/>
+    <managerType typeId="9518e193-f91d-4a28-9037-14c9edee88c0" valueTypeId="d5d501ed-fba5-4b74-830d-d6262adc2b09"/>
+  </producedTypes>
+  <name>ПлатежноеПоручение</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <forms uuid="711ccd45-67d2-4c4c-99b0-c9c2d575d727" extendedConfigurationObject="79216408-09a5-44d5-90f3-9b387c4b8f93">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

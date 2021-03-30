@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c139b1c2-4b31-46b8-83bb-0d0d3b86ce4c">
+  <producedTypes>
+    <refType typeId="b651fd36-9350-4c4c-8e5a-5480a9c43c7c" valueTypeId="cb0304da-8075-460c-bf51-124a219b1299"/>
+    <listType typeId="e23cefe4-3aa2-4222-820e-1151585956ef" valueTypeId="0f6ae30c-8cbd-4eed-bdc6-01e45c08b348"/>
+    <managerType typeId="c6f83343-3cff-4bb2-ad67-586b9585a97c" valueTypeId="1e02d8ea-774a-498f-b798-8addf4a08e8c"/>
+  </producedTypes>
+  <name>am_ТипКузова</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип кузова</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="92977048-efa5-4d85-8003-309174c96bc3">
+    <name>Седан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Седан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="13e2b93a-59c8-4b3a-95f8-97e7fe4aa62c">
+    <name>Хэтчбек5дв</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хэтчбек 5 дв.</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b0367895-ba2f-4fdf-a16e-db3a01dcf799">
+    <name>Хэтчбек3дв</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хэтчбек 3 дв.</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1765fd74-22b1-42c9-9923-d66d67b700de">
+    <name>Лифтбек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лифтбек</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="423ee320-2f96-473d-bd0c-34850540dd69">
+    <name>Джип5дв</name>
+    <synonym>
+      <key>ru</key>
+      <value>Джип 5 дв.</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9f828075-4309-4e1f-858f-e594c974a6d6">
+    <name>Джип3дв</name>
+    <synonym>
+      <key>ru</key>
+      <value>Джип 3 дв.</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="378808cb-2cde-48b6-904c-f68c47c16b27">
+    <name>Универсал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d0a52432-4f16-47d7-a498-8199be300a22">
+    <name>Минивэн</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минивэн</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4b8f49bf-2b14-4ea6-adfc-b8526ba4a564">
+    <name>Пикап</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пикап</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3ce7e4b5-3ff9-4fef-abd0-7d49a0b0e07f">
+    <name>Купе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Купе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="28e4fe38-440d-4e22-8942-5df7c130c713">
+    <name>Открытый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открытый</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

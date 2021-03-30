@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="284f0eff-7a20-49a4-955f-8e6e522a1320" extendedConfigurationObject="b4eb745e-ec49-40b2-8fd2-6d79d7c47eb3">
+  <producedTypes>
+    <objectType typeId="63e356d5-cf63-4ec1-bb1f-b6b1b5688ca9" valueTypeId="46e8e633-f672-4f3a-8598-95d87a379b62"/>
+    <refType typeId="4fbf9a2a-4dae-4994-bb51-13a601e6bb89" valueTypeId="ebbf50f3-ea91-46c4-9c29-00107502dc69"/>
+    <selectionType typeId="4b34bf81-72ce-492f-b495-daca75875596" valueTypeId="58ed2f30-d90e-47a0-828f-2956b48ced91"/>
+    <listType typeId="798f59d2-9867-4edf-9352-cd942e88bb4d" valueTypeId="f614a027-87c2-4715-878d-816976f65405"/>
+    <managerType typeId="b167875d-e8a6-42fb-968b-81ef9aed96da" valueTypeId="894a0bb4-47e9-4f04-9c06-25e0350b9ab4"/>
+  </producedTypes>
+  <name>ВводНачальныхОстатков</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

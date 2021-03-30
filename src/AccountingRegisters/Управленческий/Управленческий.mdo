@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccountingRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="68bd7257-d208-4075-be49-d7061cb5dc7f" extendedConfigurationObject="7cbb9946-2e19-4797-8ed4-d7a0ece334bb">
+  <producedTypes>
+    <selectionType typeId="d366cdcb-3337-4570-8146-2617c3b871c7" valueTypeId="0404908c-b776-4390-b8db-0066f0c88b6d"/>
+    <listType typeId="e153121b-1f09-4fb7-9d38-7eb31e59a4a2" valueTypeId="085f782e-f97f-441f-9cb3-08c8fe12e9a6"/>
+    <managerType typeId="38a4b679-d261-492c-a13b-7a8d4eaf6d7c" valueTypeId="d3e3fc05-4d4b-4504-b7ed-8d8bee450f86"/>
+    <recordSetType typeId="647dd7f0-2543-463b-83b3-91a146cd8b54" valueTypeId="ebf594b3-bfa6-46f5-aeeb-e2bb2c858d0d"/>
+    <recordKeyType typeId="1fca148a-8bc0-4217-a211-20227482bb80" valueTypeId="65471f20-4da3-40ee-9111-d021f223547f"/>
+    <recordType typeId="694b71cf-e762-4c1a-ba4a-dec9d525dd69" valueTypeId="1015660c-dd66-4160-93d1-5d184201fc0f"/>
+    <extDimensionsType typeId="73417f63-58d6-4e6d-ac4e-16212485b078" valueTypeId="39242f64-edc1-4411-84db-09d308bb0a2d"/>
+  </producedTypes>
+  <name>Управленческий</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccountingRegisterExtension">
+    <chartOfAccounts>Checked</chartOfAccounts>
+  </extension>
+  <chartOfAccounts>ChartOfAccounts.Управленческий</chartOfAccounts>
+  <dimensions uuid="322b5caa-9723-45a0-bacd-9c42dda66dac" extendedConfigurationObject="82bc429e-f433-4291-8ee0-32be4e838c9a">
+    <name>Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:AccountingRegisterDimensionExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+      <balance>Checked</balance>
+    </extension>
+    <type/>
+    <balance>true</balance>
+  </dimensions>
+  <dimensions uuid="481a32b8-c766-471b-bd42-738d9c418710" extendedConfigurationObject="f67c3316-bdc1-461d-ac58-5b0759146baf">
+    <name>СценарийПланирования</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:AccountingRegisterDimensionExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.СценарииПланирования</type>
+        </types>
+      </typeExtension>
+      <balance>Checked</balance>
+    </extension>
+    <type/>
+    <balance>true</balance>
+  </dimensions>
+  <dimensions uuid="4952bc3b-841e-4e66-8b42-d9334a048742" extendedConfigurationObject="99f211b1-3ccc-4a3b-b494-76926ac4bbf2">
+    <name>Валюта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:AccountingRegisterDimensionExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Валюты</type>
+        </types>
+      </typeExtension>
+      <balance>Checked</balance>
+    </extension>
+    <type/>
+  </dimensions>
+  <resources uuid="c26328cf-ee31-4f26-bfc4-c73ca983cf0a" extendedConfigurationObject="d0b139bb-1ad7-4825-b238-e91efa2ba32b">
+    <name>Сумма</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+    <balance>true</balance>
+  </resources>
+  <resources uuid="0212c590-67fb-462e-84fc-60e66c880e6c" extendedConfigurationObject="7d8a6769-b06c-4d78-9274-f931b130408a">
+    <name>СуммаВал</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="54204257-36ad-4f3d-807d-ed1f9fe57a06" extendedConfigurationObject="1f15454d-9657-4465-bbdd-a930a95a9660">
+    <name>СуммаИнт</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+    <balance>true</balance>
+  </resources>
+  <resources uuid="002ab72b-87ab-49d3-bd18-15f038ab2f84" extendedConfigurationObject="70a495a4-965d-4c7c-a1bd-0f65042ef610">
+    <name>СуммаВалИнт</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <attributes uuid="181ec29f-a7e3-4887-9b7f-4db08517a310" extendedConfigurationObject="38f6382e-b801-4185-b096-eaf62c794186">
+    <name>Содержание</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:AccountingRegister>

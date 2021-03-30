@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d9fd2e52-1188-436b-bfa2-af4c34f860ed" extendedConfigurationObject="5f4cd97a-02ed-4ea8-9681-6c9fa01c1a2e">
+  <producedTypes>
+    <managerType typeId="12a332cb-b40e-4ed5-a9a3-9ca2f9835284" valueTypeId="54ab7174-c816-4c09-883e-67c7966bf752"/>
+    <valueManagerType typeId="bfe83dcc-4d12-4593-baa4-63f89200e462" valueTypeId="a96dc062-4090-4195-ae6a-70247e4d3789"/>
+    <valueKeyType typeId="9a32461d-691b-4321-8fe2-2c2470f7a865" valueTypeId="3830ac35-01d4-43f1-a623-d9d9d5b7276f"/>
+  </producedTypes>
+  <name>ВариантПечатиДоставки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>EnumRef.ВариантыПечатиДоставки</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

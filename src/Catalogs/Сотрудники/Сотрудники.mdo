@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a93a1d73-e597-4126-a78d-9dc9fadf4082" extendedConfigurationObject="bf83958f-c4c6-490c-a464-cdc8a40f83f9">
+  <producedTypes>
+    <objectType typeId="cafd4efb-b773-4ca5-9627-d95eb6dac442" valueTypeId="59696503-896d-46a0-8a9b-7279a37c3d81"/>
+    <refType typeId="425ad0ab-122b-4a19-ab2e-09ce291ffed4" valueTypeId="fd382068-931e-4eff-886a-ed5bf3707923"/>
+    <selectionType typeId="7b40203f-316a-4471-bf91-e9d84230f5a0" valueTypeId="eeac5520-6c6c-449f-83fc-4b126b99b3cb"/>
+    <listType typeId="af411814-0b61-4a00-87cc-1147200bed34" valueTypeId="6757a19d-c8c4-4833-a983-3e3c0c023143"/>
+    <managerType typeId="7f276634-a952-45a4-9243-fc4033b52dc6" valueTypeId="fc1e8e14-275f-4ecf-9ccb-f14148bb9d25"/>
+  </producedTypes>
+  <name>Сотрудники</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <tabularSections uuid="10f5d44e-8a06-4c10-bb1a-ca02de7566f7" extendedConfigurationObject="67b7e814-9437-4926-914d-55587cd5be63">
+    <producedTypes>
+      <objectType typeId="dd341d68-f089-4a90-ae9c-292ab7bd33d1" valueTypeId="4087691a-a419-468d-8ee1-abd95738080f"/>
+      <rowType typeId="e7070f28-eb88-4d7e-ad05-354efceb5015" valueTypeId="f180ce80-827d-41db-9d62-aec630c7d9cb"/>
+    </producedTypes>
+    <name>ДополнительныеРеквизиты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="87761b25-c4b4-4046-99a9-47f19186405d" extendedConfigurationObject="0041b041-e7e1-4ba1-9dd4-b88bd5607ee9">
+      <name>Свойство</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="ea80342c-6836-40cc-a933-e4ea5be2bf02" extendedConfigurationObject="15580d2c-ce5f-4ee9-b581-7299b9784313">
+      <name>Значение</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Characteristic.ДополнительныеРеквизитыИСведения</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="a09fa363-672d-4e7d-b333-0d9bcdbb9951" extendedConfigurationObject="fbac7da1-570c-4b63-9e6b-0be082086a99">
+      <name>ТекстоваяСтрока</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>String</type>
+          </types>
+          <stringQualifiers/>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

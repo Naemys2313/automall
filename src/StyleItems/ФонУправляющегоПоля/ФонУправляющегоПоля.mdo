@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b53f96e3-7b82-4f82-92f7-a16de8510e1e" extendedConfigurationObject="da164c9a-4836-4c07-ace9-1c2e2382eceb">
+  <name>ФонУправляющегоПоля</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:StyleItemExtension">
+    <type>Checked</type>
+  </extension>
+</mdclass:StyleItem>

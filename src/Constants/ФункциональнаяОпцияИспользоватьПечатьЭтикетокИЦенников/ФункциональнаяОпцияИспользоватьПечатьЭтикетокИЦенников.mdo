@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0a11c914-e53c-4584-8e34-2fa0be2220c5" extendedConfigurationObject="643b659a-9cd6-4404-b0a7-85705aa3e2d0">
+  <producedTypes>
+    <managerType typeId="e33de4b2-5d7f-472a-9805-32ba03067e9c" valueTypeId="9bf6d128-d1cd-4632-a237-1aba211accaa"/>
+    <valueManagerType typeId="abd04075-3144-4c3d-beb5-a7c5dbb70eeb" valueTypeId="a0ee3f42-c2ad-44a1-bfcf-86496d6f006b"/>
+    <valueKeyType typeId="7632ab51-615f-4134-be79-47dc8f88ad33" valueTypeId="5a32629c-8fae-43a3-b418-8d6814b19e53"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияИспользоватьПечатьЭтикетокИЦенников</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

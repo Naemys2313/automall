@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cea4ae9d-4b90-4537-a1aa-6741aded5e42" extendedConfigurationObject="edd0d182-3272-4119-b133-bad89ab79cb3">
+  <producedTypes>
+    <managerType typeId="94a6844d-3bc9-4e50-920d-035e988bed39" valueTypeId="a0aa9578-10f6-4c99-9df6-cf9988670edd"/>
+    <valueManagerType typeId="b005a4fd-9ae4-4713-8c28-a7ec742a2503" valueTypeId="9fc3905b-dac8-4a10-a8d1-ed092e9dae43"/>
+    <valueKeyType typeId="51c3202c-4e6c-441b-b64c-1f1d752cd5ce" valueTypeId="73b6ce58-b792-4805-b012-017f9d4dbf24"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияИспользоватьОплатуКартамиВОптовойТорговле</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

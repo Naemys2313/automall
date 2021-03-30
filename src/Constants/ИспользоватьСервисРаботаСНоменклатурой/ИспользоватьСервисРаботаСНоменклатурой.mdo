@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="55e7f553-2432-404d-b55f-c4c4655125c5" extendedConfigurationObject="c318dacc-c598-477d-8d12-5bd9c4099f27">
+  <producedTypes>
+    <managerType typeId="9277030f-a498-400b-9e4c-30ff8a770167" valueTypeId="7f6aaa93-9152-4379-8eb7-9983b77ae6c5"/>
+    <valueManagerType typeId="f2fde7fe-7d72-464c-b22b-1d96f170cad3" valueTypeId="527816bf-da73-453c-90a8-e3f633a901b6"/>
+    <valueKeyType typeId="1c36e9e4-5213-44bf-bbe1-6391a425219e" valueTypeId="325316e8-8b34-49d7-ad73-cc89178bf255"/>
+  </producedTypes>
+  <name>ИспользоватьСервисРаботаСНоменклатурой</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

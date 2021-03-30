@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c80dcdb9-0d8b-4e1b-8aa9-82fae6e130f9" extendedConfigurationObject="24be43ec-d39e-46aa-9c11-2536b835e515">
+  <producedTypes>
+    <refType typeId="0f7dc60b-888e-41d9-a27a-01514e7eba92" valueTypeId="cda28cd0-ba84-4cef-937c-9875f8144c43"/>
+    <listType typeId="f0867af4-e3af-4632-b7e3-d10ec4001c3e" valueTypeId="c3b6e152-da2b-4894-b771-606e3fe618ec"/>
+    <managerType typeId="a759e006-e7c1-437a-a4e0-fa8dd2152956" valueTypeId="acbc4f1c-8baa-4c80-a388-4ed96854be6c"/>
+  </producedTypes>
+  <name>СпособыСравненияВерсийФайлов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="dfaa21b7-5eb0-4963-8ff2-73438cde92c8" extendedConfigurationObject="c9ca80ef-c7b7-4425-b5c0-3d13af82f291">
+    <name>MicrosoftOfficeWord</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="b26b3789-6c4b-4515-878f-63f0e0b36fe7" extendedConfigurationObject="df9af3ee-6a69-4a03-8ff5-0735e9a38013">
+    <name>OpenOfficeOrgWriter</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6f3eaa33-babc-4718-a65e-d3fd0c4c8fdb" extendedConfigurationObject="02182e3e-cf04-4ddc-80a5-0df51137339c">
+  <producedTypes>
+    <managerType typeId="9f1464fe-ae04-41e3-b89e-432b12cfa26d" valueTypeId="4326a537-eb65-49e1-bf1a-8157d8521ac0"/>
+    <valueManagerType typeId="80184686-a9f3-4968-a412-260e480cc284" valueTypeId="1b0c4307-7b27-4fc2-99c2-3e7466ed004b"/>
+    <valueKeyType typeId="c27035e0-d259-4061-9ba2-ed66e865d529" valueTypeId="3f5a280e-6e12-4fae-a9fe-f4f1e8cd401b"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияУчетЦенКонтрагентов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

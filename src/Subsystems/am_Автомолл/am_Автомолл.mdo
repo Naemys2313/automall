@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ccb3d465-4bc6-4422-bd74-e0f9a2c7d8e4">
+  <name>am_Автомолл</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автомолл</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.am_РазделАвтомолл</picture>
+  </picture>
+  <content>Report.am_КассоваяКнига</content>
+  <content>Report.am_РозничныеПродажиОстаткиИЦены</content>
+  <content>DataProcessor.am_УстановкаЦенНоменклатуры</content>
+  <content>CommonForm.am_ОписаниеИзмененийДоработок</content>
+  <content>DataProcessor.am_ПомощникМенеджераЗакупок</content>
+  <content>DataProcessor.am_ПомошникЗакупокНовый</content>
+  <content>Report.am_УпущенныйСпрос</content>
+  <content>ac18116a-97fa-4b8d-a95e-92fa68685c94</content>
+  <subsystems>am_Закупки</subsystems>
+  <subsystems>am_Продажи</subsystems>
+  <subsystems>am_СправочникиДополнительные</subsystems>
+  <subsystems>am_СправочникиОсновные</subsystems>
+</mdclass:Subsystem>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="886bc127-9360-47fc-bfb9-4816d46cb489" extendedConfigurationObject="3d76de27-1997-4915-82e5-69addd90efbc">
+  <producedTypes>
+    <managerType typeId="d499b415-dc98-4385-ad0b-2fbbc09ed973" valueTypeId="655c54e0-0a70-4ecd-8229-e481e2674006"/>
+    <valueManagerType typeId="dd13aabb-3f70-4926-9b33-ecf33297dae7" valueTypeId="5d65105f-342c-41b1-9151-530d1ce58eb4"/>
+    <valueKeyType typeId="ca6c5a2c-4839-4199-95e2-b54b3e0c545c" valueTypeId="430f6183-87f3-4a9a-bb62-589b181bfa04"/>
+  </producedTypes>
+  <name>КонтактнаяИнформацияТоварногоЧека</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>EnumRef.КонтактнаяИнформацияТоварногоЧека</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

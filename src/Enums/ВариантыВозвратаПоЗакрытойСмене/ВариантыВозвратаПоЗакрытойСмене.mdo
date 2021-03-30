@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="65a4c090-cd7c-47de-9923-75d00b73f183" extendedConfigurationObject="c4f1cc78-80a9-4c42-804c-68c38ff13eac">
+  <producedTypes>
+    <refType typeId="93366ad9-0762-4cb4-95b7-a6e48d197579" valueTypeId="f7de6da4-0869-4030-a84e-2cdf6f2a7a8c"/>
+    <listType typeId="3c11edbb-31d0-43f3-8a5a-168305066492" valueTypeId="2f704969-1c39-46af-a59f-be7ab913e74c"/>
+    <managerType typeId="5b606a60-54eb-4f26-8d44-9491d7807de2" valueTypeId="4023d8f0-a606-4c32-93f1-796510bda40d"/>
+  </producedTypes>
+  <name>ВариантыВозвратаПоЗакрытойСмене</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="03fdbe7c-b8b3-462d-838d-3d3d1b236053" extendedConfigurationObject="2093344a-47d4-43ac-98df-29c4dff7fca9">
+  <producedTypes>
+    <selectionType typeId="5ce96337-3c83-4a5b-9f20-f44773e0436e" valueTypeId="cc1cad8f-577f-467b-b264-fe5432e5621c"/>
+    <listType typeId="dff4deee-464a-4008-98a5-26b2b6550661" valueTypeId="c126804a-6a81-4632-a0c1-b88504906aa8"/>
+    <managerType typeId="e4c217dc-f66b-4b2a-8d68-6072e602d545" valueTypeId="c1a2557f-f212-428c-a47b-0a75f2e28cd7"/>
+    <recordSetType typeId="5817a7c6-db18-43cb-b23e-f66ca3d9be99" valueTypeId="4e9ec498-8ce1-48ef-afad-af11a76cb2da"/>
+    <recordKeyType typeId="d015e57f-6ab3-4f98-8d48-3299064f6017" valueTypeId="78a4bdc8-69ed-4539-89b4-805a27e25257"/>
+    <recordType typeId="a6cc18d5-a75b-4793-a896-68237b6a1f67" valueTypeId="a9bb1874-213f-4c5e-b3e1-4b1ae202ae67"/>
+    <recordManagerType typeId="3e04b172-8a06-4023-b0d5-e46425775070" valueTypeId="edc4cebb-03e8-4769-bee7-95ca0410233f"/>
+  </producedTypes>
+  <name>СостоянияОригиналовПервичныхДокументов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="a7d628c9-4968-482d-9335-ceba53e48742" extendedConfigurationObject="3343cb0c-0f80-4ef9-9871-3db9f2299186">
+    <name>Состояние</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.СостоянияОригиналовПервичныхДокументов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="88fa5458-4bce-4990-855f-3492ad225f8a" extendedConfigurationObject="488ce902-b60e-4255-8aec-92dafd1d5dd0">
+    <name>Ссылка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОбъектСУчетомОригиналовПервичныхДокументов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="72ec4aa7-4e23-41af-a932-726fd253cada" extendedConfigurationObject="30794af1-3180-4ed5-b11d-ca139acb22fa">
+    <name>ОбщееСостояние</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

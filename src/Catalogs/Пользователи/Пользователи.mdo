@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="21ea6d62-a9f5-4c3f-847f-19cf15b5476f" extendedConfigurationObject="fa1ef4b3-fc76-4b08-bb66-d89a7a1b66b1">
+  <producedTypes>
+    <objectType typeId="28cce151-c43b-4530-a155-33ff923121e5" valueTypeId="e47ab55a-7a8d-4d09-bd9f-d74dcb39b813"/>
+    <refType typeId="6028973b-416e-4d7e-a862-6ca43f1e730b" valueTypeId="0e2d80bf-0ce7-4e8d-a31e-714086831b53"/>
+    <selectionType typeId="d9c76266-9ed5-4605-8782-c7f0f1337f7f" valueTypeId="2cea714f-841a-4d12-8360-2506ddd89f12"/>
+    <listType typeId="62355245-87de-45ec-9b1c-cb8f6d9a68aa" valueTypeId="95e50c36-c2d7-40e8-851e-ca29e3fecdec"/>
+    <managerType typeId="5a8a210f-9ff8-4774-b289-31af16674a90" valueTypeId="d0e4612b-3840-4f8e-86ee-dfa5af9dc44e"/>
+  </producedTypes>
+  <name>Пользователи</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="4a970397-d77e-426f-8994-cb661f5d291e">
+    <name>am_ТехПоддержка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Специалист технической поддержки</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="69e53dab-912f-405e-9955-c07bcbf719c5" extendedConfigurationObject="d6969c1e-e13c-4542-abb7-9cf6bb50b8e2">
+    <producedTypes>
+      <objectType typeId="9a558054-4895-4eb1-a157-781e21aff9b8" valueTypeId="804ce6ac-d118-4ee7-84e3-a9831d7ce9eb"/>
+      <rowType typeId="5605e681-18d9-4516-82da-3114372f684e" valueTypeId="f8b16940-34b8-41be-b272-1c576f0716dc"/>
+    </producedTypes>
+    <name>КонтактнаяИнформация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="c6f3a7b2-12ee-4bae-957a-74d54289b2b2" extendedConfigurationObject="bbbfb817-8db3-4415-86c3-af028276d6e9">
+      <name>НомерТелефона</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>String</type>
+          </types>
+          <stringQualifiers>
+            <length>20</length>
+          </stringQualifiers>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="7d597caf-c7f5-490b-b608-bc32735576fd" extendedConfigurationObject="cb92dc2e-6053-4233-a408-4464514b1257">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

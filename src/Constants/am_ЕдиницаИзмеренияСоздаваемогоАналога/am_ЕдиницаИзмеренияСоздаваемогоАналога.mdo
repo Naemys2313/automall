@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ec17da2-0f90-4361-84b5-49eaf62709b5">
+  <producedTypes>
+    <managerType typeId="6345c8b4-54aa-4982-86d7-caedab2ab894" valueTypeId="1e3cdb14-3781-49be-8653-f8b87769eddc"/>
+    <valueManagerType typeId="dec7d3c4-4b6f-4940-a3b5-6d033ff20c5b" valueTypeId="f70eb6b9-dacf-4d30-8134-0a8bc9d1841d"/>
+    <valueKeyType typeId="6d1e52be-df94-417c-93c0-222bcb455200" valueTypeId="6f8a3f70-9175-4867-a6fb-8f03d6a05b35"/>
+  </producedTypes>
+  <name>am_ЕдиницаИзмеренияСоздаваемогоАналога</name>
+  <synonym>
+    <key>ru</key>
+    <value>Am единица измерения создаваемого аналога</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.КлассификаторЕдиницИзмерения</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

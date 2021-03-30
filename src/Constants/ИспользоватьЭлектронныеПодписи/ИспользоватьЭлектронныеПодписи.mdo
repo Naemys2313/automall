@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="164fd6c8-3895-47ba-bf23-3952e1b597c0" extendedConfigurationObject="0d124daf-dc52-4391-a2d9-3c43a45c422c">
+  <producedTypes>
+    <managerType typeId="7d318a7d-e247-4e24-8144-14a931270138" valueTypeId="465181b2-99b0-42e7-ba81-376ea5483a97"/>
+    <valueManagerType typeId="8b9602c1-45be-4b54-8c2a-310628d7c5c4" valueTypeId="660e6b9b-ce79-4666-bbab-cf450dc0703b"/>
+    <valueKeyType typeId="cc3b5a9f-60db-4cb8-884f-9c7ede6d4eb1" valueTypeId="bba2973f-1653-42dd-8e9d-34e689cd31ee"/>
+  </producedTypes>
+  <name>ИспользоватьЭлектронныеПодписи</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="316d1b30-235a-4b5a-b193-84c9d4c7e6ab" extendedConfigurationObject="df6e366f-e249-4917-b37b-9013834289ee">
+  <producedTypes>
+    <managerType typeId="e23dbd48-d3f3-444e-82b6-7806a560c827" valueTypeId="b967055a-b3ba-4d88-a022-cec4910c7a3c"/>
+    <valueManagerType typeId="52473ea5-7e41-46e2-9c6f-720041dc10cc" valueTypeId="f94dd515-17a2-4e3a-a63c-78c0d151424f"/>
+    <valueKeyType typeId="9938a47c-a407-47b0-8df8-589800c210e4" valueTypeId="3355cec4-e9ce-4aec-a6f9-0e3d413d9ae1"/>
+  </producedTypes>
+  <name>СрокХраненияПакетаЭД</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Number</type>
+      </types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

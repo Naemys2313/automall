@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1bf7156d-99d2-4423-9958-a014b09a7d6e" extendedConfigurationObject="49658287-f5f3-401b-9620-0f2c78da4505">
+  <producedTypes>
+    <managerType typeId="c21084a9-525f-43df-935e-4583a057da5a" valueTypeId="647c63e4-3d23-4c20-87b0-d79356f61f9d"/>
+    <valueManagerType typeId="866432ff-45d4-4138-a665-a364c2ccf043" valueTypeId="3032e953-b1e8-43ae-b52e-a1decc93256d"/>
+    <valueKeyType typeId="5c49360b-5202-41f3-874b-01e650023811" valueTypeId="04cf9fdf-d7e7-49ee-a374-5975aa0d4023"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияИспользоватьЭтапыПроизводства</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

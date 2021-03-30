@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4d5d9d17-772e-44ae-b55b-160de10b891f" extendedConfigurationObject="984b2ec0-fb5d-4577-b1e5-57653b4907da">
+  <producedTypes>
+    <selectionType typeId="8c070255-e637-48e1-8794-cb5999a80486" valueTypeId="707b2004-f101-4199-bec7-566045824498"/>
+    <listType typeId="27c2cc7f-06e4-4c57-8976-d7dbc080705b" valueTypeId="67b5bc53-78d0-4b35-95b6-9a779546c106"/>
+    <managerType typeId="95820e2c-13fa-4175-ab92-b3dd817673e5" valueTypeId="b420fe5a-49a1-4b87-a6c6-0b7c57ce1768"/>
+    <recordSetType typeId="ac14058b-35a9-4d17-a4cd-d2cc5b5c265f" valueTypeId="48386406-352e-4387-b4a1-d2a57888c72a"/>
+    <recordKeyType typeId="19fbc915-730c-469d-bd97-014654299f45" valueTypeId="37b27c3a-569e-4804-8413-459fa47878bf"/>
+    <recordType typeId="409232d1-6417-46c0-971a-ab3fc4d91698" valueTypeId="6c45ea85-1afa-485b-8591-0eb5fd72ff3c"/>
+  </producedTypes>
+  <name>ПодарочныеСертификаты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <registerType>Checked</registerType>
+  </extension>
+  <resources uuid="9368c394-948a-47aa-8025-218aed053630" extendedConfigurationObject="5cd1ea50-a776-4267-8727-3585cf326e0a">
+    <name>Сумма</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="f6d38921-616e-45f5-94a8-68950e3b0938" extendedConfigurationObject="0a336c71-f5d5-46d8-b34f-5753cd4a40f3">
+    <name>НомерСертификата</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.СерийныеНомера</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="27c96061-69c7-46a7-a17d-941874d19e7d" extendedConfigurationObject="f0a26744-a1d4-40ee-8d4f-4dc4db78bcfe">
+    <name>ПодарочныйСертификат</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Номенклатура</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:AccumulationRegister>

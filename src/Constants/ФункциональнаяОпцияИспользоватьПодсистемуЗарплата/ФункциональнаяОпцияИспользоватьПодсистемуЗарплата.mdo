@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bc4e4b4e-71e0-4655-b727-54ddd7d6dbb0" extendedConfigurationObject="2ec288b0-741d-46c5-99a5-e7e2f718bd2d">
+  <producedTypes>
+    <managerType typeId="9bf668a1-7600-42d1-863f-017a6c63fd37" valueTypeId="358e794c-4227-42ac-acf2-9c2ec1175984"/>
+    <valueManagerType typeId="13c38568-0ccc-4d72-a0f6-99159cde1e4b" valueTypeId="99d704a3-2140-44de-801b-fd804ddf42ca"/>
+    <valueKeyType typeId="d18c61ab-379e-40c4-8b54-38e4b358e0af" valueTypeId="773451af-1c4f-4185-977c-7ade3a966da5"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияИспользоватьПодсистемуЗарплата</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

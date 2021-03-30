@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8f33d441-78f1-4ae8-9115-00b1a1a36f6b" extendedConfigurationObject="8f596ac8-1bd1-45b4-bfdd-484994cabf36">
+  <producedTypes>
+    <objectType typeId="3e6e8a4f-f1a8-47e4-ac70-cc9db51c4455" valueTypeId="7c5d5f66-8a2e-432f-90ca-0b1677465084"/>
+    <refType typeId="249e957a-1b16-4c3e-8051-44131bb8719f" valueTypeId="0aee5ee7-1544-4fac-ba0b-b5072593e7f1"/>
+    <selectionType typeId="269c2969-604a-4bda-b47b-f2fc90f1510a" valueTypeId="9f48008d-ed6c-4081-92f9-4b53a4b6143c"/>
+    <listType typeId="693d6b05-34fe-4f26-ba30-74061087b6b9" valueTypeId="8384f9c3-b771-4efd-ad45-e82a6b3f3fef"/>
+    <managerType typeId="314e88ad-7514-4908-93d3-6db3e49d942c" valueTypeId="20a2c23d-d8c8-4455-8423-0afc709e69ce"/>
+  </producedTypes>
+  <name>АктСписанияЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="4f472512-59b2-48d2-9e1d-8553b504ce8e" extendedConfigurationObject="7f5d9ff9-a97b-4fd4-8026-59a55ea1ea94">
+    <name>УдалитьСтатусОбработки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.СтатусыОбработкиАктаСписанияЕГАИС</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

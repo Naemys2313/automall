@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="03ec015c-9cd3-497d-aa5c-480ea5a6069c" extendedConfigurationObject="cc9679a5-1ed2-4290-8c9b-8a2f6614d053">
+  <producedTypes>
+    <managerType typeId="b94d5bb1-89d0-410d-8d1c-3b11ff6c8dfd" valueTypeId="fb1b9fc8-c6a9-4e36-90b0-4d3569fc94c2"/>
+    <valueManagerType typeId="371ed232-9569-42d2-a5d7-6cfd0a780f5b" valueTypeId="e73cc3c7-0fcb-455e-9fa6-611792b9d922"/>
+    <valueKeyType typeId="a0d0e9dd-e87e-4f0a-b138-aaa2ba842d8f" valueTypeId="841c45b1-c02a-410a-805d-a000fb5da29b"/>
+  </producedTypes>
+  <name>ХранитьФайлыВТомахНаДиске</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

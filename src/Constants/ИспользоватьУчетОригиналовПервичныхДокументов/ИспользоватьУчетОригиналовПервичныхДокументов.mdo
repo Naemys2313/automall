@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="17062e24-e939-4236-aa55-6d91bbe87182" extendedConfigurationObject="f38b6034-5246-42a7-8f3c-51eaf3e5399c">
+  <producedTypes>
+    <managerType typeId="9f3a3be1-bc15-4ca3-8fa3-3df5e517a421" valueTypeId="86b19185-13da-4dda-9413-7ea2f0f9b878"/>
+    <valueManagerType typeId="a286205f-49dd-47f9-b30f-e18e440ba23a" valueTypeId="0627de26-b8b7-40e2-b01a-db2cfa5230c8"/>
+    <valueKeyType typeId="9a49fec6-8379-40c0-88b8-b3a159a832a1" valueTypeId="514bd834-2d0a-404b-a7e6-96f05f6cd156"/>
+  </producedTypes>
+  <name>ИспользоватьУчетОригиналовПервичныхДокументов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

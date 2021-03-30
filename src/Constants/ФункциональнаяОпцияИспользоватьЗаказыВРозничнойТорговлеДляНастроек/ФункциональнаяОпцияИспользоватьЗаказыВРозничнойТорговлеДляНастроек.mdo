@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="edea0a5c-7fa9-43fe-b39a-66921fb2cf84" extendedConfigurationObject="ad6681c4-b334-412c-855c-3399cc1ce7e3">
+  <producedTypes>
+    <managerType typeId="a4f1d504-5d30-4fb6-bb0e-029fc126e84b" valueTypeId="97c97c37-d49a-4520-8e4b-eefa7afcca12"/>
+    <valueManagerType typeId="b676af3c-e2f9-4805-8c27-a67af7dc257f" valueTypeId="bea6d558-0643-41bb-9938-4f96961a9233"/>
+    <valueKeyType typeId="9757aa68-1c97-4d40-8672-90edfd09d2b0" valueTypeId="65a93e7d-966d-4807-b05c-7cb346d7886a"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияИспользоватьЗаказыВРозничнойТорговлеДляНастроек</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

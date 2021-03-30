@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12c6f02c-36a7-4de9-a530-838e80e62e45">
+  <producedTypes>
+    <objectType typeId="1ce5e987-67ed-4a46-a76c-f0d5d78a1b57" valueTypeId="e79ea38d-fe05-4212-ae74-98b5bca37140"/>
+    <managerType typeId="6f596e94-1e50-465a-837b-8b35de435ec3" valueTypeId="57f42f1f-b7c2-470e-bddb-e6c6e5022c8a"/>
+  </producedTypes>
+  <name>am_СредниеПоказателиПоПродажам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Средние показатели по продажам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчетаУНФ</defaultForm>
+  <mainDataCompositionSchema>Report.am_СредниеПоказателиПоПродажам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="dc564e9d-6767-485a-b1f7-cda3eb12aa35">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

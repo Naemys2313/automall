@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="996a4f3a-f792-4ae7-b4ee-1ffab6b6f330" extendedConfigurationObject="96b85364-9f2d-4efa-8e4a-0d8ca740a057">
+  <producedTypes>
+    <managerType typeId="c6cc4c13-6595-4673-9c03-50bb85e1a056" valueTypeId="424d3c85-c304-4cb2-98fb-0b02fb3a3df0"/>
+    <valueManagerType typeId="be011979-e6ed-491f-8d04-3dc61c6925f9" valueTypeId="5b7a18c8-cb9f-4be0-9ca7-c83d4f8a6f8e"/>
+    <valueKeyType typeId="a5420b99-7462-4cac-aa18-22105f9e45a9" valueTypeId="d1564bba-81c2-4dcd-9695-4b8e42598f5b"/>
+  </producedTypes>
+  <name>ИспользоватьОбменБизнесСеть</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

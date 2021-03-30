@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e1eab6de-19b9-4c1d-8db8-3150309f87cc" extendedConfigurationObject="aaa4b91a-a456-4a96-a6bb-0aa4a8eae761">
+  <producedTypes>
+    <managerType typeId="2ce62a75-9bef-46c6-b6bd-78d3bf9460fb" valueTypeId="8fe18160-030e-4529-a16e-ccbecba6c1f8"/>
+    <valueManagerType typeId="ee44914d-e8da-4996-962b-cc2de09f0b11" valueTypeId="21ba80d3-32a3-4770-a939-603d4c2f25ac"/>
+    <valueKeyType typeId="278fc74d-9fce-4733-9be2-42af87863a03" valueTypeId="9db4db6c-0807-4070-a1f5-cb70d3cf64fd"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияИспользоватьРезервированиеДенежныхСредств</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

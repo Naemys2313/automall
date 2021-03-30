@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7c9b14d1-cc56-4e58-af47-52224f4f329e" extendedConfigurationObject="2628863a-be6d-483d-98b5-3026e5614434">
+  <producedTypes>
+    <managerType typeId="1bb85f5d-ea4e-4bca-bcb5-b009adef43f5" valueTypeId="a84d6412-da14-4f16-a519-c8d4bc0f941f"/>
+    <valueManagerType typeId="ddf018a5-f174-4ea8-8154-b61a7a51378c" valueTypeId="3e50d817-92d3-4043-b790-73bbeb452c5e"/>
+    <valueKeyType typeId="b618fea5-a17c-422d-85e8-7f8333f8e771" valueTypeId="eb7b4f09-1680-46b4-8a8d-16ae5448b2ab"/>
+  </producedTypes>
+  <name>ОтправкаЭлектронныхЧековПослеПробитияЧека</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

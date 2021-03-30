@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e85640ca-afdc-4c5d-bd12-10a84efe8442" extendedConfigurationObject="4b47973a-4201-41f6-9d38-8db8f8fbd5ff">
+  <producedTypes>
+    <objectType typeId="002e7b98-a286-41eb-a905-4a103bc23eef" valueTypeId="1ef30018-5e38-4b76-b452-597e94540952"/>
+    <refType typeId="f05c51a5-7d4a-4161-a14f-3b9b5f501fde" valueTypeId="1186f039-b1dd-4ce0-8ff2-1a5c38cded5b"/>
+    <selectionType typeId="e905e73b-8e89-40ae-9e73-f4ebf18fb932" valueTypeId="e022e56d-558b-411c-82a3-f2eb6620735e"/>
+    <listType typeId="a70311e7-ad2a-4da9-ad26-44846469c779" valueTypeId="e1c90d8d-3fa9-4292-aa77-95b25df3ad51"/>
+    <managerType typeId="21df280d-5f9c-497f-8fa0-987382bea2cf" valueTypeId="da9f17fb-daed-4e91-8303-e6c5023cacb7"/>
+  </producedTypes>
+  <name>СтавкиНДС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

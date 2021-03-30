@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4979c5e3-f2b9-4972-ada7-a25ca8c0d065" extendedConfigurationObject="7dc56b9d-8a2a-42b2-b8b6-60d6fd540a58">
+  <producedTypes>
+    <managerType typeId="777ba49d-4b9c-4649-bb54-38ee587820d9" valueTypeId="bfb941c5-14d5-4a42-b912-04aacd5cd83a"/>
+    <valueManagerType typeId="ac791182-cc92-46a4-864d-05e1cde52d7f" valueTypeId="6581e100-b8ec-40db-a319-22b97ec08e54"/>
+    <valueKeyType typeId="ff513b7d-27e4-45b8-bc93-792c19acb2a6" valueTypeId="24cbf643-7f12-49d0-8e10-2fe71ed7c4f7"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияИспользоватьСверкиВзаиморасчетов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0687a3cb-0f7a-42d9-8381-d9e5adc72b90" extendedConfigurationObject="7ffe14a8-6514-4e2f-9e1a-8b6a39a34a9a">
+  <producedTypes>
+    <managerType typeId="5d3cef85-b95c-4850-bfc6-8e0a900ded0b" valueTypeId="eb299b4a-8d22-4155-ab52-7a9779abc5e0"/>
+    <valueManagerType typeId="b7363b72-b7ff-4a8b-a9e0-81ef05296394" valueTypeId="0b74e5c2-03e0-4a68-aaf9-a85ea8cccf40"/>
+    <valueKeyType typeId="eff63308-7fa7-45c7-96c2-7f69a55cb26a" valueTypeId="8f55bd65-47e4-46da-9f78-6b29b26f92d3"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияПлатежныйКалендарь</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

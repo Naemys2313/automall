@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68aeb093-8713-401d-8add-55c9bc51f0ff">
+  <producedTypes>
+    <objectType typeId="9d9d2234-c7e8-4d7f-b8a6-6625006d7777" valueTypeId="44fec33a-4046-40c4-93dd-079fde73ae53"/>
+    <managerType typeId="58616ab0-d7f6-4a91-a7d6-5a5895f17d17" valueTypeId="56d329b8-52e1-4585-8e5f-9f7b8fa0e811"/>
+  </producedTypes>
+  <name>am_ДвижениеНаличныхВКассахККМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движение наличных в кассах ККМ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчетаУНФ</defaultForm>
+  <mainDataCompositionSchema>Report.am_ДвижениеНаличныхВКассахККМ.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <attributes uuid="738bc789-d0b4-40ea-9657-3f110b55ac33">
+    <name>ЭтоОтчетУНФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширенные настройки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="a4a497c2-11a8-47c3-ad43-6c7f1acb0a32">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0df12ee1-cee4-4be1-9522-ef3fc61a9586" extendedConfigurationObject="9b49c443-8e43-46e8-9f78-e79366f16edc">
+  <producedTypes>
+    <objectType typeId="f71edbf1-0ac1-4801-80c2-45523bfaf311" valueTypeId="a0fa3590-247e-4603-80d1-9620a14d1c42"/>
+    <refType typeId="cf832c81-3022-4adf-a71f-693f6313f907" valueTypeId="855ffd79-9092-4139-8555-db01898d59d7"/>
+    <selectionType typeId="aa3f448a-ee75-4220-a4b7-1e44048bcdaa" valueTypeId="699e6581-fa44-4d74-b6e0-7ae2720d5d15"/>
+    <listType typeId="ba3d5302-8d25-467d-93d3-4edede499ac5" valueTypeId="3a5b81ef-0349-4e6e-acb1-fc9ba6424206"/>
+    <managerType typeId="bd4d6fc4-3454-4e65-92b5-85186b6c3e7e" valueTypeId="252b5668-cc9d-40ab-8b81-e10ca7911a67"/>
+  </producedTypes>
+  <name>КонтактныеЛица</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <tabularSections uuid="64d89306-3d2d-4e05-bdcf-1b2244de4ed3" extendedConfigurationObject="75d42d09-f4ee-4c3d-9d22-ea1d978c4ef2">
+    <producedTypes>
+      <objectType typeId="f534e245-5f1f-4e42-abb3-8b49475dbdbf" valueTypeId="f580562a-b71c-4fde-a2af-207cf756f994"/>
+      <rowType typeId="9239f2b0-958b-4bff-bad6-4ba614363b1e" valueTypeId="b4181a0d-fe8b-4baf-b24a-10693c6efd8b"/>
+    </producedTypes>
+    <name>КонтактнаяИнформация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="86b5bf01-1af0-4ad1-8814-38e94f69e188" extendedConfigurationObject="ef48f14e-794a-48f7-be9b-6e2a8294fdce">
+      <name>Тип</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>EnumRef.ТипыКонтактнойИнформации</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="53358866-d7b1-4b71-bc9e-95c4111379ed" extendedConfigurationObject="8c1dd5b0-85ac-4296-8fd1-03be1c91b2c3">
+      <name>НомерТелефона</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>String</type>
+          </types>
+          <stringQualifiers>
+            <length>20</length>
+          </stringQualifiers>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="17de9f72-142f-4760-90d5-6fc7237dc883" extendedConfigurationObject="8c082b88-39bb-44a5-99be-05ead63d9144">
+      <name>Представление</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>String</type>
+          </types>
+          <stringQualifiers>
+            <length>500</length>
+          </stringQualifiers>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

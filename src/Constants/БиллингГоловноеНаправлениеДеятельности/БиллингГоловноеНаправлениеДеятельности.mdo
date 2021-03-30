@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6628b4fb-29e5-48f5-a7aa-eab91980602c" extendedConfigurationObject="bd7bbee9-26f4-4585-b834-d4f1e38539a9">
+  <producedTypes>
+    <managerType typeId="ba73549a-02c0-44e4-ab04-eef7d29f398a" valueTypeId="a0187c7e-a179-4a5a-8928-a12ff3f2b4f0"/>
+    <valueManagerType typeId="edc44aa0-b24c-4178-830d-d60a4cf07252" valueTypeId="570e5be6-a5d2-4232-88ba-554fbfe4e4b1"/>
+    <valueKeyType typeId="2b575692-ae52-4ca4-a78b-73671f386d25" valueTypeId="2c74a481-a2bd-4ebf-846d-d7a0174d69cd"/>
+  </producedTypes>
+  <name>БиллингГоловноеНаправлениеДеятельности</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>CatalogRef.НаправленияДеятельности</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

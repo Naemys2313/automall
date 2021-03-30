@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="26ed9ef5-358c-4033-a419-7c6befcbef42" extendedConfigurationObject="6c2f2736-d7d9-487f-95ad-3786948ad771">
+  <producedTypes>
+    <refType typeId="5f7a62f0-428b-4731-8669-b315a0133a7f" valueTypeId="f5b8a0a4-e9f8-4a7b-a4a4-8f3b416503e1"/>
+    <listType typeId="837acecb-d0fa-44a7-8e86-dcee0ce7d4d6" valueTypeId="d83f38c7-de84-4b94-b2b7-8e64d5038331"/>
+    <managerType typeId="77677a04-2426-4850-b359-8184508082b4" valueTypeId="db5104c2-44ae-4b5e-a9b4-1fd5208929f7"/>
+  </producedTypes>
+  <name>ВариантыПечатиНаборов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="3e86152c-f8b2-427b-9d38-9d7b0937aedc" extendedConfigurationObject="e66fb606-7ce6-4ace-be2c-405dfc2144ea">
+    <name>ТолькоКомплектующие</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="40e68692-c757-4856-97f6-f2168aa88bb2" extendedConfigurationObject="c1d20af9-7dd8-4bfd-aa67-aeb8221b31c8">
+    <name>ТолькоНабор</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="f2ad7fed-d1fe-4e43-8e4a-937614728a94" extendedConfigurationObject="0faad377-48f1-459c-be63-ae02c12d5d71">
+    <name>НаборИКомплектующие</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

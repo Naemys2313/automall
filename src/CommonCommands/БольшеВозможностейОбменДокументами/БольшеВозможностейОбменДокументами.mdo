@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c61539e7-c127-4dd4-9247-f86be73a17bd" extendedConfigurationObject="e4573c9e-8731-4f16-983f-13d4c07e6002">
+  <name>БольшеВозможностейОбменДокументами</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:BasicCommandExtension">
+    <group>Checked</group>
+  </extension>
+  <group>CommandGroup.Настройки</group>
+</mdclass:CommonCommand>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2b7f7982-3727-4e82-abbe-bc7d12b61a82" extendedConfigurationObject="c92e8e16-6e1e-4b84-9e5e-4a70faad1aef">
+  <producedTypes>
+    <selectionType typeId="9a46bba9-92d0-452e-bf04-1b28585d0172" valueTypeId="7dfa9f86-76e5-468b-9f7a-6cf12a7e42a2"/>
+    <listType typeId="190d4c99-36c3-4cf4-bebd-0628e3f2488a" valueTypeId="964cf28b-1d5a-4f35-84f1-c5f571f1e648"/>
+    <managerType typeId="a7b000bb-2339-406a-940a-f9ac8209f3e8" valueTypeId="ebe56de1-8bc5-4b45-9ded-f3497d36a581"/>
+    <recordSetType typeId="90087a6e-7972-4fb3-ae37-e0965a5ce313" valueTypeId="495d70be-2f19-44c7-8d2a-731c1adb03d3"/>
+    <recordKeyType typeId="67c5e517-147c-4f1e-a2fc-5c759abf49bf" valueTypeId="87b67e79-92fc-4ed7-a8ba-bc2c954a784d"/>
+    <recordType typeId="90b64a89-544b-4fab-8d7c-c2141f3a9a37" valueTypeId="a1469da9-2519-48d3-a699-281384e5c97a"/>
+    <recordManagerType typeId="0b6be35c-b149-4ca7-9054-b631240eb9f7" valueTypeId="474da8e1-dd75-4879-90be-b536ce74bd8b"/>
+  </producedTypes>
+  <name>СостоянияКонтрагентов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="2b11d2a2-d680-4c37-add0-1c2ce75ffb14" extendedConfigurationObject="dd9eb205-079e-4fd8-ac68-6cd2b1e8ca90">
+    <name>Состояние</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.СостоянияСуществованияКонтрагента</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="d54339fd-0df0-451b-aee4-b70acf36175a" extendedConfigurationObject="0ed0c51c-da1a-43e4-a7fc-263267a17d75">
+    <name>Контрагент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.КонтрагентБИП</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fc3a4093-d829-4947-844a-c134661831ee" extendedConfigurationObject="2dd69f18-777d-4dca-89dc-707359ec3078">
+  <producedTypes>
+    <objectType typeId="92c653b2-ec8f-4d66-a4a2-e1e629d6286d" valueTypeId="5fa84899-51ab-4fdd-ac69-aec0920ed200"/>
+    <refType typeId="5a4cc326-d5cb-4884-a015-54745d4a656c" valueTypeId="ac6bd391-0461-489f-a514-cc8b0863d8ff"/>
+    <selectionType typeId="02bc4a4d-f98f-44fa-9b0e-7bc61c07245b" valueTypeId="c0b983da-ffcf-4e22-a0c6-68d674bf0a04"/>
+    <listType typeId="9a2f8980-a06b-438f-a7f0-5a521fd62e31" valueTypeId="db21d113-b8c4-4d24-98e4-b40e22a7e5f7"/>
+    <managerType typeId="720476b8-38d4-43b4-852c-513c2c2d0d55" valueTypeId="85347ee3-c30b-4757-b04e-5a8a6e39f827"/>
+  </producedTypes>
+  <name>КассыККМ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <owners>Checked</owners>
+    <descriptionLength>Checked</descriptionLength>
+  </extension>
+  <owners>Catalog.Организации</owners>
+  <descriptionLength>100</descriptionLength>
+  <attributes uuid="b424f69a-ed8d-40e7-8b7e-ae27579b7d84">
+    <name>am_Патент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Am патент</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.Патенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="65d8b530-43fb-4369-bd5a-bbfc09fc67f6" extendedConfigurationObject="6906ccdb-f9f9-4ee7-9eb9-e0fc21e7c04f">
+    <name>ИспользоватьАвторизациюПоОтветственному</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="b2654e1b-b154-467f-bb32-dd6b7b736ee8" extendedConfigurationObject="c15c8300-69d8-4db7-8837-876964d4ab89">
+    <name>ВалютаДенежныхСредств</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Валюты</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="e15615d9-5151-48eb-aa7c-a442a2833eab" extendedConfigurationObject="2068b640-08bb-4d22-9f09-862d7c7f1c7c">
+    <name>ИсточникФИОКассираВЧеке</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ИсточникиФИОКассираВЧекеККМ</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="0b2c63a1-ebbe-44ad-a3b0-cbe0c1a97956" extendedConfigurationObject="bbd584c1-e71b-452f-a0d7-6d9a346404cc">
+    <name>МинимальныйОстатокВКассеККМ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ДенежнаяСуммаНеотрицательная</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="a6ef3c11-c239-4e9a-83e7-402e9e94b295" extendedConfigurationObject="27bd4587-f63b-4041-9ab3-a4cd615cb92e">
+    <name>СтруктурнаяЕдиница</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.СтруктурныеЕдиницы</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="da9333bd-fca0-4e3d-a075-e7dd0289c171" extendedConfigurationObject="60aeab8f-45cd-48d9-bc1c-f8b5d9cf52fe">
+    <name>ТипКассы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ТипыКассККМ</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="8c82b385-9128-4bce-86fd-bd35914f2f83" extendedConfigurationObject="ac214bf3-2243-448e-87db-126a85070d76">
+    <name>Подразделение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.СтруктурныеЕдиницы</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="05165aae-8edc-4c4a-b1c6-4bd179a0bf01" extendedConfigurationObject="971abb50-abf4-4090-96b9-08ea6f473693">
+    <name>ИспользоватьБезПодключенияОборудования</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="131f678e-a9a2-4e20-a074-d09c86884952" extendedConfigurationObject="34a22c35-e750-4cd6-9a61-77e0190e2c65">
+    <name>ПодключаемоеОборудование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ПодключаемоеОборудование</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="6b9d9030-ddfb-4b28-a76b-c6dccd533fc3" extendedConfigurationObject="982aecf4-b4a7-417b-964c-4a449de91546">
+    <name>СерийныйНомер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>128</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="89db0009-fed6-4b5b-8366-e255df439d5e" extendedConfigurationObject="081326fd-2eb4-4acb-b1bf-e778d8c1a90d">
+    <name>СоздаватьВыемку</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="8548210d-da3e-484f-ba44-579786934f76" extendedConfigurationObject="f6cfcedf-248b-44ac-9a44-ab7884fe6b8d">
+    <name>СоздаватьПоступлениеВКассу</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="5f76774e-293d-429b-bbe0-ab2ba8925b5f" extendedConfigurationObject="479b91a2-75e5-43b6-966e-7db40bcea3d4">
+    <name>КассаДляРозничнойВыручки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Кассы</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <forms uuid="7d6b9c21-70df-4caf-9ba9-93a765d5e0cb" extendedConfigurationObject="68551e5b-c4e4-403c-a690-1c3af9041ef5">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f73ea49f-2e1a-441f-8d05-4998075e248b" extendedConfigurationObject="8696fdfb-1b29-40c8-8bc1-4a64442fa662">
+  <producedTypes>
+    <managerType typeId="a6dd8115-96e1-484f-85cf-a33aa7d4825a" valueTypeId="97da9c93-5e5c-497a-8aeb-e70c5a5a1c72"/>
+    <valueManagerType typeId="30552e49-9db6-4d2c-967c-98bb25aa4c0f" valueTypeId="7fe27f0b-9cb2-4c76-b58c-0fd83e96047e"/>
+    <valueKeyType typeId="37bbac5f-ef5a-4c2d-94e0-19ff5c92143d" valueTypeId="86bca6ec-e660-4c07-9f62-8671dc5ad087"/>
+  </producedTypes>
+  <name>СпособРазнесенияОплатыПоУмолчанию</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>EnumRef.СпособыЗачетаИРаспределенияПлатежей</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

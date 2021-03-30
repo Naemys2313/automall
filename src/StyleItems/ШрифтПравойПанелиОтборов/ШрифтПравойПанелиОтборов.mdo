@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a466f895-7c86-4364-88d8-4e14e94f4d99" extendedConfigurationObject="d92d58c3-5d36-4f23-96a2-28b50f1943aa">
+  <name>ШрифтПравойПанелиОтборов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:StyleItemExtension">
+    <type>Checked</type>
+  </extension>
+  <type>Font</type>
+</mdclass:StyleItem>

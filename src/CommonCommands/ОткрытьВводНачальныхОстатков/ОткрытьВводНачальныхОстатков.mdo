@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d519d23c-fcdf-4f19-bb81-edea9d09ccf4" extendedConfigurationObject="09e7cb96-4606-44c1-b9af-430b501812d9">
+  <name>ОткрытьВводНачальныхОстатков</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:BasicCommandExtension">
+    <group>Checked</group>
+  </extension>
+  <group>NavigationPanelSeeAlso</group>
+</mdclass:CommonCommand>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b39b4fa0-9e15-41e0-8b4d-a7dc5a1199be" extendedConfigurationObject="ce8f526e-24a8-4970-a119-999098a0ea5b">
+  <producedTypes>
+    <refType typeId="6db4f873-9e69-4307-b15f-c47045aea387" valueTypeId="d7ee8b42-e522-4552-b27e-e86c321c341a"/>
+    <listType typeId="7df6671d-e9c8-41fe-8cb0-410270358e3e" valueTypeId="6220046b-215c-403a-a221-f95877a5617b"/>
+    <managerType typeId="c495c4ed-41d4-4cb5-9f2c-1717c01e9df3" valueTypeId="142b5fec-215c-47b7-ad3b-88df33dc5dcc"/>
+  </producedTypes>
+  <name>ВариантыЗавершенияЗаказа</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="f243868c-dd02-425d-9c9b-0240ce884ce3" extendedConfigurationObject="19a56428-d722-4ea6-8741-c15b292a2dfe">
+    <name>Успешно</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="598e42dc-6113-43be-b21b-dfdad3e8c2f9" extendedConfigurationObject="db5f9497-218d-4eea-87ac-175a8763538d">
+    <name>Отменен</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

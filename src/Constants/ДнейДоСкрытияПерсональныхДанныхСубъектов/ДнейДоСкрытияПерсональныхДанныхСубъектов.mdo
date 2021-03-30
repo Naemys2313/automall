@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="58b7f329-78f4-46d7-88cf-24ed62cf0a67" extendedConfigurationObject="251ca8fe-09eb-45ca-be8b-0d8faf927009">
+  <producedTypes>
+    <managerType typeId="48093dc1-1e1d-4347-bd8d-b16ed9c44885" valueTypeId="a1a3772b-dbf0-47e4-ba50-2fc92c38e588"/>
+    <valueManagerType typeId="3f3ef997-78bb-4124-9e69-98104522a983" valueTypeId="fd80d316-587b-43c9-ad95-6ea19e66e5b1"/>
+    <valueKeyType typeId="d8267408-5071-4487-a190-f194cb39ed9e" valueTypeId="6c104d2f-3560-4d37-9433-2044322d4459"/>
+  </producedTypes>
+  <name>ДнейДоСкрытияПерсональныхДанныхСубъектов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Number</type>
+      </types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

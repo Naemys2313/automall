@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<selection>
+		<item xsi:type="SelectedItemField">
+			<field>Заказано</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>СуммаДокумента</field>
+		</item>
+		<viewMode>Normal</viewMode>
+		<userSettingID>6ac4bb62-13ad-4022-9070-c7aad3b647b4</userSettingID>
+	</selection>
+	<filter>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">Контрагент</left>
+			<comparisonType>Equal</comparisonType>
+			<userSettingID>8ce6f238-039d-4a35-9a37-b7c6759c4fc3</userSettingID>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">Номенклатура</left>
+			<comparisonType>Equal</comparisonType>
+			<userSettingID>aa9d5950-9804-47c5-9d12-f41f32afcb7d</userSettingID>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">ЗаказПоставщику</left>
+			<comparisonType>Equal</comparisonType>
+			<userSettingID>3a63f079-b439-4778-8add-0a98cbd5d2ac</userSettingID>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<left xsi:type="dcscor:Field">ОсталосьЗакупить</left>
+			<comparisonType>Greater</comparisonType>
+			<right xsi:type="xs:decimal">0</right>
+		</item>
+		<viewMode>Normal</viewMode>
+		<userSettingID>ec17e23a-7c9f-48a3-bf2e-afd3d02d200f</userSettingID>
+	</filter>
+	<dataParameters>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>КонецПериода</dcscor:parameter>
+			<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+			<viewMode>Inaccessible</viewMode>
+		</dcscor:item>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>СостояниеОплаты</dcscor:parameter>
+			<dcscor:value xsi:type="xs:string">Все заказы</dcscor:value>
+		</dcscor:item>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>СостояниеПоступления</dcscor:parameter>
+			<dcscor:value xsi:type="xs:string">Все заказы</dcscor:value>
+		</dcscor:item>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>ВыводитьЗаголовок</dcscor:parameter>
+			<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			<viewMode>Normal</viewMode>
+			<userSettingID>bbc69c92-7259-4313-8fcd-60eaa6687131</userSettingID>
+		</dcscor:item>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>СтПериод</dcscor:parameter>
+			<dcscor:value xsi:type="v8:StandardPeriod">
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</dcscor:value>
+		</dcscor:item>
+	</dataParameters>
+	<order>
+		<item xsi:type="OrderItemField">
+			<field>СуммаДокумента</field>
+			<orderType>Desc</orderType>
+		</item>
+		<viewMode>Normal</viewMode>
+		<userSettingID>9ae439ec-b500-4315-9a26-0918ba94f6ed</userSettingID>
+	</order>
+	<outputParameters>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>ВыводитьЗаголовок</dcscor:parameter>
+			<dcscor:value xsi:type="DataCompositionTextOutputType">DontOutput</dcscor:value>
+		</dcscor:item>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>Заголовок</dcscor:parameter>
+			<dcscor:value xsi:type="xs:string">Поступление и оплата по заказам поставщикам</dcscor:value>
+		</dcscor:item>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+			<dcscor:value xsi:type="DataCompositionTextOutputType">DontOutput</dcscor:value>
+		</dcscor:item>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+			<dcscor:value xsi:type="DataCompositionTextOutputType">DontOutput</dcscor:value>
+		</dcscor:item>
+	</outputParameters>
+	<item xsi:type="StructureItemGroup">
+		<groupItems>
+			<item xsi:type="GroupItemField">
+				<field>ЗаказПоставщику</field>
+				<groupType>Items</groupType>
+				<periodAdditionType>None</periodAdditionType>
+				<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+				<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+			</item>
+		</groupItems>
+		<order>
+			<item xsi:type="OrderItemAuto"/>
+		</order>
+		<selection>
+			<item xsi:type="SelectedItemAuto"/>
+		</selection>
+		<item xsi:type="StructureItemGroup">
+			<groupItems>
+				<item xsi:type="GroupItemField">
+					<field>Номенклатура</field>
+					<groupType>Items</groupType>
+					<periodAdditionType>None</periodAdditionType>
+					<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+					<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+				</item>
+			</groupItems>
+			<order>
+				<item xsi:type="OrderItemAuto"/>
+			</order>
+			<selection>
+				<item xsi:type="SelectedItemAuto"/>
+			</selection>
+		</item>
+	</item>
+	<additionalProperties>
+		<v8:Property name="НаименованиеВарианта">
+			<v8:Value xsi:type="xs:string">Поступление и оплата по заказам</v8:Value>
+		</v8:Property>
+		<v8:Property name="СортироватьПоПоказателям">
+			<v8:Value xsi:type="xs:boolean">false</v8:Value>
+		</v8:Property>
+		<v8:Property name="Заголовок">
+			<v8:Value xsi:type="xs:string">Поступление и оплата по заказам на текущий момент</v8:Value>
+		</v8:Property>
+		<v8:Property name="ИспользоватьСравнение">
+			<v8:Value xsi:type="xs:boolean">false</v8:Value>
+		</v8:Property>
+		<v8:Property name="Период">
+			<v8:Value xsi:type="xs:dateTime">0001-01-01T00:00:00</v8:Value>
+		</v8:Property>
+		<v8:Property name="НеДобавлятьПериод">
+			<v8:Value xsi:type="xs:boolean">true</v8:Value>
+		</v8:Property>
+		<v8:Property name="РежимРасшифровки">
+			<v8:Value xsi:type="xs:boolean">false</v8:Value>
+		</v8:Property>
+		<v8:Property name="ГруппировкаКолонок">
+			<v8:Value xsi:type="xs:string"/>
+		</v8:Property>
+		<v8:Property name="Сравнение">
+			<v8:Value xsi:nil="true"/>
+		</v8:Property>
+		<v8:Property name="ПоказыватьАбсолютноеИзменение">
+			<v8:Value xsi:type="xs:boolean">false</v8:Value>
+		</v8:Property>
+		<v8:Property name="ПоказыватьОтносительноеИзменение">
+			<v8:Value xsi:type="xs:boolean">false</v8:Value>
+		</v8:Property>
+	</additionalProperties>
+	<itemsViewMode>Normal</itemsViewMode>
+	<itemsUserSettingID>f4fa5861-27df-4d62-8681-efb8c040dbad</itemsUserSettingID>
+</Settings>

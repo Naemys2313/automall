@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="38e33118-01a1-4aec-ad55-a4d2140311e3" extendedConfigurationObject="41c48a5f-10de-45ca-b8d6-ba3ecf00d644">
+  <producedTypes>
+    <managerType typeId="faf56ac9-852e-4b10-9276-4f9be05c7c89" valueTypeId="9555cdcb-0e78-4b0e-81e2-34a4a6925c18"/>
+    <valueManagerType typeId="0647c763-76b7-4b57-8688-8c19d6cfba85" valueTypeId="87a774b7-ee9d-476b-872d-265aba5fe8ca"/>
+    <valueKeyType typeId="6bd86320-8928-4666-9900-6b888e11966e" valueTypeId="5899fce4-7ad6-4691-b443-5e429de7f0f6"/>
+  </producedTypes>
+  <name>ИспользоватьГруппыДоступаКонтрагентов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b11f030b-e217-405a-a4da-dabbc69c94b3" extendedConfigurationObject="a21e8fe9-df0b-43f9-baa4-5b21cb780d7f">
+  <producedTypes>
+    <managerType typeId="c6dae384-a174-4052-a67b-f9ef23f5da44" valueTypeId="060adfaf-a1be-4ce0-a779-e2781230ac8e"/>
+    <valueManagerType typeId="4880ff69-2612-435b-80ed-7e45539b2025" valueTypeId="554192ac-8a1c-4add-a365-1adfbc0fcdfa"/>
+    <valueKeyType typeId="f7b463d3-8f0d-4d31-9bd1-f5f62fdc0b10" valueTypeId="d3697b8c-f21e-4640-a16b-fbef29e952ac"/>
+  </producedTypes>
+  <name>ИспользоватьОтложеннуюОтправкуЭлектронныхДокументов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

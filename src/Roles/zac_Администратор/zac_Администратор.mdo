@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93d95758-d7d0-422a-a573-3e14d97e6c19">
+  <name>zac_Администратор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администратор (1С:Закуп)</value>
+  </synonym>
+</mdclass:Role>

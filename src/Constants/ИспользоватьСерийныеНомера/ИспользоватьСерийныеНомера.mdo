@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b66d8d5f-c3bd-487f-ad02-a797717b55f2" extendedConfigurationObject="f9c69109-860f-4fb8-8737-396902698fb5">
+  <producedTypes>
+    <managerType typeId="3325a753-059e-4cd5-b25c-63291979bc28" valueTypeId="b4ee35bb-89bc-4586-b513-d79405876be0"/>
+    <valueManagerType typeId="b723254e-667d-435d-9218-46d0a60491c3" valueTypeId="b8bf8e12-f6ad-45ea-8465-1b059245855c"/>
+    <valueKeyType typeId="8535977d-0f7e-44cf-8ee8-ea6210912e94" valueTypeId="78f4bd37-c0a6-442b-bdc1-074483ce99d6"/>
+  </producedTypes>
+  <name>ИспользоватьСерийныеНомера</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

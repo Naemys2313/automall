@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7ece11c7-6ef0-41eb-8d7b-3f0f2b72f7b0" extendedConfigurationObject="6379755e-6109-420c-aac1-c8c17c9a09be">
+  <producedTypes>
+    <managerType typeId="9c2316a2-8cea-4208-ab7e-0c99e137e09c" valueTypeId="aa2070c8-c299-47f8-b49e-673f8a64c303"/>
+    <valueManagerType typeId="32d94b7c-7aec-44ba-a3fd-ca713ae0086a" valueTypeId="a0f920a0-0f7b-4219-8961-1f80e39cb18b"/>
+    <valueKeyType typeId="ec74fe95-942a-482b-b6e3-ef19ceab1e0a" valueTypeId="e3404480-6148-4aa5-8d5c-94cf13a2fb0c"/>
+  </producedTypes>
+  <name>ВариантВозвратаПоЗакрытойСмене</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>EnumRef.ВариантыВозвратаПоЗакрытойСмене</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

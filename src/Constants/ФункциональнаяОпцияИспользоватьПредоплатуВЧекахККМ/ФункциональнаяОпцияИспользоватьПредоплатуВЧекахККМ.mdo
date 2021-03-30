@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="51f4ac47-505d-4b47-b0e6-227dfd071d5a" extendedConfigurationObject="00f3ad94-bb88-4af5-a69a-3ac839a3e5fd">
+  <producedTypes>
+    <managerType typeId="b567f233-f8b2-489b-8eca-49db3c47ba41" valueTypeId="b75dc88f-ffb2-4c22-9efc-018922178805"/>
+    <valueManagerType typeId="e6f63c91-eb3a-40fd-bdd8-316bba5acb5f" valueTypeId="aa8463b5-243d-47a0-8372-38ac6ed6ee77"/>
+    <valueKeyType typeId="8d6f2723-bbfa-4a4a-ab5d-c763d32d5402" valueTypeId="ea9331e8-2e42-4cc8-af98-3e6b2e6e65d9"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияИспользоватьПредоплатуВЧекахККМ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

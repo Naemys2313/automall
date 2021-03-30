@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6a290983-6131-46d3-aacf-a7f3e873e37b" extendedConfigurationObject="b4fd140b-4f87-4d31-b394-ba3eeae7026c">
+  <producedTypes>
+    <refType typeId="8870c1a9-cb1a-4084-9ea6-619f1089bbcb" valueTypeId="13ad461f-fb2b-4180-8c38-f5b2458db7c7"/>
+    <listType typeId="2384134f-6d9c-48b4-8246-b36cd1fe8e3c" valueTypeId="2fe03b39-d1e6-4362-888c-e47220cc00b9"/>
+    <managerType typeId="d590b739-a951-4f37-a999-ca7d4bd86155" valueTypeId="5e199317-27a5-4fdb-a8a9-4e96459b1771"/>
+  </producedTypes>
+  <name>ТипыСтруктурныхЕдиниц</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="6adf0076-4f50-48d9-a42e-acbea92f1827" extendedConfigurationObject="86426cf8-824c-479b-96ad-7dc1a16c73ba">
+    <name>Склад</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="bef70c2f-67bc-4189-af45-b221cf4ab9b0" extendedConfigurationObject="df63a4eb-12d1-4249-a9a5-41c8139a5cf0">
+    <name>Розница</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="9bdd9d32-dbd4-45db-a90d-148eab5d5a6e" extendedConfigurationObject="baaab69d-4820-4d8a-adeb-be4a3ba7f276">
+    <name>РозницаСуммовойУчет</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

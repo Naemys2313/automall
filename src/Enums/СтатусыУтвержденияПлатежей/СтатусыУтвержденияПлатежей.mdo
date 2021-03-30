@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ecba3e6e-adfe-402c-9c35-35e06828e86e" extendedConfigurationObject="9612b90f-4096-4829-a824-819d69d504ea">
+  <producedTypes>
+    <refType typeId="1dc6eb29-f650-4627-b87d-e60b0c593d1b" valueTypeId="8daad6c2-bfda-478c-aa08-ebaf705ddebd"/>
+    <listType typeId="c331f924-6d84-4d48-9ae4-6569da794cc2" valueTypeId="7414aedf-696a-4782-a983-be36fb692280"/>
+    <managerType typeId="d423e9e6-3f1a-42de-a35b-99a0cd5fb291" valueTypeId="8fbfef33-1825-49dd-8421-e4ec1dbb1a3e"/>
+  </producedTypes>
+  <name>СтатусыУтвержденияПлатежей</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="8379c876-e4a3-4d44-a9fe-f778ea7d2114" extendedConfigurationObject="e5fc0b53-3924-47cf-b154-a001b06ce0e3">
+    <name>Утвержден</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="0adbfac4-9b04-44d5-83be-ca1d1ad4f0e0" extendedConfigurationObject="3f73524a-f3df-43e3-9239-bfb1c65bf34d">
+    <name>НеУтвержден</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

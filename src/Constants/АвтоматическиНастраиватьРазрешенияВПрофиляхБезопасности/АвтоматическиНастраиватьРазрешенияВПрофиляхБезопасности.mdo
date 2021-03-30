@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="82cd041a-e131-453d-8d11-c86d0e7de6fc" extendedConfigurationObject="9893e2d6-f3f8-4d73-bb06-19bf26d216ab">
+  <producedTypes>
+    <managerType typeId="fdb6525b-d71f-4732-ad35-97586865c139" valueTypeId="08842585-bdbe-41d8-98c7-c6b61e1a5970"/>
+    <valueManagerType typeId="7abc8ed3-4b52-4192-af9c-a0307b7f8126" valueTypeId="4b8b9cad-9174-4941-ad4e-b70a420a0285"/>
+    <valueKeyType typeId="8fae64f1-e681-4c40-bfb9-2480259f2b91" valueTypeId="314accaa-cb60-4a57-9084-4f70414c6886"/>
+  </producedTypes>
+  <name>АвтоматическиНастраиватьРазрешенияВПрофиляхБезопасности</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

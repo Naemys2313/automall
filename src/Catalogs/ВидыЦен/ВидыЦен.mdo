@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e9204a7f-ae09-421e-9e76-2488be1d13b0" extendedConfigurationObject="5ae16e4d-0888-4826-96cf-8cbc3b23e9ab">
+  <producedTypes>
+    <objectType typeId="27a1180d-9d07-4b0a-8981-4423b7e9955f" valueTypeId="49969c30-d2a7-4b31-9517-8209abbef354"/>
+    <refType typeId="7677b79d-62f8-4284-bf72-0e62e9ddb9cf" valueTypeId="21fd4fe5-f36f-4dc6-8998-c1bddd8f5ef8"/>
+    <selectionType typeId="93990284-140c-485b-97d4-d5b06c9f6515" valueTypeId="75e91b7d-6b36-40a7-b51f-837d3947a617"/>
+    <listType typeId="16384a2d-8e5e-4eb3-9151-a1c2c0a903ec" valueTypeId="221e1e3c-d7a4-4c13-9a82-db0c02cc6fcf"/>
+    <managerType typeId="3f0a2dd4-ab96-41c5-b886-9a4011f7f1a9" valueTypeId="1fdf7539-459b-4c18-b4ba-b93bfc86391e"/>
+  </producedTypes>
+  <name>ВидыЦен</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+  </extension>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <predefined>
+    <items id="40ef194e-9976-48e8-af3e-2aaf44083abf">
+      <name>Оптовая</name>
+      <description>Оптовая цена</description>
+      <code xsi:type="core:StringValue">
+        <value>00-000001</value>
+      </code>
+    </items>
+    <items id="a445230c-d58a-433a-8024-287e32eecd21">
+      <name>Учетная</name>
+      <description>Учетная цена</description>
+      <code xsi:type="core:StringValue">
+        <value>00-000002</value>
+      </code>
+    </items>
+  </predefined>
+  <attributes uuid="cff7e468-e567-4e71-ab03-932ef1129187">
+    <name>am_ПроцентНаценки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Am процент наценки</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

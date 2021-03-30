@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c5a88e8a-bc5d-41c2-a3ac-d6d4ace2b3c5" extendedConfigurationObject="3c84526d-6c74-4ea5-9c16-d43ccaee4939">
+  <producedTypes>
+    <managerType typeId="081a7cc5-7fa2-48f2-93e5-3e995a2a57cf" valueTypeId="d2d71453-1a35-4892-a8cd-ac1844b97b4f"/>
+    <valueManagerType typeId="727937a0-238f-4023-915a-09273394ab27" valueTypeId="1156fa55-340c-44cf-a58e-f5a81685c20f"/>
+    <valueKeyType typeId="470d2d47-a15e-43df-9918-ca6be5f6b28f" valueTypeId="25181977-a5ee-4931-9308-2be20d32b098"/>
+  </producedTypes>
+  <name>СрокОплатыПоставщику</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Number</type>
+      </types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

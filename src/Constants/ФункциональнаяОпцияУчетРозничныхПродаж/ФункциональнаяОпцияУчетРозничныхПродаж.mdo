@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cb646d8c-6319-4c21-89e3-a65e85849d8d" extendedConfigurationObject="54da59e8-7fb4-40fd-b067-556d2188e0e3">
+  <producedTypes>
+    <managerType typeId="2c245879-16af-43f4-acee-00686077d82c" valueTypeId="a47999ee-5a06-48ee-b092-58592e87daa2"/>
+    <valueManagerType typeId="1d39b87e-c78a-424b-8cee-dbb9bb2c72c2" valueTypeId="7b729183-5ffb-4c06-8400-14aae755dc6c"/>
+    <valueKeyType typeId="f1ca4556-b3a9-43db-9a87-d16eb5a6f13e" valueTypeId="d8bdfe80-26b9-4e5f-bc77-55469f91bbc3"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияУчетРозничныхПродаж</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

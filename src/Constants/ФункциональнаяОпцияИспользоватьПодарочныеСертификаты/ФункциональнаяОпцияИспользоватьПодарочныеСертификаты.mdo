@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9c72fd91-d64a-4640-9f2e-bc1484098ba2" extendedConfigurationObject="e35d4765-5faa-427b-b108-e5922939dee4">
+  <producedTypes>
+    <managerType typeId="5606256c-6d4c-4d49-9b9a-a31fe82d3e0c" valueTypeId="855358c6-0186-4f66-bbff-728ed4e75cc8"/>
+    <valueManagerType typeId="8e3323ff-4b2e-48ba-a97d-9878af8372ad" valueTypeId="7c4dd65b-c53c-4a9a-88d4-722544ed2646"/>
+    <valueKeyType typeId="302a548d-c225-4c36-b3f8-5238bff27a16" valueTypeId="72bd12d2-2eb5-4dc4-81a7-d7d6d2097eae"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияИспользоватьПодарочныеСертификаты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e0740e2-2058-4805-bd6f-e79ca79c465e">
+  <producedTypes>
+    <managerType typeId="47719261-3ca8-4175-a68b-8c4219eb53b6" valueTypeId="5fa9fae0-064a-4646-9a37-ea91caf65633"/>
+    <valueManagerType typeId="72e7d7a6-ca98-4304-9b00-0ec4dfd6c641" valueTypeId="d66c9ceb-80d1-4db9-bdf6-baf7a7179be0"/>
+    <valueKeyType typeId="7471330c-eed6-4992-9bde-dca8bfb0593b" valueTypeId="ba2b4eff-bb3e-49ea-a7a2-d64975c0d52a"/>
+  </producedTypes>
+  <name>am_ПоказыватьПредложениеПриОплате</name>
+  <synonym>
+    <key>ru</key>
+    <value>Am показывать предложение при оплате</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

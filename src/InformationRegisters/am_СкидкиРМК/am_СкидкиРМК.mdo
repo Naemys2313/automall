@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f58cea35-52ae-4823-a38e-a8eb5a445a07">
+  <producedTypes>
+    <selectionType typeId="d4aee26f-fdfb-4ec1-92e7-57e62876edb8" valueTypeId="d8919a50-9a6b-4e90-8834-cc26f147c369"/>
+    <listType typeId="e966ebfb-3f77-465e-94b4-423c9df9878b" valueTypeId="877b2909-c651-42a4-bce1-ed87e5440b56"/>
+    <managerType typeId="1833e8b1-cb9b-497e-8cde-05610fc613cf" valueTypeId="f463cdfd-f78d-4613-b694-ccd13645894e"/>
+    <recordSetType typeId="47c640d0-e580-4b84-bd05-1ada869c99f8" valueTypeId="072f141e-8206-42b1-bafa-010bb4fe4e7c"/>
+    <recordKeyType typeId="a5402bde-5016-449c-b343-eb5ecb02fb53" valueTypeId="927504ec-3257-4dbc-a87f-45fa8c8595cb"/>
+    <recordType typeId="ac4b9acf-791e-4085-aad1-d69f3fc560ba" valueTypeId="219c43d7-c31f-4149-bf2f-78d839b890bf"/>
+    <recordManagerType typeId="6ec8b8ee-277d-45b0-8cd2-1d85d65c096f" valueTypeId="d9697e18-e85a-487f-b99a-cfb199340784"/>
+  </producedTypes>
+  <name>am_СкидкиРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Am скидки РМК</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b9fe8939-4f78-47e9-8f15-230f3735faf1">
+    <name>Отображать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отображать</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="15966126-2d56-4488-8ef6-45cb39dfb08f">
+    <name>ВидКарты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид карты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыДисконтныхКарт</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6c305d7f-3214-4743-b5d1-c77a280caaba" extendedConfigurationObject="55a39c6c-1d86-407a-842a-bc3820f7ce0f">
+  <producedTypes>
+    <managerType typeId="67c225b6-236b-4e1c-9161-c7d15ecec079" valueTypeId="bb035acf-1abc-4935-946a-e41a8180454a"/>
+    <valueManagerType typeId="330d9156-90c1-4c19-a249-8e15f634f08e" valueTypeId="5f24a847-f9e4-4ac7-b47e-8a101880d188"/>
+    <valueKeyType typeId="85565b2e-ce65-4696-801f-427d41cb36da" valueTypeId="17eaa237-d6b9-47c3-ab92-de6d04958d89"/>
+  </producedTypes>
+  <name>ВыгружатьПродажиНемаркируемойПродукцииВЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

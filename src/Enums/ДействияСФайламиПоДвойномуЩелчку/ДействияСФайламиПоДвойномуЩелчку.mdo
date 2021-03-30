@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="16f3521f-2034-491c-ae64-4e8ba0e3cc50" extendedConfigurationObject="49221b2f-aae2-4bee-9a1a-18263fc74244">
+  <producedTypes>
+    <refType typeId="56929ac1-7460-48ed-b1d4-6cacb437beeb" valueTypeId="d468a55e-f9a7-4fea-9164-3551cc18d112"/>
+    <listType typeId="2adac8a1-7a08-4251-aba9-e7166fb84a21" valueTypeId="35e252e1-28e5-473b-b8c3-661933f7a009"/>
+    <managerType typeId="0fc3c76c-d605-46d1-8ea4-368463ec6097" valueTypeId="181eff67-38e5-49b4-b367-5054928d9966"/>
+  </producedTypes>
+  <name>ДействияСФайламиПоДвойномуЩелчку</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="86c3c011-cdf2-4469-a0ef-d3e4133cf192" extendedConfigurationObject="da0cd264-da2f-4044-af28-c91d2efe1d5c">
+    <name>ОткрыватьФайл</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="71023d50-0f9c-40a3-b30c-10db6078d8f4" extendedConfigurationObject="f1b1db38-2d9f-4409-a6d6-fd7192b1f102">
+    <name>ОткрыватьКарточку</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

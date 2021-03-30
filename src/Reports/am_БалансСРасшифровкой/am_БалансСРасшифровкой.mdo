@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2821fb1-c77a-4f44-8f92-1a0f3b8f6d4c">
+  <producedTypes>
+    <objectType typeId="26b8f795-4cc0-44f1-98d3-367231c50adf" valueTypeId="04d71f08-f5ea-4d94-9ccc-407eff7775c1"/>
+    <managerType typeId="99c236dd-242d-4f2f-9978-1f582d46b3a7" valueTypeId="f59accaa-f959-4a9c-b7f7-fb2524dbd3b6"/>
+  </producedTypes>
+  <name>am_БалансСРасшифровкой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Баланс с расшифровкой</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.am_БалансСРасшифровкой.Form.am_ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.am_БалансСРасшифровкой.Template.ОсновнаяСхемаКомпоновкиДанных1</mainDataCompositionSchema>
+  <defaultSettingsForm>Report.am_БалансСРасшифровкой.Form.ФормаНастроек</defaultSettingsForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <settingsStorage>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorage>
+  <attributes uuid="909d33c5-89b1-41fc-b3df-a4aa7a938bff">
+    <name>ЭтоОтчетУНФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это отчет УНФ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="f11cd84c-add6-47df-9a27-a326128de90c">
+    <name>am_ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Am форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="690ce437-4eff-4b38-b760-9f9971a7aa2e">
+    <name>am_РасшифровкаЗапасы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расшифровка запасов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b17a418a-f42d-44f8-902c-0e07914f186e">
+    <name>ФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fdab8718-33c3-42ea-94df-489f0d559221">
+    <name>am_РасшифровкаВРазрезеНоменклатур</name>
+    <synonym>
+      <key>ru</key>
+      <value>Am расшифровка в разрезе номенклатур</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e999c614-4424-4426-85d4-9c025a754809">
+    <name>ОсновнаяСхемаКомпоновкиДанных1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных1</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="03371e9a-6f6c-41fa-a516-052edd543fa3">
+    <name>am_РасшифровкаЗапасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Am расшифровка запасов</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

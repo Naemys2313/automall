@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1218f546-d2db-46b2-b613-41f72ddbc751" extendedConfigurationObject="d1a20a6a-0284-4c4f-93da-f472e2a77325">
+  <producedTypes>
+    <objectType typeId="fd6ffdc7-3a5b-49a4-bf91-63a9f8d3e204" valueTypeId="0abb704d-2d08-4da5-85ad-5354e3238c76"/>
+    <refType typeId="85eeffac-1b23-4385-aa91-6dcad0902fc3" valueTypeId="3866f8ac-44d9-4a92-b698-83d8ff39b1ee"/>
+    <selectionType typeId="c2385a87-4afa-4d9d-ae46-34606982371d" valueTypeId="081f5d28-9e12-41eb-8665-91c50d2460ad"/>
+    <listType typeId="9ec2051b-d87a-4797-98bd-dc22bd0c73f7" valueTypeId="c829ad6b-5a2c-4d9e-986d-9d6f7b2a2d75"/>
+    <managerType typeId="03c49894-06d5-4d3b-990c-e626e4ec1d33" valueTypeId="3df42112-de7c-4891-8845-88e340c3df34"/>
+  </producedTypes>
+  <name>НомераГТД</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="98d1d5da-4865-4e1c-9fa9-ce25de1161c1" extendedConfigurationObject="0718b8b7-aff4-4f0f-9612-56e916cc329b">
+  <producedTypes>
+    <selectionType typeId="616129c5-0bb8-4418-a593-d069e16e960f" valueTypeId="5fff8627-e30b-4416-8cdd-cf393d09dcc3"/>
+    <listType typeId="f832f800-e236-4b73-bf4e-bd8b7e00f02b" valueTypeId="d586b677-98e4-40ee-88dd-83ec868c2da2"/>
+    <managerType typeId="18717630-8b80-416b-ad83-289cbddab24d" valueTypeId="989b80c5-6ad4-451c-aff6-6c1e7cc110ef"/>
+    <recordSetType typeId="700e668e-349c-4bf7-8d16-550ce6721452" valueTypeId="682c7266-2dcb-4926-9199-1aff32ec2c69"/>
+    <recordKeyType typeId="70edb4c2-1204-4645-97e9-4fc4c7f0dc24" valueTypeId="142d2024-5a68-48f3-afa4-a41cd565dbb6"/>
+    <recordType typeId="ba36e474-e035-4d99-a40f-0a5372fdddf4" valueTypeId="7413b1bd-29e5-4a3b-a173-dc7ebda97393"/>
+    <recordManagerType typeId="0bd7a588-6732-4d8d-8d79-ed98e2478179" valueTypeId="870126e3-0e8b-4b9e-86b9-2490b07c4c85"/>
+  </producedTypes>
+  <name>АналогиНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <dimensions uuid="9318505c-e603-43c4-91df-7be0949b4fbc" extendedConfigurationObject="8a57f859-580c-4c25-8e7f-16d6a088a353">
+    <name>Номенклатура</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Номенклатура</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="f22d67ed-1aec-4607-b05a-8ee0723cb731" extendedConfigurationObject="4ba0017a-43fb-4b81-b5d6-1085e4ca9a69">
+    <name>Аналог</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Номенклатура</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

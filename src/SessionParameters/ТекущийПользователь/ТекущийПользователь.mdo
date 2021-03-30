@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0b146f69-b0ac-4271-99dd-5f75f24073fb" extendedConfigurationObject="1ed910db-e434-4efd-9b12-c25353a31d5a">
+  <name>ТекущийПользователь</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SessionParameterExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>CatalogRef.Пользователи</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:SessionParameter>

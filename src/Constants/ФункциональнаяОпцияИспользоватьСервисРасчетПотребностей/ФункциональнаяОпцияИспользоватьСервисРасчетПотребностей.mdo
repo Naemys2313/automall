@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cc8172a0-b4c3-4158-970c-11577ab5f0f3" extendedConfigurationObject="833777a6-cc5b-49df-a45d-907ef8239f81">
+  <producedTypes>
+    <managerType typeId="f2171bd0-b0a3-4c91-bfdd-5a2422fcef29" valueTypeId="ffc5c14b-ecd4-4f3c-8cec-b19ba73f1734"/>
+    <valueManagerType typeId="728f320b-390b-4dab-ac99-81fc620ecc41" valueTypeId="57991637-53d7-43b2-a73d-cc806d27af5f"/>
+    <valueKeyType typeId="dc3a8c46-c38b-4e45-9de7-27c99a5fd55d" valueTypeId="0c1a8c87-7dbe-4bc8-b753-a2c004c53152"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияИспользоватьСервисРасчетПотребностей</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

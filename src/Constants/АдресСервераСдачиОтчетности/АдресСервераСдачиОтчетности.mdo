@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="11a86362-741f-4804-9ccc-36ceabe6d940" extendedConfigurationObject="6c0352e7-2a59-4e5f-965e-d84e2fff3d7e">
+  <producedTypes>
+    <managerType typeId="f2ea64c0-4f7d-4f66-9a9a-5b5a1c2ac054" valueTypeId="2ebb74d2-ad56-4004-b650-ba855283b7bf"/>
+    <valueManagerType typeId="b6f6e8a1-4a5d-41f3-b724-15cfa905f229" valueTypeId="3ad3cee1-9f0e-4c2e-9b6b-5581bba5e369"/>
+    <valueKeyType typeId="5a7e18a6-acae-4589-bd45-1e4bdb63947e" valueTypeId="89e9dafb-8a0f-4a47-b251-b8cd99972ea2"/>
+  </producedTypes>
+  <name>АдресСервераСдачиОтчетности</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>String</type>
+      </types>
+      <stringQualifiers/>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

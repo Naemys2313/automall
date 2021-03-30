@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0ba60f48-1e05-4156-9f3d-81932b682981" extendedConfigurationObject="41f6f6d1-b7cf-4477-907b-ce69fc08c799">
+  <producedTypes>
+    <managerType typeId="77b2ac3d-17e6-42ab-8c2e-b846dbb64d19" valueTypeId="64315656-400c-48d1-86f0-9ab0898a6278"/>
+    <valueManagerType typeId="eefe382a-a7de-4542-b771-85361e4f96ec" valueTypeId="94e50938-1a38-4cf8-97f8-8632219d042e"/>
+    <valueKeyType typeId="10bfe7da-cdcb-4f9a-ad30-805a97890ba3" valueTypeId="cc0082ce-a637-44d0-bdee-0afeb5b3a2f3"/>
+  </producedTypes>
+  <name>ИспользоватьШифрование</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

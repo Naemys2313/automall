@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ffb922fa-f7bf-4899-b236-8bd4a2290746">
+  <producedTypes>
+    <objectType typeId="9505848e-02c6-4e38-bca8-0716d9175532" valueTypeId="23762ef7-a711-4810-89d7-234d3b8f71a3"/>
+    <managerType typeId="246d73db-4240-4b53-a243-4e7c708bbf80" valueTypeId="58621d8f-fd60-445b-a89e-31dc8deb1b3a"/>
+  </producedTypes>
+  <name>am_РозничныеПродажиОстаткиИЦены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Розничные продажи остатки и цены</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.am_РозничныеПродажиОстаткиИЦены.Template.Расш_ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <attributes uuid="3f11abf1-59a8-45b6-9b40-fab94b20ef78">
+    <name>ЭтоОтчетУНФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это отчет УНФ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="9a3107f1-715c-4ea7-abbf-b9adc8dfb0cc">
+    <name>Расш_ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расш основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="c6544b6d-d8a7-42da-a5ae-8bb8d4a0b6d6">
+    <name>Расш_ОбразецРозничнаяВыручка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расш_Образец розничная выручка</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:Report>

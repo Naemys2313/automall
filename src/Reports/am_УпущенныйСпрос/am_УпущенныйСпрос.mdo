@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a16b6750-2983-4e28-9752-59f52cac86df">
+  <producedTypes>
+    <objectType typeId="1a26757f-5b31-45c1-9ce6-4bde9553514a" valueTypeId="e8d76b98-8715-481d-8865-ad6b6e65a110"/>
+    <managerType typeId="09f9d8db-8ab8-4131-82d2-a1b899323067" valueTypeId="5369e675-4bd7-466a-a42a-ded70d291503"/>
+  </producedTypes>
+  <name>am_УпущенныйСпрос</name>
+  <synonym>
+    <key>ru</key>
+    <value>Упущенный спрос</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.am_УпущенныйСпрос.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="97e68ea4-07fa-4f51-b169-83b65135aafe">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

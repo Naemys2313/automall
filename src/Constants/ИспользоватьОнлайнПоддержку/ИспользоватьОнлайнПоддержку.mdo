@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7449d44d-c031-4134-b3a9-c4e8824f683f" extendedConfigurationObject="aae09896-3b22-4d7d-9059-e47660f8b88b">
+  <producedTypes>
+    <managerType typeId="b8317f67-49a2-4f13-8394-ba579d337e0d" valueTypeId="a10dec14-862b-4249-b0a7-c8f1a261331b"/>
+    <valueManagerType typeId="aff37c74-944c-474a-a35c-93577344c0a0" valueTypeId="58a443fe-eebf-4d9a-ba56-f66ba334af3e"/>
+    <valueKeyType typeId="f7e1ab0c-563a-4ee4-8afe-264883948111" valueTypeId="d1b03ff3-163c-49ec-9b99-09b2958c64e3"/>
+  </producedTypes>
+  <name>ИспользоватьОнлайнПоддержку</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

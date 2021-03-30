@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c0745b4b-c485-4765-9922-db23ffac70c2" extendedConfigurationObject="122f9628-1dc8-4c27-9883-60c9b12afd14">
+  <producedTypes>
+    <objectType typeId="2d55c3af-2eb7-446e-b23d-1d758151e5b2" valueTypeId="edcefb46-1cef-439b-9eca-f7c267f1545b"/>
+    <refType typeId="aee40b9c-8561-42d9-82c4-ad4ae7a8d1fe" valueTypeId="e21dab04-5ff4-4604-834a-2ed0fcb21d45"/>
+    <selectionType typeId="20395027-af13-4392-b3b9-3e9e04dd65d2" valueTypeId="94b28415-e8d8-4e78-8699-865c3afda97f"/>
+    <listType typeId="af56bad4-a177-4cc3-9826-32e9b9c3b267" valueTypeId="a207896a-8ade-47b4-bc9b-57600a0717a3"/>
+    <managerType typeId="4c6996a0-d4ef-4dff-a4dd-5c5679e7e4d3" valueTypeId="895aa29b-14e1-4684-a872-9aa7ecfcc654"/>
+  </producedTypes>
+  <name>ПоступлениеНаСчет</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="783f5f98-1746-4ac6-a86e-e9e72dc688ba" extendedConfigurationObject="1845762c-f230-4d58-b262-78aff6558f75">
+    <name>Патент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Патенты</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <forms uuid="843db720-277a-4844-8338-069cbbcc2dc6" extendedConfigurationObject="2bd664e7-4d48-4123-a15a-69749a1646f4">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0ffa5987-4089-4a18-9bd0-6e4cd9d74578" extendedConfigurationObject="a2b1dc61-98ce-4fe4-ae3d-fabbd7218633">
+  <producedTypes>
+    <objectType typeId="273b93ec-dea8-48fd-80e8-9cae2dc684dd" valueTypeId="8f6a1e67-2ead-40bb-ac94-966114d54ed5"/>
+    <refType typeId="e6fbd588-477a-40aa-ac3d-16461387be83" valueTypeId="431c3c54-425b-4f9e-9d35-d137322dff69"/>
+    <selectionType typeId="58f26731-a5f3-4727-b3e2-08d8e55eb319" valueTypeId="15a2d961-4670-4489-ae0a-f5b0e39fd612"/>
+    <listType typeId="7b290b40-5fbc-4510-ba5e-6f12fa3a1656" valueTypeId="951b7620-c3a0-4b58-b239-bd76731acad2"/>
+    <managerType typeId="ea71dac1-cbdc-4c62-8012-9253fa75920b" valueTypeId="1462911c-792d-46c9-9f53-0cdbbb8e043a"/>
+  </producedTypes>
+  <name>СостоянияЗаказовПокупателей</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <predefined>
+    <items id="c346091c-ae73-4def-8c65-f608b229091b">
+      <name>Завершен</name>
+      <description>Завершен</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+</mdclass:Catalog>

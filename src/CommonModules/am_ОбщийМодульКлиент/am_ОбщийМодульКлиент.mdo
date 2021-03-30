@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="860e3e60-147b-4d7e-a5e5-792bae4f0844">
+  <name>am_ОбщийМодульКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Упущенный спрос сервер</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>

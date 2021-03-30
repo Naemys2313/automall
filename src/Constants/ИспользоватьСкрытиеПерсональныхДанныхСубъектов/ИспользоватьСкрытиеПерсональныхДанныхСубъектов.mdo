@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="27051d1b-9770-4cfa-a38e-0b69096fb939" extendedConfigurationObject="3f3f1b41-57a9-4a82-bdfa-89a6653479ab">
+  <producedTypes>
+    <managerType typeId="40f090a6-6cd9-40c5-a714-84ff9c722f85" valueTypeId="e7cb2bef-a332-4219-81fa-75091827923c"/>
+    <valueManagerType typeId="4e313f83-ff0b-4c10-93a1-caa21ca28af8" valueTypeId="f69007ad-0a73-48ac-8a3d-15c69ac7939e"/>
+    <valueKeyType typeId="ec60af90-8228-4bc2-9405-d5ee7b649f04" valueTypeId="565a055f-f112-41a1-80ef-6ea2786347b7"/>
+  </producedTypes>
+  <name>ИспользоватьСкрытиеПерсональныхДанныхСубъектов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

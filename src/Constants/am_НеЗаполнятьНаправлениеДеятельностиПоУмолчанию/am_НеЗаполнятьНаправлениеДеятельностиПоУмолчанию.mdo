@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5d62118-5282-46df-9531-a68fa6ef37f6">
+  <producedTypes>
+    <managerType typeId="b9ec36bf-0e8f-428e-8806-569a5a6eba9f" valueTypeId="f9ac068c-0736-4e06-804c-35b15aa6afb6"/>
+    <valueManagerType typeId="52c5ea94-b5bd-4618-9ac4-8ff242c2b164" valueTypeId="a3c5818e-3627-4262-89a6-dfe8fcf9d1df"/>
+    <valueKeyType typeId="6b33eed2-30e4-4a67-902b-b483c89827ae" valueTypeId="dfae2128-bbad-4d37-9ac4-930064a7eee7"/>
+  </producedTypes>
+  <name>am_НеЗаполнятьНаправлениеДеятельностиПоУмолчанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Am не заполнять направление деятельности по умолчанию</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

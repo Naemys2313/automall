@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="64f6e126-aefa-46ee-ba62-db94414c0cbd" extendedConfigurationObject="47392b90-3603-4e92-87ee-ca3f384367a1">
+  <producedTypes>
+    <managerType typeId="314ec907-1062-4d26-b379-4de789ef20c6" valueTypeId="89a6d62d-ffd7-4dfa-b0bf-66313ebd19fd"/>
+    <valueManagerType typeId="693722a2-f118-42f0-beb6-d4d6db12b1ed" valueTypeId="0f977f4f-dbf4-42a4-8bab-63a2dc8016a1"/>
+    <valueKeyType typeId="38aa4ba1-2c43-49aa-91bf-188c0a8e2914" valueTypeId="8658a6de-05f8-4beb-8b5a-9546bddc4fc2"/>
+  </producedTypes>
+  <name>ИспользоватьИнтеграциюСЯндексКассой</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

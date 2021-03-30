@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="08bc390b-6021-4a3c-8a16-a7f022fc4dc4" extendedConfigurationObject="b50a9db6-2011-47a6-95a3-9731d57774e6">
+  <producedTypes>
+    <selectionType typeId="4c7fc55a-980a-4359-abc5-6b4702921cdf" valueTypeId="098d09ec-580c-4422-b8e4-ee8782b1dc98"/>
+    <listType typeId="38852e33-c90c-41d4-82fe-cc85ccf8c75f" valueTypeId="add92a2b-a0a6-4316-ac38-0aeae62b2818"/>
+    <managerType typeId="661747d7-f0b1-44d6-9c4c-abbb04d609da" valueTypeId="1af6a1ec-3d53-433a-89ec-86b3fb18f4c9"/>
+    <recordSetType typeId="570a3000-845d-449f-a0c4-5c85c26478dc" valueTypeId="b5002a03-2f72-4ef7-9044-4d8f2e9ee18b"/>
+    <recordKeyType typeId="858a451c-5a6f-4e4b-8410-956b6b6861d9" valueTypeId="1c00ca52-44a8-4b7e-9808-c84ad1c4a07f"/>
+    <recordType typeId="d3ef32da-22a4-4f5c-b875-262d1cef0560" valueTypeId="d5bcaa7d-979d-4141-9941-565166a5d182"/>
+    <recordManagerType typeId="94db6b05-9d32-448b-9b70-04007b487c82" valueTypeId="44494d9f-4f42-4c5d-b4e4-08b0c9642de4"/>
+  </producedTypes>
+  <name>УправлениеЗапасами</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="287e1f1e-16b0-439a-b0ed-106569a450c6" extendedConfigurationObject="19770c7f-7089-4ad4-8fbc-27bc115dae14">
+    <name>МинимальныйУровеньЗапаса</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="b4feb3cc-0eea-451d-a032-14e4522cff5b" extendedConfigurationObject="60a6c76e-3789-4de2-b456-7c72bd3a544e">
+    <name>МаксимальныйУровеньЗапаса</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="9e9f220e-065f-4b36-aa01-33b2a9df1b8b" extendedConfigurationObject="0f550a13-c0ff-477e-b959-c127927273ea">
+    <name>Номенклатура</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Номенклатура</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

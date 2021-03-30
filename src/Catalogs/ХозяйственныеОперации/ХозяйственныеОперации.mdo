@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="30e4e97f-1f5f-4e4a-844d-a67a7b9dcd3b" extendedConfigurationObject="8fd6c801-99bd-4e78-9b62-190762b9190c">
+  <producedTypes>
+    <objectType typeId="279537af-cca8-4b75-8809-8bd68decfdb0" valueTypeId="d9a43b84-bfcb-41ab-b07d-ab62d39a28aa"/>
+    <refType typeId="1b84654c-d878-44c6-aef0-a85ec5e6a5ca" valueTypeId="546e2e11-5154-4df1-af17-b351d47a2ea8"/>
+    <selectionType typeId="4ba15830-b521-4a15-ae1a-3b56dad8ed3d" valueTypeId="cf4dbba6-68ab-4094-9af3-0248106a109d"/>
+    <listType typeId="632e75a1-685c-4a3b-b244-f647a918b33b" valueTypeId="0d456c21-c8c0-4b6c-b631-5c0469c7e4e3"/>
+    <managerType typeId="d5cbd53d-90e4-400d-88ff-bb3031cd938d" valueTypeId="e53a546b-03e6-49cd-98d9-d6867db55d2c"/>
+  </producedTypes>
+  <name>ХозяйственныеОперации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

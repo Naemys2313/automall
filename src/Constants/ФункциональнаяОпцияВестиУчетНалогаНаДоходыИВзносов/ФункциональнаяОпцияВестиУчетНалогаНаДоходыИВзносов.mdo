@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="89db6145-52cf-43f5-935d-c355a4ef64a3" extendedConfigurationObject="ec03d4c0-45b9-4860-9675-22cf4e557ca1">
+  <producedTypes>
+    <managerType typeId="126f725d-0737-48e9-a6fb-27dce608d3d2" valueTypeId="34681dc1-8d29-4444-884c-fd02bb341fd8"/>
+    <valueManagerType typeId="73389d9a-148a-4bf4-9863-629f575e2a5a" valueTypeId="a464e403-13af-41d0-95ea-9f61fc587770"/>
+    <valueKeyType typeId="f6a476af-99c8-4e43-886b-34d33fefc0a2" valueTypeId="b542f215-4a8f-45d8-b468-d6b4d54dd266"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияВестиУчетНалогаНаДоходыИВзносов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

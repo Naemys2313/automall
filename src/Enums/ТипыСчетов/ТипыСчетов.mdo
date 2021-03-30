@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="63842f4e-59cb-4558-be2a-453e872744e2" extendedConfigurationObject="9d8e09d4-753a-421c-a041-840d13ac7fdd">
+  <producedTypes>
+    <refType typeId="a47f6868-c3f5-485d-a777-be0329e6fe51" valueTypeId="0927777b-d8d5-4598-a94d-0aad5ba8c126"/>
+    <listType typeId="94e30f79-3877-4a00-a911-480eac4a1345" valueTypeId="ef35c71c-e896-431a-8ee6-fdc70629d3f7"/>
+    <managerType typeId="30a83993-de25-4e74-957d-53ac071ced0d" valueTypeId="bca61e83-a678-4641-898a-97daea48e194"/>
+  </producedTypes>
+  <name>ТипыСчетов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="99fe8b96-6fc6-4082-8e3b-87008e872135" extendedConfigurationObject="5102918e-757b-4943-bf00-4cbc8df02998">
+    <name>АмортизацияВнеоборотныхАктивов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="899f6940-c8f2-4101-89de-a31180ad8442" extendedConfigurationObject="b07d58b2-4574-40f5-acec-e6f2c74f18fb">
+    <name>ВнеоборотныеАктивы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="c3cc326c-eb53-475d-ac37-bbe4d4007d3a" extendedConfigurationObject="046a8519-395f-4366-ac6c-ca27fa2407ec">
+    <name>ГруппаСчетов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="81e86685-e6db-4e7d-8e5b-87a10057949a" extendedConfigurationObject="0c4c49bb-1b81-4602-8b39-d3564cf564a7">
+    <name>Дебиторы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="18f90a8b-fa78-49ec-b450-8329f6547068" extendedConfigurationObject="8f3b1d03-64cd-462f-a1fe-950982f883c3">
+    <name>ДенежныеСредства</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="8b3b13b6-a21c-4c67-b5cb-a760a03bd9cd" extendedConfigurationObject="da49f105-2268-408c-8de7-ef4634c0d729">
+    <name>ДолгосрочныеОбязательства</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="fd92a5c3-717d-47ce-8d7b-131bcd8c2a7c" extendedConfigurationObject="81e75666-4e76-4851-955d-b5dc4845dec8">
+    <name>Доходы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="7f6cc61a-ab58-4f86-bde5-556f51a5dabd" extendedConfigurationObject="7c8e0707-68fb-4dce-a725-62e30f5e61a2">
+    <name>Запасы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="a5731f06-78f9-453c-aa03-eee1aaf25768" extendedConfigurationObject="a7beb8e7-467a-4eaf-82fc-ee2e36cd8fee">
+    <name>Капитал</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="737b3483-5879-4f86-a134-5581935512b2" extendedConfigurationObject="1d03d511-46e2-44e2-b308-74fd55844fd4">
+    <name>КосвенныеЗатраты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="2255bb54-10ba-43d3-949f-9217a0c9a414" extendedConfigurationObject="29da78ec-451a-461a-b5fb-42673e9f05d6">
+    <name>КраткосрочныеФинансовыеВложения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="09095735-7d8f-4bda-9887-b76c1c854e25" extendedConfigurationObject="677ef3a3-7629-4daa-a942-b0a6be1b0302">
+    <name>Кредиторы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="b4ccfbb3-8254-4c97-a2fc-5ce0227bcb14" extendedConfigurationObject="e8d30bfb-737f-4f81-be50-2c6b6f8aba28">
+    <name>КредитыИЗаймы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="1d880f81-08e9-4ac8-976e-0ce450a7fbad" extendedConfigurationObject="30ff5fcb-ef12-417f-9ceb-bdb1759e9131">
+    <name>НалогНаПрибыль</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="9b44cbc2-34a0-49ba-8e41-b0d098b650f2" extendedConfigurationObject="1afcd952-5525-4193-b0d9-ca932ae1cdc9">
+    <name>НезавершенноеПроизводство</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="eda781d8-10ba-4147-a8e8-b01c55bbd22e" extendedConfigurationObject="e8453ad8-d31c-4389-9d97-bbc381f808a5">
+    <name>НераспределеннаяПрибыль</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="d7d0a0dc-ac15-4a0f-9968-9b7c7a02f4c7" extendedConfigurationObject="a21817d3-3640-48a3-986c-22a9e8c97a0d">
+    <name>ПрибылиУбытки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="29f2dde5-cb0a-4842-890e-3d41e9f1cb19" extendedConfigurationObject="b9972905-321f-431d-84a3-21e05583b5c7">
+    <name>ПроцентыПоКредитам</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="0b20aab8-7ed8-47c3-af70-afb2b8b119ef" extendedConfigurationObject="e2b59cf0-51c1-457c-a753-f3f10819216c">
+    <name>ПрочиеВнеоборотныеАктивы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="281a6dc7-8aa6-442b-b8de-b250f55fddf2" extendedConfigurationObject="27c88418-1caf-44b1-a909-5873a404ceb6">
+    <name>ПрочиеДоходы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="2d6f8915-0a5e-46c3-89a9-90c944b78ba2" extendedConfigurationObject="5ef74f61-b3f9-46c3-bde5-12c05060bd10">
+    <name>ПрочиеКраткосрочныеОбязательства</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="cd15fd39-24b4-46bd-89ef-b2b2190c3401" extendedConfigurationObject="b1fd0eea-187c-473a-8e1c-695eb1dfabf4">
+    <name>ПрочиеОборотныеАктивы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="39554d40-954e-4a6a-bbe0-e0d8029bae37" extendedConfigurationObject="70ee4c0b-2257-44f3-bfa4-d609a59160b3">
+    <name>ПрочиеРасходы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="82963125-6351-4475-95dc-0e837ab0664b" extendedConfigurationObject="3a3fbf65-51fa-4811-922b-b3ba02eca8bf">
+    <name>Расходы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="7a5637a5-f112-42a4-a64d-93bea630672e" extendedConfigurationObject="e63dcabb-67dd-4a56-b5d8-88622ebfe009">
+    <name>РезервныйИДобавочныйКапитал</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="cc793ba1-80d5-4d0a-94fd-cea54be64956" extendedConfigurationObject="9de512b2-bc36-4cf1-8ad5-cc21960673e6">
+    <name>СебестоимостьПродаж</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="b66b2c48-ff53-4848-bed7-46181a96f909" extendedConfigurationObject="b9f4608a-1b44-44ab-9d25-3453985c64df">
+    <name>ТорговаяНаценка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

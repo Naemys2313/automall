@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="34aa56d5-1ece-478c-8c29-a0bd7872dd6c" extendedConfigurationObject="550e1107-68d9-4ecf-aea1-775da83fff72">
+  <name>Компания</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension"/>
+  <subsystems>ОбщиеНастройкиПрограммы</subsystems>
+  <subsystems>ВнеоборотныеАктивы</subsystems>
+  <subsystems>РасчетыПоПрочимОперациям</subsystems>
+  <subsystems>Аналитика</subsystems>
+  <subsystems>ЭлектронныеДокументы</subsystems>
+  <subsystems>Планирование</subsystems>
+  <subsystems>РазвитиеБизнеса</subsystems>
+  <subsystems>ФинансовыеОперации</subsystems>
+  <subsystems>Компания</subsystems>
+</mdclass:Subsystem>

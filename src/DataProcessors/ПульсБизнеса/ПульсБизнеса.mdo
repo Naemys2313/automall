@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ac3bb664-1931-471d-9da9-8ffc56557aca" extendedConfigurationObject="ba3d614b-3fad-429f-9c4f-576f4b253a46">
+  <producedTypes>
+    <objectType typeId="15e8d1d0-6b59-4d65-bc95-5b9d6e3bd8fe" valueTypeId="4e6a9a9f-3146-4adb-ae2f-2f5c77bca999"/>
+    <managerType typeId="a3066eca-1b50-4a03-8856-6320d6b47518" valueTypeId="5c0667d1-dc0f-40fd-a891-fea0d1853d1c"/>
+  </producedTypes>
+  <name>ПульсБизнеса</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+  <forms uuid="baaf3074-b6c4-4327-bb89-b27ecb7f17d2" extendedConfigurationObject="b7ac24d6-4e0a-40c3-8066-89e341df0869">
+    <name>ПульсБизнеса</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <templates uuid="d6c4c57a-1415-433d-9589-02abbafe8b0d" extendedConfigurationObject="3b26f25f-a647-47a1-9e66-447a8988dfa5">
+    <name>СКД_РН_Запасы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicTemplateExtension"/>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="65ea49ca-65b6-4a39-b848-c87a86711031">
+    <name>am_ПоказателиПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатели по умолчанию</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="a7079926-424e-4c76-b34d-3f89fc086a96">
+    <name>am_ВариантОтчета_РозничныеПродажи_КоличествоЧеков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант отчета розничные продажи количество чеков</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="41729a1f-9441-48f0-8ac2-52306c442d5e">
+    <name>am_ВариантОтчета_Деньги_ПоступлениеДСПоХозОперациям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант отчета Деньги Поступление ДС по хоз операциям</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="dea14aa5-2891-47c2-a8b4-e82df0d02ecf">
+    <name>am_ВариантОтчета_СводныйАнализЗаказовПоставщикам_ТоварыВПути</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант отчета Сводный анализ заказов поставщикам Товары в пути</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="23f57b4b-47a6-4c54-a8f3-558776e7a11b">
+    <name>am_ВариантОтчета_УниверсальныйОтчет_ПоступлениеНаличныхКассаККМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант отчета Универсальный отчет</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="a20d3413-ebf3-4308-b7a7-7f1f5aa27b0e">
+    <name>am_ВариантОтчета_Деньги_ПоступлениеДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант отчета Деньги Поступление ДС</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="f25abe59-6b5a-4ff7-b748-fde18ea3ac44">
+    <name>am_ВариантОтчета_Деньги_ВыбытиеДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант отчета Деньги Выбытие ДС</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="f6eb6561-9c61-4939-8ca7-ac9825053cd6">
+    <name>am_СКД_Карты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Am СКД карты</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:DataProcessor>

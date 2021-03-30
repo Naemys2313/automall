@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="36a7052c-ccd2-47fa-b749-c3fe6acaa097" extendedConfigurationObject="b732ead4-6656-417e-95d7-2346aa45b16d">
+  <producedTypes>
+    <objectType typeId="3b050400-4127-46af-805f-b741faedd685" valueTypeId="fb6f3180-b720-49e1-99a8-95cbcdf3a18d"/>
+    <refType typeId="bb90fa11-ddf8-45f4-9e93-818178dca3dd" valueTypeId="9807f235-8edd-42d6-b120-4cf2568a081a"/>
+    <selectionType typeId="11cc2969-7f7f-48e3-af58-df0a2e5a5c54" valueTypeId="cde948d4-e709-4ad8-bc8a-96ea0c3ac8c0"/>
+    <listType typeId="58a84015-7c4c-4098-8d71-58b76c750118" valueTypeId="1620bc5d-894c-46d4-851c-a4346a804737"/>
+    <managerType typeId="3e9d4d0b-d3a5-44fc-b12b-910714216c12" valueTypeId="88a18189-52e4-4a9c-9d95-c243f78f6f5c"/>
+  </producedTypes>
+  <name>ИнвентаризацияЗапасов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+  <templates uuid="4fd01b46-014f-469d-8715-0e4ee1216006">
+    <name>ПФ_MXL_ИнвентаризацияЗапасовСАртикулом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инвентаризация запасов (с артикулом)</value>
+    </synonym>
+  </templates>
+</mdclass:Document>

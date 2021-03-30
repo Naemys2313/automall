@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c2d8c5c1-4947-4ba2-bc67-6504714c4bc5" extendedConfigurationObject="00035364-b591-4e6a-9219-e27dac18f687">
+  <producedTypes>
+    <selectionType typeId="2f8aafd8-5290-42b5-8268-75cc79972ede" valueTypeId="64bfed35-efcd-4845-8ae7-1d076cff7ca1"/>
+    <listType typeId="868117e9-c419-4d5c-abdc-cf28dfcf10f1" valueTypeId="0e3d12d7-2512-4009-a2d2-a0fd4966ed56"/>
+    <managerType typeId="0e3b561e-81fb-41aa-b9ec-1368b807424f" valueTypeId="74370f85-5b6c-4a85-88f6-94afeec86967"/>
+    <recordSetType typeId="59fc6871-22ed-45f4-9895-e30ecadff50c" valueTypeId="ec1d72f6-e7d3-431c-969e-d513d799fa13"/>
+    <recordKeyType typeId="ad7e8a29-5c2c-42fa-b515-05d24136c2ca" valueTypeId="6eaff480-7227-45fa-a132-b2bed618ed93"/>
+    <recordType typeId="7c82cb09-c025-43df-98fa-4948f8d09bb5" valueTypeId="99c03f3d-11d7-4953-8280-a6aff0614850"/>
+    <recordManagerType typeId="09e05de3-f380-4553-943d-9a714a09601e" valueTypeId="45b7a370-4e68-4bfb-b25f-473a16ad8ed4"/>
+  </producedTypes>
+  <name>СостоянияКонтрагентовБЭД</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="1c89d5a7-03ee-4ce2-9a21-8de2a75c9629" extendedConfigurationObject="ab045183-0432-4b6d-ba3b-5b842be80f8b">
+    <name>Состояние</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.СостоянияКонтрагентаБЭД</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="40356d50-944f-4964-84fb-713ca0079e35" extendedConfigurationObject="564ecc62-38ae-4817-b37c-156b731ea5ec">
+    <name>Контрагент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.КонтрагентБЭД</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

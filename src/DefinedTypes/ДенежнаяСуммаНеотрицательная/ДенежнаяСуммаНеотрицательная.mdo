@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="03eaa1f5-24bb-446b-8999-3469cb9da5eb" extendedConfigurationObject="293be1bc-49cb-4a99-add8-2a3a46829718">
+  <producedTypes>
+    <containerType typeId="a47199b5-8a28-423c-8c23-c3ca22c7a9d0" valueTypeId="d3184c25-b0ad-4fef-9316-2a88bd23d081"/>
+  </producedTypes>
+  <name>ДенежнаяСуммаНеотрицательная</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <typeExtension/>
+  </extension>
+  <type/>
+</mdclass:DefinedType>

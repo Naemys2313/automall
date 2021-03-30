@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b554eca-f82e-44f4-8c53-171f852053dc">
+  <name>ам_ПульсБизнеса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пульс бизнеса (расширение)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Report.am_ДвиженияПоПлатежнымКартам</content>
+  <content>Report.am_ТоварыВПути</content>
+  <content>Report.am_ПредоплатаПоЧекам</content>
+  <content>Report.am_ДвижениеНаличныхВКассахККМ</content>
+  <content>4e268c0f-4c1c-4cef-b351-17c9d5c83692</content>
+</mdclass:Subsystem>

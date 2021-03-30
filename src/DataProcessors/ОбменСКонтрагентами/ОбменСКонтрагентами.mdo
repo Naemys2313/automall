@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0c2e33c3-d86e-4004-a3e3-8200be30944f" extendedConfigurationObject="b652356e-15b7-4357-8551-f4547a7a206f">
+  <producedTypes>
+    <objectType typeId="f3e2794f-c8c9-4a35-82c9-4c16be3d2798" valueTypeId="6aec2c3a-9ac0-4c4d-b44f-a4ffbc97b7bb"/>
+    <managerType typeId="b8418b1b-4f33-4345-a3ae-45fbd10765f4" valueTypeId="19c97b7c-a160-4e90-aeea-92a14dca260b"/>
+  </producedTypes>
+  <name>ОбменСКонтрагентами</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension"/>
+</mdclass:DataProcessor>

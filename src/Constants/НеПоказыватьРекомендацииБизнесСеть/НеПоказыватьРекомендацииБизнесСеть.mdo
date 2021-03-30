@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b6e24127-83d3-41e0-a6cc-186fb324ba22" extendedConfigurationObject="76fdf256-cfcc-497d-af21-ebf01d964bc7">
+  <producedTypes>
+    <managerType typeId="24e7f488-7623-4a6f-8dc8-92481bc0b696" valueTypeId="04a95347-50a5-4187-9295-86bd279090a3"/>
+    <valueManagerType typeId="d457f53c-9261-4acc-93b4-5e2ae616c80a" valueTypeId="83955078-b8f9-4d90-95e7-187d67992a58"/>
+    <valueKeyType typeId="4be51b0f-b34b-40cf-a479-ac46b4f98024" valueTypeId="03468226-0c14-498a-a8d8-0b2d8a44ed3a"/>
+  </producedTypes>
+  <name>НеПоказыватьРекомендацииБизнесСеть</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

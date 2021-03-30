@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2a56a968-7767-40aa-a9d2-d8b78fefa05d" extendedConfigurationObject="7044fdcd-3781-414b-a54f-7719246a3f1e">
+  <producedTypes>
+    <objectType typeId="19742507-9185-4c43-8a21-3ebe9284e2b6" valueTypeId="def8342c-2aff-4628-817b-b634f3506078"/>
+    <managerType typeId="17e8f4a8-ddae-45d8-b2bd-7a3d6b96b5a3" valueTypeId="05757403-2134-4169-8508-ed69a8062f4d"/>
+  </producedTypes>
+  <name>РозничныеПродажи</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ReportExtension">
+    <mainDataCompositionSchema>Extended</mainDataCompositionSchema>
+  </extension>
+  <mainDataCompositionSchema>Report.РозничныеПродажи.Template.ОсновнаяСхемаКомпоновкиДанных1</mainDataCompositionSchema>
+  <templates uuid="cbbfcaa2-bb0c-4ed2-acf9-6f4c58ccd106" extendedConfigurationObject="8f0aa62c-0e30-4d69-b6b5-39b09f9e9a22">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicTemplateExtension"/>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="f4ecb312-a833-4d23-834f-9ea7f45d70ff">
+    <name>ОсновнаяСхемаКомпоновкиДанных1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных1</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

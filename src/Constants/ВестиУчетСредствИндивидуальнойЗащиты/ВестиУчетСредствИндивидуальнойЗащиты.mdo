@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0d5cc12b-5d67-44da-9c4b-f03dffd7027f" extendedConfigurationObject="1a738191-7619-4500-acc3-7a31dcd86f6b">
+  <producedTypes>
+    <managerType typeId="935c7774-d3df-4935-96c8-54c6a69d0baa" valueTypeId="15b72fa6-60f7-4911-925c-53b5feece091"/>
+    <valueManagerType typeId="1a605c17-8642-46d2-93c7-db71d10b4fa6" valueTypeId="a542f04b-1bd2-4165-9a4f-7d54586c7c83"/>
+    <valueKeyType typeId="3fb02f21-6a1d-483d-96e2-378d260e40e8" valueTypeId="7176df7e-0f5f-422d-8014-c194efa56946"/>
+  </producedTypes>
+  <name>ВестиУчетСредствИндивидуальнойЗащиты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

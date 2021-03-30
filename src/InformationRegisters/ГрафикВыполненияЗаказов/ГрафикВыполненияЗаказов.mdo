@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e2211ce6-3fc9-48ef-a97b-1c3226abe395" extendedConfigurationObject="03e68315-ae30-4948-b66a-c6433178dfa4">
+  <producedTypes>
+    <selectionType typeId="75357a12-c72b-4aea-aa6f-3842d11ee798" valueTypeId="a2f4fe27-ceff-479b-9af9-1fb15abc4842"/>
+    <listType typeId="2949cd60-d090-4a90-9b91-1e2e9a487b3f" valueTypeId="bcc6e8a4-d18b-4943-8616-a2934e1415b9"/>
+    <managerType typeId="8676100e-625b-4168-ad5b-a610c9e6cc57" valueTypeId="8fd359f2-3541-460d-be91-5f4e10155511"/>
+    <recordSetType typeId="24682dec-9b84-4ec9-b769-514bf5071202" valueTypeId="1ed47969-9d73-45c7-8774-e5ec4dcc7482"/>
+    <recordKeyType typeId="be8107b2-857a-43e2-838b-ce80d7619cd5" valueTypeId="4322b429-6b15-4957-8650-15a2a22462dc"/>
+    <recordType typeId="73c689e3-4607-420e-9d83-80e7926c641a" valueTypeId="1b905fa8-8d83-4d4e-b286-3c687f1f7bc0"/>
+    <recordManagerType typeId="54366c1d-f399-4738-82fa-d8864d8be2d4" valueTypeId="71f2098e-8e91-4604-b1c4-96d8d0d7e00b"/>
+  </producedTypes>
+  <name>ГрафикВыполненияЗаказов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <resources uuid="7609ad19-0756-4beb-9853-c9e9f1dfb2a3" extendedConfigurationObject="8a4956a2-b8df-4e9d-9341-3d6693e6a3b4">
+    <name>Выполнено</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="54f72b41-d697-470d-a6aa-5dd544a4b517" extendedConfigurationObject="61aa1456-3d53-4171-80ad-bab01345bd11">
+    <name>Заказ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

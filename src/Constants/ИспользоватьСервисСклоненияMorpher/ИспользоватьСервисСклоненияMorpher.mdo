@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="571453be-dceb-42b1-9c2d-c9a5fe8b35bd" extendedConfigurationObject="ce5549bd-ba99-4259-86a3-36521bad59f5">
+  <producedTypes>
+    <managerType typeId="6a07546d-11d9-42d7-b2f2-83c36a9330f0" valueTypeId="f81f4f31-684b-48d1-87c9-e808a7692c55"/>
+    <valueManagerType typeId="f9508889-542e-4661-9287-8fc4f8abc999" valueTypeId="6d59f0df-4543-45bf-97cf-9dcd175dc186"/>
+    <valueKeyType typeId="40af8792-69ef-445b-8cff-e7d2ac537940" valueTypeId="7cbf4ffe-874b-4565-a7c2-96801d3f951f"/>
+  </producedTypes>
+  <name>ИспользоватьСервисСклоненияMorpher</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

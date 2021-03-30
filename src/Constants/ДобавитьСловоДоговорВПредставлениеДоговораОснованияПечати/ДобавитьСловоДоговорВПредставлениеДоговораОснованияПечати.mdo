@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7ed846df-f9cb-478b-9609-c7eb31fb7190" extendedConfigurationObject="1e2528d5-5d5d-4834-a885-069d9ef7660b">
+  <producedTypes>
+    <managerType typeId="b97118ee-666b-4334-9fd4-22f260a66288" valueTypeId="1b8486c9-873b-49c6-a0ab-a32addee8123"/>
+    <valueManagerType typeId="8cae9743-b117-48af-a6a4-5b4f5b6ee0b6" valueTypeId="5e427a0f-95ce-4184-b860-f7c5e34dda26"/>
+    <valueKeyType typeId="7b93712d-2bb0-4bf8-957b-ced01c61e06f" valueTypeId="c2e5d1fd-b53e-4752-b3d1-02449c5005f3"/>
+  </producedTypes>
+  <name>ДобавитьСловоДоговорВПредставлениеДоговораОснованияПечати</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

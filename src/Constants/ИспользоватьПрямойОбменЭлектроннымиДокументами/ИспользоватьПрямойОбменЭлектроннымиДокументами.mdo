@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f8dd1a4f-8b39-4424-9321-d1dc2899c9e2" extendedConfigurationObject="627749ab-b9a6-4df0-9ef8-32d68c637826">
+  <producedTypes>
+    <managerType typeId="92cb21ac-d731-4963-b68b-800106c971d9" valueTypeId="0cdda2ce-008c-494f-838a-745f3a027437"/>
+    <valueManagerType typeId="77ff0071-96c8-4fa0-8ab9-72a4032616ba" valueTypeId="185144a5-4052-46c0-a82c-f5279557f2ba"/>
+    <valueKeyType typeId="b41854ed-4d0a-4cc1-8717-ec007965e752" valueTypeId="fbe0162c-5f8b-44f5-9bde-2011cff0bc30"/>
+  </producedTypes>
+  <name>ИспользоватьПрямойОбменЭлектроннымиДокументами</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

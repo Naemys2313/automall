@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3622b68d-f8f3-46e3-993d-09c42e9b50c0" extendedConfigurationObject="35ac575d-3333-428d-bb00-ae2dd603b676">
+  <producedTypes>
+    <refType typeId="0eeebebf-d28b-4ada-b9c1-6e955876a846" valueTypeId="528fe49c-2156-4e32-86e7-42eacb2a2cc1"/>
+    <listType typeId="9f5fa5e2-db35-4d90-a68c-355a20cb5f81" valueTypeId="2c8a6591-8276-4ea9-9180-8fe4314caddf"/>
+    <managerType typeId="a911ae2c-2c1c-4ac2-8668-88415d1eaf5f" valueTypeId="8c6915de-fd03-4c31-a882-02bb0871e2d1"/>
+  </producedTypes>
+  <name>ВидыДоговоров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e54de633-e6f8-4e6f-9d04-55fec0832ced" extendedConfigurationObject="744a0b3f-afcc-4c8d-9380-83b6721c4056">
+  <producedTypes>
+    <objectType typeId="b6f11b8b-cccf-4ef5-bdd4-e6386c1360d0" valueTypeId="fc0a853e-20f2-40e5-b4f6-e5a0f973a1d6"/>
+    <refType typeId="9d85289a-6a40-4e56-b901-01d82e37d952" valueTypeId="47499d04-25e3-4f59-9cfd-6e70e39b1b12"/>
+    <selectionType typeId="3139b021-acb8-41f1-aa89-d196584b8256" valueTypeId="f4da723a-c56e-4b68-b2cd-607c11e1ee3f"/>
+    <listType typeId="363134b6-f288-4991-ba27-6cec79950f9c" valueTypeId="c4e74b55-5762-4aad-9bf3-3e08830e7416"/>
+    <managerType typeId="325da6f8-0893-4b84-adef-9dd03049f89f" valueTypeId="f40ab7e5-a40a-4aaf-9149-14d6c206b691"/>
+  </producedTypes>
+  <name>Патенты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="ad2f72a8-cef0-4d58-bc81-2542502f0d71" extendedConfigurationObject="4d629a29-d51e-441c-86dd-84f17e6aa3fb">
+    <name>ДатаНачала</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="8e59baf7-19cb-4cc6-8d74-af5253870f2d" extendedConfigurationObject="dc530737-bd30-4efb-a91d-867e93039419">
+    <name>ДатаОкончания</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

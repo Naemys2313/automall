@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="493b1e0a-a68e-42f0-9f02-e881db3cfa1d" extendedConfigurationObject="9a307657-b474-4ded-9957-8ae0a535d5ab">
+  <producedTypes>
+    <objectType typeId="f93bfa6f-cb7c-4703-8494-45f9ccb8af90" valueTypeId="e818b79a-3bfd-41ca-aade-87036db6d7af"/>
+    <refType typeId="be06789b-0046-4b75-9722-63dccd2abcd0" valueTypeId="f58dec45-55ad-4520-a45e-0f19039cf601"/>
+    <selectionType typeId="76996d5c-7d56-44b0-93a0-1e3735cef907" valueTypeId="f49b5ddf-4714-443c-9f9a-3bcb57597ab2"/>
+    <listType typeId="e8885601-aca7-4ec1-aea6-34bad5215c97" valueTypeId="00044560-5615-42e2-880e-73f13d9bb479"/>
+    <managerType typeId="987e1511-6633-492c-8a3f-5afff474478b" valueTypeId="c263258e-2ea6-433c-a0ae-01f2ce4f0160"/>
+  </producedTypes>
+  <name>ПрайсЛисты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+</mdclass:Catalog>

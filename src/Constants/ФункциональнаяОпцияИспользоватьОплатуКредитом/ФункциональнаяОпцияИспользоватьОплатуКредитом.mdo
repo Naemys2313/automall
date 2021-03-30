@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="08abbba3-a7f4-416a-b1aa-7e5fd07b5dca" extendedConfigurationObject="77bcaf6e-8e8f-4e49-871c-72ac4f7a95d6">
+  <producedTypes>
+    <managerType typeId="a66554d7-0899-4ed9-8768-e175106dc5f5" valueTypeId="6a577384-9444-49bd-bda1-8bfa665a0548"/>
+    <valueManagerType typeId="0afc9adc-0523-49a9-b3a1-be7ab352443d" valueTypeId="ce7de05b-ae7e-4e0a-8cbe-3675cf96b87d"/>
+    <valueKeyType typeId="8d3dc516-956f-4908-814a-c0778840cda1" valueTypeId="6c5e9bf6-6cb5-42a9-87cc-2f837db636aa"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияИспользоватьОплатуКредитом</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

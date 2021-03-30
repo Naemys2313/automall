@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cb3c0f40-e7a4-4965-bae1-d682d1e84928" extendedConfigurationObject="4d26c779-11ea-437b-8775-8af08186a997">
+  <producedTypes>
+    <managerType typeId="a725008b-ba01-40d2-b48e-7d89969cdb01" valueTypeId="99a37531-d627-41d9-b21e-ffd42d381e05"/>
+    <valueManagerType typeId="9ff9f589-1939-4124-8f7e-aa92da9a5f45" valueTypeId="c8e554b3-db0a-4769-81cb-55521762289f"/>
+    <valueKeyType typeId="2acffb9a-3115-4b28-929d-fedb35f1dfb3" valueTypeId="d3451065-fa91-499b-bb55-781b27ea16d7"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияУчетПоНесколькимПодразделениям</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

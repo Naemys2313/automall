@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5ba882e2-8183-4049-9c91-7caf04af679e" extendedConfigurationObject="8ded5e12-0f97-44c8-80fc-7099e5ac6210">
+  <producedTypes>
+    <managerType typeId="45285c57-6267-4a09-b7a4-0593778a11e3" valueTypeId="39a2f2da-7787-4b47-ae5c-3c0717163f34"/>
+    <valueManagerType typeId="dc3c5040-126b-4345-b809-909cc3e878ad" valueTypeId="b3e30453-5733-4aa2-941c-ad680b45d0bc"/>
+    <valueKeyType typeId="81aa291f-733b-49a4-9723-459a3e15ec6e" valueTypeId="f34661bb-9e57-4fa7-a7ab-24aac8b3a4a5"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияИспользоватьАвтоматическиеСкидкиНаценки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

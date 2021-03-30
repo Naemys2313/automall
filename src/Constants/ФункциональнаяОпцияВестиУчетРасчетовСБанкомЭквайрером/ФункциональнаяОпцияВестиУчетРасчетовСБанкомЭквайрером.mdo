@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="535589d8-1796-4a20-ab9d-91eed694424c" extendedConfigurationObject="61b7da41-4cb3-4dd3-9d4a-3f91d670a625">
+  <producedTypes>
+    <managerType typeId="0e344847-7b4d-4367-8442-7125511523e8" valueTypeId="0183617f-e01e-4ced-9523-f10f91c3a96d"/>
+    <valueManagerType typeId="851b411b-d5a4-40ab-aa12-70001ab55b18" valueTypeId="75804116-e83c-48e5-a971-ec8bc2cdfd6b"/>
+    <valueKeyType typeId="19a5e5e2-367b-43ca-9141-862537dcd909" valueTypeId="241ab091-5c2a-4335-91db-87ec1c1d04cb"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияВестиУчетРасчетовСБанкомЭквайрером</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

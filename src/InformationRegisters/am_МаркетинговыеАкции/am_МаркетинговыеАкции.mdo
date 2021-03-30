@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51458153-d072-41b8-927c-2673b5284b6b">
+  <producedTypes>
+    <selectionType typeId="a3755f97-673b-42b2-ab5e-cd448c2f318a" valueTypeId="1506a495-9ae0-4a6e-82a2-6aeeabd1ea46"/>
+    <listType typeId="599a3be3-e2a2-4bbf-b77b-44dfb4472230" valueTypeId="e045aef1-3556-46ad-afe1-ddc668dac84b"/>
+    <managerType typeId="07a9f966-eb92-4246-9c9a-2c56bb3426be" valueTypeId="0fcdb9ea-5660-4a28-82b9-3f5483f1d9f3"/>
+    <recordSetType typeId="d7d703e7-05bc-49a6-81aa-ff1c9debcf87" valueTypeId="e9a892e0-55b5-41b4-9c1e-390d9e1fd0e5"/>
+    <recordKeyType typeId="2510dc83-b2e6-49dd-aa9d-94f44f841568" valueTypeId="7a6a73cf-f717-4d7a-938c-a12c57bdf723"/>
+    <recordType typeId="dea2d3a0-f372-44e0-993f-d60483a908da" valueTypeId="c812eeca-fa43-4815-9709-b4ca87021ef7"/>
+    <recordManagerType typeId="21783540-e741-4aaf-904a-639cdf4ad7b4" valueTypeId="16f7bd1c-0046-461a-a2bd-a2195c14a074"/>
+  </producedTypes>
+  <name>am_МаркетинговыеАкции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маркетинговые акции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8bf06a1e-c20e-4cd2-a1aa-fdf2a8829054">
+    <name>Действует</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f9ae9aa8-4168-4d0e-8372-a61ad2e54b08">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="bff8569f-befe-4308-a820-2536913747ad">
+    <name>Карта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДисконтныеКарты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="05b2c70b-c18c-4330-a9a3-7655fda490f3">
+    <name>Скидка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скидка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыДисконтныхКарт</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0cad8383-c310-42e8-ab79-dcd7536ad9aa">
+    <name>ЧекККМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чек ККМ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЧекККМ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

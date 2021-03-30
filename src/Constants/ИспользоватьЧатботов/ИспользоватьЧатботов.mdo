@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f0d903c0-cc9a-4f14-8042-7c77767cafdc" extendedConfigurationObject="50412fa7-f109-4c54-b51c-5eb3703233c2">
+  <producedTypes>
+    <managerType typeId="ed7cfceb-4ec9-43c0-a457-c2c2d583eb8e" valueTypeId="9f3e0c77-28db-4290-8d6f-c4edb751e0ce"/>
+    <valueManagerType typeId="cade4395-d481-45fe-a782-30dfd3d9d7b3" valueTypeId="ca3cc8d8-808b-4b69-8289-a54eefd04810"/>
+    <valueKeyType typeId="7cbed7d7-e535-459b-b0cb-797c1e04fada" valueTypeId="3225f5d9-05a2-418a-b3ee-68f27980b2b0"/>
+  </producedTypes>
+  <name>ИспользоватьЧатботов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

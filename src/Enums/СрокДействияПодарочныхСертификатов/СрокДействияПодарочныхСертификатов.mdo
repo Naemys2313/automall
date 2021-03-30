@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2e1a1b8c-f318-4412-b8d6-2bfaedc66830" extendedConfigurationObject="5a79b3f5-0b8b-4d6a-89d1-b868000ff481">
+  <producedTypes>
+    <refType typeId="e8f39bd0-03b9-4946-bc13-f6250fd800ac" valueTypeId="b573999f-f2b6-4ea8-a649-1eb49539258f"/>
+    <listType typeId="4a5c65a5-f81e-4ef1-8935-76f6f5ec08e7" valueTypeId="b989b82a-3f35-4671-865b-b2e3a05b2d98"/>
+    <managerType typeId="042b3019-ec55-4693-be53-1732bb31ca4e" valueTypeId="7ece0258-e914-4fa8-a5a1-370f499c266b"/>
+  </producedTypes>
+  <name>СрокДействияПодарочныхСертификатов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="6ea1011d-82ec-4694-bfc9-02674c3529a3" extendedConfigurationObject="6b2b4cdc-8b3d-460f-bca2-0a0db6135a85">
+    <name>БезОграниченияСрока</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="40f994aa-af8b-48f8-8ece-a582cfcd1c76" extendedConfigurationObject="2a968e86-a4e5-4708-9a3f-7f7ec274b8dc">
+    <name>СОграничениемНаДату</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="7d59e56a-3158-4491-8406-899f4cae3a10" extendedConfigurationObject="5cc08cb9-6cf5-43be-b01d-51e94a8c58b9">
+    <name>ПериодПослеПродажи</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

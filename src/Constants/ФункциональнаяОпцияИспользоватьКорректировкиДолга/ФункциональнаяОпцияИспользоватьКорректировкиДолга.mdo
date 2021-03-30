@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="99e3fd2d-502b-4c1b-88aa-07ef22464b68" extendedConfigurationObject="adc823b2-c242-4486-8dbb-41fc7c403797">
+  <producedTypes>
+    <managerType typeId="920241e5-e81c-4a63-8808-7bd3982e82e5" valueTypeId="1d23d955-67e9-4c73-b3c1-dfc364daf4f1"/>
+    <valueManagerType typeId="72df4643-c979-4f7f-9129-096a5901d208" valueTypeId="2b309a28-e1fc-49f1-80b2-674bdf971e8f"/>
+    <valueKeyType typeId="1c9b9a7e-b707-4e39-8b63-81054a8de7fe" valueTypeId="863bc0b1-8f9a-4f36-b00a-b3acaede5019"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияИспользоватьКорректировкиДолга</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

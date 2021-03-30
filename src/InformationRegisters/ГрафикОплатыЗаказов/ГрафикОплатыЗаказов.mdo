@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4d3be41d-cea3-45ba-bfd4-c3a603ba2177" extendedConfigurationObject="56c97ee3-ac22-45b7-b334-45c9811e9772">
+  <producedTypes>
+    <selectionType typeId="29114850-439a-4bf0-a545-1bce7a4cd195" valueTypeId="b22e5eb6-028a-4045-873f-5db6a7ee5ebe"/>
+    <listType typeId="49e4f088-93d7-4172-9f9a-cf61cd984a86" valueTypeId="127bed9c-db66-4cb8-a8b6-df5a2d494de3"/>
+    <managerType typeId="482e9a1c-8c6d-4252-b809-fe59a3f199e0" valueTypeId="f4dfc788-18ea-4431-8fef-6530d20338a9"/>
+    <recordSetType typeId="f64131b4-47ed-471a-afa1-653f1309b90b" valueTypeId="83b7fefa-f379-49ec-9018-c08f8f0db069"/>
+    <recordKeyType typeId="a1008a38-5671-4e4b-b140-015f46ee4780" valueTypeId="3500d94c-90ae-4aa2-b4e8-1d4491db4d47"/>
+    <recordType typeId="c0456fb2-beff-47ba-91c7-dde46035c232" valueTypeId="9ef10ba2-c35c-43d8-ad9b-169b089769db"/>
+    <recordManagerType typeId="eefccfaf-bc17-401f-a7b2-b9b7333e20f2" valueTypeId="1f17d472-d943-463d-9934-f27eea341e95"/>
+  </producedTypes>
+  <name>ГрафикОплатыЗаказов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dimensions uuid="bf0b21b8-71e0-4bd1-8815-bb5fbe7a3635" extendedConfigurationObject="88ffb344-d858-45b9-aa6a-9ca854318cc6">
+    <name>СчетНаОплату</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

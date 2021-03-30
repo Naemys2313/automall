@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="308eb59f-cde9-4ead-b95a-73a8102059c6" extendedConfigurationObject="f9556e5e-5e3b-4024-9c63-c9d04e5bc114">
+  <producedTypes>
+    <managerType typeId="15c23750-003b-4d4a-a186-820cf650388e" valueTypeId="0efca1c5-4015-41a0-bd4d-6cc0be6c1fe2"/>
+    <valueManagerType typeId="f973661b-a3e8-4ede-9fb1-c8aa6dc2d65e" valueTypeId="b371d9ce-bf98-463e-9838-d7abd8f99163"/>
+    <valueKeyType typeId="90a9398b-96cf-49c2-9d81-dafa77956815" valueTypeId="6fdcbf7e-45e3-4cfc-8c98-b82ca44fabd3"/>
+  </producedTypes>
+  <name>БиллингВестиУчетРасходовПоДоговорамОбслуживания</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ff622af7-9c0c-48ef-8a08-95ca613e8bf3" extendedConfigurationObject="e362a3ee-cbd4-427e-ba1c-135d2ac64280">
+  <producedTypes>
+    <objectType typeId="e0b29653-17d1-4285-addc-453135b8f080" valueTypeId="f6e5374a-fee3-43e5-81e4-765e8ab5ff8a"/>
+    <refType typeId="9e6e2a61-160e-40bd-aaba-3489f679f4bc" valueTypeId="4c69691b-8337-4e09-9eca-3b3a699f30a5"/>
+    <selectionType typeId="496f3b2e-74ee-4e5c-ac17-d4f6b173d98d" valueTypeId="e950276c-0457-45f5-ab4d-8e9e174a5398"/>
+    <listType typeId="ab5f9ccf-1e94-4446-b1c3-17bfbff7d2e6" valueTypeId="b20042df-8e24-47ba-a3ae-a1869140c2fd"/>
+    <managerType typeId="cb201017-ec7d-4a0c-8c74-1b2774f3b0dc" valueTypeId="524511df-6cb7-4fcf-8171-50c81f13a973"/>
+  </producedTypes>
+  <name>ФизическиеЛица</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <tabularSections uuid="bf50d36f-93fa-4994-a267-7f00f7721d38" extendedConfigurationObject="ee926eaf-dc5a-412f-a8a8-70f96c93db4b">
+    <producedTypes>
+      <objectType typeId="fd25e087-f5e0-486f-be95-1cd66917ff08" valueTypeId="cf1e605c-da85-4069-88e1-f0fd348dfb49"/>
+      <rowType typeId="d3656c54-6b3e-4188-a050-db116486e4a9" valueTypeId="3d311f2e-b5ef-4492-87a8-2d6d48e9b2ed"/>
+    </producedTypes>
+    <name>КонтактнаяИнформация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="5b4f1fd1-2b6a-4571-aade-2d3a374f9ba3" extendedConfigurationObject="78c6f559-79d6-4372-8ba3-98feaadc921c">
+      <name>НомерТелефона</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>String</type>
+          </types>
+          <stringQualifiers>
+            <length>20</length>
+          </stringQualifiers>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

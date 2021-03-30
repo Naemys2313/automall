@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a83463ba-8cf4-45d6-b0ea-9cd473b2f444" extendedConfigurationObject="9e6c19bc-9285-4069-ac46-9a962297286c">
+  <producedTypes>
+    <managerType typeId="9d98fc8c-8692-43e9-ad22-0180dc86d342" valueTypeId="a121663b-3bd4-429f-8eac-06516445c509"/>
+    <valueManagerType typeId="81538a3f-2e40-4911-be1c-d2e4cfcf2c1c" valueTypeId="c2886df4-b7db-4e91-93a1-3f17a37bc083"/>
+    <valueKeyType typeId="8d546cdc-e75d-4474-8150-a13ab95338ab" valueTypeId="d87ae976-8652-4168-b8a0-9d5aafe0a473"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияКонтрольДоговоров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>EnumRef.ВидыКонтроляДоговоровПриПроведении</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

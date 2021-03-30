@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ece6f1d9-3a71-43bf-8777-87d8c558e8c9" extendedConfigurationObject="fc863c6d-8889-47fd-9320-73b659a6ab2c">
+  <producedTypes>
+    <objectType typeId="24e56813-8462-47c9-8e62-8842d9648c4e" valueTypeId="9cb3c9bd-8a80-4b43-842e-5e194bea49c6"/>
+    <refType typeId="ff53d203-1cdb-417c-97f9-a552c7f826e0" valueTypeId="83b14ed6-4bca-4451-9517-d1dd44aa274a"/>
+    <selectionType typeId="a2787c5a-b32d-4852-aa3e-d0405fa7f252" valueTypeId="ba440e03-6144-4972-871c-43732e32d379"/>
+    <listType typeId="5a294cd4-471d-49e2-a195-6f67a4563743" valueTypeId="ec63a3eb-f8c6-474f-b4c0-b5b3496381df"/>
+    <managerType typeId="db7a6c3f-7737-4b7d-978b-cd59575a46fc" valueTypeId="5c125cf1-17eb-43bb-af4d-c7f7991e6217"/>
+  </producedTypes>
+  <name>КалендариСотрудников</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

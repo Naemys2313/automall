@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="21666e93-d913-41b8-9c2e-61aa423a8207" extendedConfigurationObject="9650cee0-43d9-437e-94cb-98135702b751">
+  <producedTypes>
+    <refType typeId="de727093-8b05-4a49-ab25-c532a980d34b" valueTypeId="72b9d3a6-57fd-428b-af97-c92e85849807"/>
+    <listType typeId="d0e0a5be-1e7f-4850-9590-b5e67ae0bcee" valueTypeId="31d2970a-dc2a-401a-a549-76bf8fd066c6"/>
+    <managerType typeId="a87bf584-0da3-4f4a-aa29-b810763bc7ff" valueTypeId="648f4fd4-a9a5-424a-8761-20a8b56d173a"/>
+  </producedTypes>
+  <name>ВидыКиЗГИСМ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

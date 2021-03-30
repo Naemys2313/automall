@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f5987359-cd7f-49fd-adda-a80640be25f2" extendedConfigurationObject="1c09bf33-9b54-4bfd-bc92-e7324025fab0">
+  <producedTypes>
+    <objectType typeId="f9f8cdfa-9e9b-4c21-a2ec-51628fa1fcb0" valueTypeId="5c46bb2a-6d2a-4539-91fb-d01c6098f59d"/>
+    <refType typeId="9023efe8-23a2-4f12-ab71-2bf9bcee234a" valueTypeId="79ef26c8-ce1c-495d-bcd2-dadd4fb8e65d"/>
+    <selectionType typeId="c92dc9d7-e010-49da-afc2-6b9d74914e5a" valueTypeId="69617b04-5ef0-4d9f-9d77-c3d4bfb7f54d"/>
+    <listType typeId="b29dc699-21cf-43ae-8bd8-989bc5bc3af1" valueTypeId="4b82d05b-21b4-4d34-bacc-56aadd7bb0ea"/>
+    <managerType typeId="d842051a-9e7a-49d7-bee5-686dba125a50" valueTypeId="8c48cd4c-811b-41f4-afcf-5534c06d1624"/>
+  </producedTypes>
+  <name>Календари</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

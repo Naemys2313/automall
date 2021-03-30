@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bb0ed775-4d9e-4aa8-91cb-d90180de1b42" extendedConfigurationObject="25c8e800-ce62-49b3-b1b3-12a6a5d0be50">
+  <producedTypes>
+    <managerType typeId="2cbbc6c5-43cb-48c9-9e1d-c37fbe7e85a7" valueTypeId="e8392d00-7f6b-4c36-870f-8e0b2bcd2173"/>
+    <valueManagerType typeId="df988cc4-71c8-40d1-b6c2-450d2fc3acc3" valueTypeId="19f2f07e-64e4-408f-867e-e92708729860"/>
+    <valueKeyType typeId="19ac860a-e91b-4d95-9087-a271b9c83f6e" valueTypeId="6d7f25a1-3afc-42dc-9639-e049f381cddb"/>
+  </producedTypes>
+  <name>Компания</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>CatalogRef.Организации</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

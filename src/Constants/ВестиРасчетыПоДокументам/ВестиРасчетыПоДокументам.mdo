@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="95d8ed7a-e1a8-442c-bfd4-0d588287a0d0" extendedConfigurationObject="0f6a1b14-4ec4-41d8-8971-ab7064b259a7">
+  <producedTypes>
+    <managerType typeId="7f3e7db4-6251-431d-917d-ace0e92a1aaf" valueTypeId="5f1eaac4-20b6-4461-b038-369af8b6c12a"/>
+    <valueManagerType typeId="6fb2d00d-6cb5-48ff-97ca-c8f85bca6f9b" valueTypeId="6fbc5773-b031-4029-9428-1f5e07045ba6"/>
+    <valueKeyType typeId="8ec1254b-0ac7-4261-a82a-54d9aa871a10" valueTypeId="a4d0966a-74e2-4152-9d6c-0b1de0dc2e10"/>
+  </producedTypes>
+  <name>ВестиРасчетыПоДокументам</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

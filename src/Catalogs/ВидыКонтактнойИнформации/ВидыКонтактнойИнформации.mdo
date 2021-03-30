@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a264bb02-57a0-422d-af7c-028d8bb74773" extendedConfigurationObject="782cb93d-36e6-4923-b2b6-75caa3459cd6">
+  <producedTypes>
+    <objectType typeId="b60d6b8e-df35-46ff-ab24-3073426c4817" valueTypeId="edc6ca2c-9606-46f9-9c91-35fe59a7c364"/>
+    <refType typeId="61ab472c-ec75-444f-9d31-ed4dff4c4776" valueTypeId="94ef26e8-6496-4bd2-af37-052fdcf9924e"/>
+    <selectionType typeId="c7e6a381-6284-470e-81cc-943b5a3d531d" valueTypeId="8c43160f-182b-42e4-bda3-17bfb1ed6369"/>
+    <listType typeId="ea5abec3-97c0-4c9d-8bf0-b810c5935bab" valueTypeId="03a915c5-4a6b-47c4-9f47-407ad43c75cd"/>
+    <managerType typeId="a7642f59-2789-4937-a072-1b2e955d32ed" valueTypeId="ce5fc442-bff9-46d9-a59a-babd99b2c86c"/>
+  </producedTypes>
+  <name>ВидыКонтактнойИнформации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+  </extension>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <predefined>
+    <items id="cd062519-419d-455e-87fe-1f8becd50a4e">
+      <name>СправочникКонтактыЛидов</name>
+      <description>Контактная информация справочника &quot;Контакты лидов&quot;</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="16adc386-0b4e-482a-a789-4e6ced065b2e">
+        <name>ТелефонКонтактаЛида</name>
+        <description>Телефон</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+    <items id="f943692b-307c-4518-9ab6-12a2e39eef69">
+      <name>СправочникКонтактныеЛица</name>
+      <description>Контактная информация справочника &quot;Контактные лица&quot;</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="646ef1e7-02d1-4c7d-9e06-db645804b2ef">
+        <name>ТелефонКонтактногоЛица</name>
+        <description>Телефон</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+    <items id="02f1d916-fc01-42e2-9464-1ec1e443c5b0">
+      <name>СправочникКонтрагенты</name>
+      <description>Контактная информация справочника &quot;Контрагенты&quot;</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="2f520645-3dc1-45de-a559-a41417300eef">
+        <name>ТелефонКонтрагента</name>
+        <description>Телефон</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+  </predefined>
+</mdclass:Catalog>

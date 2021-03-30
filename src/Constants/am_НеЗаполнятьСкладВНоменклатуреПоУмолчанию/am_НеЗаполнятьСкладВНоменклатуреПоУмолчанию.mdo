@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6f17d00-8b38-4615-9276-e036c39e9536">
+  <producedTypes>
+    <managerType typeId="1560f857-9514-43ab-b1a8-e2a34be2e8ee" valueTypeId="93d0770e-ff3d-43d7-9a23-2ad282a38fa8"/>
+    <valueManagerType typeId="dc82a20f-8839-4a31-8de1-a13fc6e670e1" valueTypeId="6037fbb2-97a4-46ab-ae70-e58724429f32"/>
+    <valueKeyType typeId="8fd9a145-6d7e-40a3-9e32-687dd93cfade" valueTypeId="d5493dff-b23a-4f57-b175-6c9c4509239a"/>
+  </producedTypes>
+  <name>am_НеЗаполнятьСкладВНоменклатуреПоУмолчанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Не заполнять склад в номенклатуре по умолчанию</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7c922b09-5072-41c2-a35a-61a10ebcc5a2" extendedConfigurationObject="fcb499b9-63cb-459c-9103-030e72287a8e">
+  <producedTypes>
+    <managerType typeId="2d2a8785-3d1a-4ff7-b99a-f7762c96a3dc" valueTypeId="70f4a49e-1d35-43cc-b374-aed665421e62"/>
+    <valueManagerType typeId="5faf4468-5ba3-4cf3-954e-6bb93deadca8" valueTypeId="0eabcdf2-24df-4964-9110-d1582cd708b9"/>
+    <valueKeyType typeId="91575c04-96f8-48e2-b6ae-133055663482" valueTypeId="71bc3c4b-6188-45a4-9f2c-94150fd7df9c"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияКассовыйМетодУчетаДоходовИРасходов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

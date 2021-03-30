@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ec052050-b461-4c49-b9d8-779dd13781bc" extendedConfigurationObject="add9f9b0-76e2-4f30-b301-3c9ee7846664">
+  <producedTypes>
+    <managerType typeId="3cdf604f-e1e8-4406-9ec9-4fc9650e3207" valueTypeId="4b3cb6db-c17b-4669-a27d-395fddbd6694"/>
+    <valueManagerType typeId="aaf5ad87-3408-47c5-ba90-edc7e5f8a979" valueTypeId="2cff1998-d373-4c85-af26-fe07cc8d104b"/>
+    <valueKeyType typeId="c230e09a-387e-4ab4-bdc5-d787f9d80d85" valueTypeId="ade09ae3-47f8-4d12-bfd5-d2a10bcfe4e2"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияВыполнятьРасчетНДФЛПоПрогрессивнойШкале</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

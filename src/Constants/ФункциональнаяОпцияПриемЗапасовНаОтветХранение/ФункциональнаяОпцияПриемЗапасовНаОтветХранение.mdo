@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fed6d0d3-a1c6-4a43-b8d7-0daad855128b" extendedConfigurationObject="879da1b6-0308-4b6b-ab63-5725aa636c62">
+  <producedTypes>
+    <managerType typeId="4a3a3557-6daf-4c95-9675-2337b49dfa7d" valueTypeId="e4249d3f-398a-4f99-92ca-f1819d7f5f21"/>
+    <valueManagerType typeId="a6c5d84a-5d26-44f2-8e9f-34e9ca622396" valueTypeId="cc6c6bd2-a303-4c21-b9bf-de36c77de77c"/>
+    <valueKeyType typeId="3e176ab5-cb9b-4492-b9d3-1bd0f4f26c3f" valueTypeId="0da955d6-ecdf-40ee-adc6-dd9732ecf732"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияПриемЗапасовНаОтветХранение</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

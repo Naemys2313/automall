@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="305cb49c-d545-464e-a789-31fcaf183278" extendedConfigurationObject="38fed131-ef78-4639-a744-adeace73b95b">
+  <producedTypes>
+    <refType typeId="10699b44-06a5-4174-b455-7c720131535f" valueTypeId="3fdf8e7a-8419-49dc-b2c7-e23b2f8ca579"/>
+    <listType typeId="e7420087-3a9f-40ff-8a35-47696bb6e388" valueTypeId="71e4d03e-c6fa-455b-aa6b-3c9dfe083e9a"/>
+    <managerType typeId="eb6225ad-c8e3-49cc-b10c-83738b7101a6" valueTypeId="e56299f8-5dbe-4c80-a127-c32fdd2e7287"/>
+  </producedTypes>
+  <name>ВидыСкидокВДисконтныхКартах</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="f23c7925-8736-4290-ba08-a404329057b9" extendedConfigurationObject="5a0fdbd4-9af4-443c-8396-eb2dc7e78f12">
+    <name>ФиксированнаяСкидка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="bdffe4b7-d4ae-4f4b-b36b-0314c82e4a8f" extendedConfigurationObject="e29fcd9b-ac5c-4637-b7c6-c64feb832c86">
+    <name>НакопительнаяСкидка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

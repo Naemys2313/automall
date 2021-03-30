@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="adda00fc-09d3-4581-87b7-f2df5dd426a9" extendedConfigurationObject="1c48f5e1-8079-454f-8148-ac0ada9f1108">
+  <producedTypes>
+    <refType typeId="99f7be25-f201-4247-a8e2-a8b4d208b7b4" valueTypeId="c7786b67-58ff-43db-8bfc-d44fb6bc29a1"/>
+    <listType typeId="234b8522-9fa4-4e7d-bef1-9d1a98eb39f0" valueTypeId="0d56e094-7aea-452d-b9a5-a46a36344393"/>
+    <managerType typeId="d4f8754d-d8e7-4b50-9f8f-054ce72570f2" valueTypeId="e9b6efe9-e24f-458a-9884-ad10116bbb6b"/>
+  </producedTypes>
+  <name>КонтактнаяИнформацияТоварногоЧека</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

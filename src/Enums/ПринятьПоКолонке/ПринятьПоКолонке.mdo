@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="834149a8-a028-44c5-a26c-9ed29f32106a" extendedConfigurationObject="d45077fb-8e43-4183-8b48-2b5e261b471c">
+  <producedTypes>
+    <refType typeId="04a8e66a-ec54-422c-9403-933798529737" valueTypeId="ce9efb80-ea41-43ae-99de-060b9308593c"/>
+    <listType typeId="d24676b3-739a-4698-9462-4b36ff8b1218" valueTypeId="75de14f8-e0a9-4836-b518-c0e4261c070c"/>
+    <managerType typeId="4cc00287-a269-485f-967c-0d14ee9dd937" valueTypeId="b550879e-625d-4874-88bd-a697940683ef"/>
+  </producedTypes>
+  <name>ПринятьПоКолонке</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="1eec48a9-5864-4091-a43f-38c20f4cfe82" extendedConfigurationObject="044edb90-9917-4977-82cd-eb9b2ebb64d7">
+    <name>КоличествоПоФакту</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="03c214ac-5a29-48fe-8397-70cbacaa5eca" extendedConfigurationObject="142df335-e548-4a9e-85ec-591213bedeea">
+    <name>КоличествоПоВходящемуДокументу</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

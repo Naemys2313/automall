@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="99ab3ed1-fe21-4543-9da6-de79c352b4e1" extendedConfigurationObject="8f03c0e7-0e7d-4e70-858c-e7c82c0fc441">
+  <producedTypes>
+    <managerType typeId="ce86070a-f6db-4858-99fb-7258ed729d41" valueTypeId="a02eafd8-471b-4dcc-b54c-08c7ff4f0f31"/>
+    <valueManagerType typeId="6995f7ab-1308-4029-9c1a-c407e63b09cd" valueTypeId="232e1474-6cad-4ba6-a254-888c1158c3dc"/>
+    <valueKeyType typeId="a3fd5f3b-7b24-4fee-90a6-29bb7c011825" valueTypeId="b73bcfa0-82b7-4ffb-86a1-dc9e82175829"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияПередачаТоваровНаКомиссию</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

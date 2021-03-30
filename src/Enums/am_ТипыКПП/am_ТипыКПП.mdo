@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ea118af-7ef4-43c7-a555-5fa8d6fdcf89">
+  <producedTypes>
+    <refType typeId="9313925e-2e92-4f5d-abbc-8969d1d24002" valueTypeId="8ba2dc3a-47ab-4764-bce6-7e4545371f3f"/>
+    <listType typeId="d882feed-32c9-415b-b1a2-c48048e3e49a" valueTypeId="f8a33914-dddf-4645-b803-90f9f00dfd9a"/>
+    <managerType typeId="d1d15c33-b797-400f-99d1-dd4fb9cf46fe" valueTypeId="01875daa-2c38-427b-ba2c-e4cb68cc5a1a"/>
+  </producedTypes>
+  <name>am_ТипыКПП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы КПП</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7b739434-81db-4d91-9f98-d4af11f487c2">
+    <name>Механическая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Механическая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6cd3073c-2505-43e0-9baa-60dc28a8e54b">
+    <name>Автоматическая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматическая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8b2c10ab-ec0b-4d5e-b694-46053f527c32">
+    <name>Роботизированная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роботизированная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="da599f4e-6bc5-43a6-8bac-77d5c59e95dd">
+    <name>Вариатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариатор</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="70d520cc-c36c-4dca-8188-e355be6c1ece" extendedConfigurationObject="306eda8c-5ffa-4f87-8f22-175cb9514162">
+  <producedTypes>
+    <selectionType typeId="76fc56de-aa71-43bb-ac24-7a4dc65ddf91" valueTypeId="8a0fd5ac-295c-44f1-9d81-2a6437b45bd2"/>
+    <listType typeId="8c77183f-bf7b-417d-b60e-a349996dc955" valueTypeId="fcd6c57a-2f79-4728-a3e3-51d18fb70c0b"/>
+    <managerType typeId="0ac482d3-0bcc-400e-bfeb-18e1c994f446" valueTypeId="15e47d65-5f08-4082-ad62-9ead57e4e85d"/>
+    <recordSetType typeId="2461dc77-1cde-4921-93b9-bae1f7fb8f97" valueTypeId="dec102ae-13d7-4c42-bc99-2e1f1bccacdb"/>
+    <recordKeyType typeId="fa5e7401-338d-431f-a95f-2deeef5a52e0" valueTypeId="b927ff74-b575-46b8-a4b0-6f653c6bc838"/>
+    <recordType typeId="48d84b15-69dd-4022-80c6-217014c0b891" valueTypeId="04798c27-ae37-4578-aa4a-761b713b0d60"/>
+  </producedTypes>
+  <name>Закупки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <registerType>Checked</registerType>
+  </extension>
+  <registerType>Turnovers</registerType>
+  <resources uuid="bb9b2f02-57f8-4484-a698-88a20af9ab23" extendedConfigurationObject="93432e63-8b3f-40a0-a106-4e23a9b2da92">
+    <name>Количество</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="5cdd532d-497d-4822-915b-649c8326d602" extendedConfigurationObject="bd7d4a0a-2aac-468b-985c-754b60fb431a">
+    <name>Номенклатура</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Номенклатура</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:AccumulationRegister>

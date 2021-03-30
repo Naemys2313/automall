@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0c77b747-32cd-4b0a-b251-d0604c6ca553" extendedConfigurationObject="3c540ce6-4517-40fb-b094-8d94c8a86755">
+  <producedTypes>
+    <managerType typeId="543bae71-958b-425c-b6df-c164327b1164" valueTypeId="45347781-6bdb-4aa1-9187-b8ce1f851bb0"/>
+    <valueManagerType typeId="6b44a921-413d-49fe-876b-c4f0ea306349" valueTypeId="673c4d85-da58-4beb-b232-ce2a1704855a"/>
+    <valueKeyType typeId="8a37e7cd-2d9d-4d26-94ca-e494d8abbad6" valueTypeId="a6fac869-a5ed-4d89-87c5-9abd350bc143"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияУчетПоПроектам</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

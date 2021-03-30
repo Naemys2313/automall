@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="dc2ca9c0-129a-4335-88bb-2d22a2458c71" extendedConfigurationObject="171a64b6-39d2-455f-b304-1c6ea8d85494">
+  <producedTypes>
+    <managerType typeId="25aa9a72-d89f-4963-972a-c4ea73e4ae3f" valueTypeId="fa36b7a4-1e95-48b6-ab28-b2eea775ddc9"/>
+    <valueManagerType typeId="5cddc7c5-0acc-433b-ad22-3c3c2792a1a7" valueTypeId="c1d3da39-b22a-4fa7-b0b7-8840252f1d4e"/>
+    <valueKeyType typeId="36b5f346-9770-42f0-9387-6ff0ba6e034d" valueTypeId="cc478c53-548d-4093-aec6-3424c45c1603"/>
+  </producedTypes>
+  <name>СоздаватьПодкаталогиСИменамиВладельцев</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

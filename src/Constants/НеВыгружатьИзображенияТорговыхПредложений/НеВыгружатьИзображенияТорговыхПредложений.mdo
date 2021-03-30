@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="838496e1-67d4-4561-bd0f-3c17f6cf2764" extendedConfigurationObject="3a48d7df-64c2-48c3-9318-208f8dd45e23">
+  <producedTypes>
+    <managerType typeId="05607127-2cd5-453a-829e-84dc53474dc9" valueTypeId="d815bd8c-c6b4-4c75-9eba-0a919f0bff13"/>
+    <valueManagerType typeId="e2e0c0f8-42fe-406e-af12-a32c70b809ec" valueTypeId="a8b5f5cd-e661-43a6-a730-3831905e75ff"/>
+    <valueKeyType typeId="726ab2da-7506-45f6-beb1-c53740fc2115" valueTypeId="00168360-d331-4f29-835f-0b49d3f0f346"/>
+  </producedTypes>
+  <name>НеВыгружатьИзображенияТорговыхПредложений</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

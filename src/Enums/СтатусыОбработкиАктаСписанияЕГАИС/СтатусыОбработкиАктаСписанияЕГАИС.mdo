@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="181c7dfe-8e30-4d71-b4a5-cdc9e4d6447e" extendedConfigurationObject="8e4f42cd-a042-4fac-8183-330105271ee0">
+  <producedTypes>
+    <refType typeId="f190ee11-c576-449f-b25f-0a5ff889aa8f" valueTypeId="8492fdbf-8d6c-4592-bcc6-fc9f2635d407"/>
+    <listType typeId="e278443b-d424-4c20-84ba-eb6c062df16a" valueTypeId="896a4f1b-8531-471e-9f98-86e154eb2355"/>
+    <managerType typeId="0ed7cdea-4b0f-41f5-b4cd-ea73a0ab43ad" valueTypeId="5d04e783-7373-44ba-b7bb-ce5f8270f4b8"/>
+  </producedTypes>
+  <name>СтатусыОбработкиАктаСписанияЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

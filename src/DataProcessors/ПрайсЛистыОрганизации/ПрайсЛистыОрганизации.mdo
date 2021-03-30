@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7f20d3ba-53f4-40a5-8eab-aa171319ce1d" extendedConfigurationObject="f167e486-0e27-48c5-871e-118af4382fe9">
+  <producedTypes>
+    <objectType typeId="3e4fdb20-c576-4c92-a2f3-0a7e5ea0cddb" valueTypeId="44960032-7839-4304-9c03-b750038863c8"/>
+    <managerType typeId="c69f1299-be0a-4f66-9695-78fd1330eb42" valueTypeId="9e91f4b3-3857-4c43-9901-9d35b300213a"/>
+  </producedTypes>
+  <name>ПрайсЛистыОрганизации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+  <templates uuid="aaa5b544-f7ec-40df-90bf-d74f90ccc1d2" extendedConfigurationObject="4832f4d6-dd60-40ed-a98f-9c4a297a7854">
+    <name>СКД_Номенклатура</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicTemplateExtension"/>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="9a4ac3da-ae76-4482-bb50-1ce7c9606c12">
+    <name>СКД_Номенклатура1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Иерархия номенклатуры (номенклатура)</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="8101bc7d-5e53-4400-8b56-c7dc1f4b4093">
+    <name>СКД_НоменклатураИХарактеристики1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура и характеристики (по установленным отборам)</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:DataProcessor>

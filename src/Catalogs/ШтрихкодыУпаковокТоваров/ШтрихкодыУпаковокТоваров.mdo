@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4ee92439-eed6-44a7-bdea-21a0bba60e2b" extendedConfigurationObject="e35ed3a1-2051-4f4b-8e36-36bb46591b25">
+  <producedTypes>
+    <objectType typeId="e244eb4d-552d-479f-982b-36900c1ccf9a" valueTypeId="4c1c308b-924f-4871-a6e2-8429b790becc"/>
+    <refType typeId="7fb1a7e0-7c50-45c6-855e-1e781643379b" valueTypeId="92e588e7-9935-4de7-b253-2c891879001c"/>
+    <selectionType typeId="8ad2c8ac-9b33-4f1c-b0c6-7861dc07f763" valueTypeId="7fb66668-b598-4f5a-9ea9-4896beac2b96"/>
+    <listType typeId="4b552507-67e4-4839-9e2e-503032704ebb" valueTypeId="4d0f384e-992f-40dd-80e9-18968d9c783b"/>
+    <managerType typeId="67c4d992-8c18-4914-aeee-470772830b64" valueTypeId="4fc0f3fe-4459-4417-949d-d896e4b03475"/>
+  </producedTypes>
+  <name>ШтрихкодыУпаковокТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

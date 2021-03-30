@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2b95d1fb-dff5-4029-b007-78ea69d02109" extendedConfigurationObject="133f181a-fade-4182-826d-904fac780326">
+  <producedTypes>
+    <managerType typeId="eb8d49cd-b5ee-49a6-8bdf-51190a562b74" valueTypeId="31396a4d-3788-4e01-8ef6-53969e91e3f4"/>
+    <valueManagerType typeId="68929070-a886-4eee-baef-c46e186f5c64" valueTypeId="79c9be39-0e9a-4cb1-8d0e-6cae63e60b76"/>
+    <valueKeyType typeId="6ef47295-002b-4632-a0ff-18986d9d49ce" valueTypeId="b3a82002-d665-4309-8c81-86b9b4671f2b"/>
+  </producedTypes>
+  <name>ЗапрещатьЗагрузкуФайловПоРасширению</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

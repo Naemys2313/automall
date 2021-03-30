@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6aba3ba9-3178-4e8d-a643-c095d39b6879" extendedConfigurationObject="38259fad-b8f3-4472-9593-45ecdacb52f3">
+  <producedTypes>
+    <managerType typeId="9617fd32-489b-40e0-974d-cd9905300eee" valueTypeId="d00d7843-9b52-4385-9fee-65e8615b594d"/>
+    <valueManagerType typeId="55668589-331f-42c9-9309-433add39183b" valueTypeId="0b318bda-42d6-4343-b43e-6e12dc8b81db"/>
+    <valueKeyType typeId="2c39b83c-b4d6-4dce-9d42-cad0827a5447" valueTypeId="d9f1f9f1-406c-4597-9504-175452c9e65d"/>
+  </producedTypes>
+  <name>АвтоПодборНомеровГТД</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>EnumRef.ДаНет</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

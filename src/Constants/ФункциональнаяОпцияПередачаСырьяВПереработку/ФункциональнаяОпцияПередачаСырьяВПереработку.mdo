@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="97bea7af-6e38-43a3-919e-0f030cee71ce" extendedConfigurationObject="06641e8a-2573-4195-94c0-7f83dd02b872">
+  <producedTypes>
+    <managerType typeId="78206225-db12-4b50-8349-898c9a563648" valueTypeId="05d192d0-e359-4243-9d0d-178cee6c008c"/>
+    <valueManagerType typeId="f414f071-2506-4f5b-8b97-f69519f5674a" valueTypeId="360121ec-71ec-4476-a3ec-ffd2972a32ba"/>
+    <valueKeyType typeId="91eae054-7e15-494b-89b4-f0b36bde6ec4" valueTypeId="b4216cd7-4190-46ba-a3c7-3d84a2a321f6"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияПередачаСырьяВПереработку</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

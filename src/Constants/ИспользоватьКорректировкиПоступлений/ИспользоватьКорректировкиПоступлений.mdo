@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6d7259f7-6f4a-43d9-ba70-03213adc3459" extendedConfigurationObject="11acdca5-8dcb-4596-af2d-031503f01997">
+  <producedTypes>
+    <managerType typeId="467d5eee-962c-40d8-98ba-410c181c651e" valueTypeId="3f3130e5-83c1-4572-a81a-1efc3398ddd0"/>
+    <valueManagerType typeId="6f1fad6f-34a0-41bf-966a-0a39892d56b3" valueTypeId="a2a1a375-150d-4bd1-9267-6e1f13b62caa"/>
+    <valueKeyType typeId="a708a040-00a9-4de4-b079-35f571f640f4" valueTypeId="ba1ce262-6558-4f16-840a-a96019dab98e"/>
+  </producedTypes>
+  <name>ИспользоватьКорректировкиПоступлений</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ff01d5e0-bea0-4402-904b-0a034a2a07a6" extendedConfigurationObject="c12c6c14-c5d0-4022-a8aa-f5dce84c546d">
+  <producedTypes>
+    <managerType typeId="2c801c5c-55fd-4f63-a907-d526e89225ae" valueTypeId="a8568b47-ce77-4fbf-b96e-b46bef7e808b"/>
+    <valueManagerType typeId="7b9f29b1-1afd-433e-8aa5-7d6f03e81dd4" valueTypeId="b64a3e6a-a42d-4788-9e86-e939be390c25"/>
+    <valueKeyType typeId="6383f125-e0e4-4f42-ac5f-a008f21f17d4" valueTypeId="1151747c-29b4-4bf6-9c11-abdc8d377054"/>
+  </producedTypes>
+  <name>ИспользоватьОбменСКассойMinikassir</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="152955fb-3aa7-4968-ac95-092368491c97" extendedConfigurationObject="94db92be-883a-4eb8-8db7-5d11f776b65e">
+  <producedTypes>
+    <refType typeId="4bca455d-c574-4631-b43c-7896c9ba6b45" valueTypeId="1d03ed4d-7a0e-45a2-9449-e6ba3eff99c1"/>
+    <listType typeId="4f8a00cc-4b6e-4463-8aa2-d2dbe43071f5" valueTypeId="c7aa4f6f-e3c5-4716-9052-b9b66cc91652"/>
+    <managerType typeId="a8c5341a-ff3b-4fd2-931b-ba83b5a30120" valueTypeId="9ea49931-d6b5-491a-8643-e37e1b3ce282"/>
+  </producedTypes>
+  <name>СостоянияКонтрагентаБЭД</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="f2a08b57-3461-466d-8feb-29430da307ac" extendedConfigurationObject="914d9c8c-7773-4461-81c9-9b948564443c">
+    <name>Подключен</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="dea472ec-2c2f-4ada-b7d9-85d1d4f8db7e" extendedConfigurationObject="4585e1ff-2038-4ca7-b6a3-98503b80f2dd">
+    <name>НастроенЭДО</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

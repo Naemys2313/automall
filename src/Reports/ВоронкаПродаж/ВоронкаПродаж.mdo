@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3bab7881-c2c1-4435-8b02-2304b02b3898" extendedConfigurationObject="3576b420-6b41-4df4-a852-21eb60c81fa0">
+  <producedTypes>
+    <objectType typeId="861dab01-31bc-4c7c-9f25-07a776b227f1" valueTypeId="7bae530d-e6ab-4117-9540-2b31323b5d28"/>
+    <managerType typeId="60096d1d-5cbb-4b06-afb9-7c877a97f441" valueTypeId="dc2b954f-1d7c-472f-97fa-834607aeb6a0"/>
+  </producedTypes>
+  <name>ВоронкаПродаж</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ReportExtension"/>
+  <templates uuid="348ce543-e858-4776-8bfa-7f526870b38e" extendedConfigurationObject="32a8b735-4c1a-4fc7-aa15-4a045ecc0789">
+    <name>СКД_ВоронкаПродаж</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicTemplateExtension"/>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

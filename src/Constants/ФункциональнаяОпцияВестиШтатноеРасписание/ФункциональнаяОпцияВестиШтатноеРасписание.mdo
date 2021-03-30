@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="51474724-582f-42a9-acb7-d7d2e094c730" extendedConfigurationObject="de58cbfb-b4f9-41e6-b5be-509b5d0d96ad">
+  <producedTypes>
+    <managerType typeId="20b169f7-64c6-4f36-8956-9e9e91dd060e" valueTypeId="d5d95947-b4e9-4dfe-a5f4-8b9d1174f4e7"/>
+    <valueManagerType typeId="43517555-a68c-4f45-a3b5-1e4866830ac6" valueTypeId="d1fe320f-c10c-4bd7-b388-34cedbb3ccc2"/>
+    <valueKeyType typeId="431af9af-5792-49f5-9205-326398f911ca" valueTypeId="b3534cf1-169b-406a-83ee-f3c9eae7d299"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияВестиШтатноеРасписание</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7b5e4e40-34c0-4152-afb1-01e7201162bd" extendedConfigurationObject="e153f19b-82fa-4121-8b8b-b884d7a9620d">
+  <producedTypes>
+    <managerType typeId="ae07633d-80d1-43f4-95bc-6973e14c75b7" valueTypeId="1a8e2fea-052c-429d-9558-b3252d45821d"/>
+    <valueManagerType typeId="6236446c-f901-4633-8536-b85a10670891" valueTypeId="a153f37d-3cbf-49f3-88a6-0438f8142d6f"/>
+    <valueKeyType typeId="85ff1485-116c-4d87-8bbd-046482d49efd" valueTypeId="888b293a-7105-4d9c-9996-4b9bc23932fb"/>
+  </producedTypes>
+  <name>ЗачитыватьАвансыДолгиАвтоматически</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>EnumRef.ДаНет</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

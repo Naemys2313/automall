@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="63d35bc9-a53b-4768-b254-1077132e4c82" extendedConfigurationObject="32eb0750-407e-4cda-b0e8-64952a0cb129">
+  <producedTypes>
+    <managerType typeId="d0a4c965-bce7-44bc-bcd5-86f552fa2d0e" valueTypeId="a4209e0c-aa60-4303-8a48-c23ee5a404fb"/>
+    <valueManagerType typeId="c22d0062-2218-4bd9-ae10-23320efadd31" valueTypeId="751edc19-dc10-4658-919c-3d0dc229fa3f"/>
+    <valueKeyType typeId="4af857cf-8099-4523-908c-48e707bb029b" valueTypeId="0c80758b-1537-45fd-8ac9-a0d871e110ad"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияПланироватьЗагрузкуРесурсовПредприятияЖурналЗаписи</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

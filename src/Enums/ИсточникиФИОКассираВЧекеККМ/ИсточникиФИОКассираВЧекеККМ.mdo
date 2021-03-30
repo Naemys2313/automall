@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="39d40655-6029-4094-ba05-abfa0c964439" extendedConfigurationObject="3408c33b-fd52-408d-8ce9-b2671beea48b">
+  <producedTypes>
+    <refType typeId="94c34933-7c19-4488-848b-e10159c168f7" valueTypeId="a7ec0002-8853-4b59-94a6-0b4f95e4e759"/>
+    <listType typeId="e291b54e-a23e-451a-b028-8e75c2c1a9fb" valueTypeId="46ab1a23-8f4e-459f-a511-154aeb8c90f9"/>
+    <managerType typeId="c2f2d7b5-9276-4158-b778-2d54cb5f8dd0" valueTypeId="04c22a14-0e28-42b3-90da-9de19bf25cfc"/>
+  </producedTypes>
+  <name>ИсточникиФИОКассираВЧекеККМ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

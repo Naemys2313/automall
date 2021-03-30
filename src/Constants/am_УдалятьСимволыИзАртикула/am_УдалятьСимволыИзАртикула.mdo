@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="899aa8ea-770c-45b1-aa70-84dceaaf724b">
+  <producedTypes>
+    <managerType typeId="a2503abd-660a-43c5-916f-08b1a76c7e2b" valueTypeId="ce83ded8-4d18-4805-90c5-09e104fb2d79"/>
+    <valueManagerType typeId="246a0674-08e0-4850-a8e8-c60b4fac37a1" valueTypeId="77111767-95ef-46d5-a592-573ba6284491"/>
+    <valueKeyType typeId="aed8ace3-8309-40ce-9b06-8b3c45f3ad5c" valueTypeId="7083d550-45fd-4389-8ae6-1ba4a5ba69bf"/>
+  </producedTypes>
+  <name>am_УдалятьСимволыИзАртикула</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удалять символы из артикула</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

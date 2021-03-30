@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="40eaafc5-9ce6-41d6-b315-22863c3aaa82" extendedConfigurationObject="dce57bcd-9651-41e8-bd15-4bc940484c4f">
+  <producedTypes>
+    <objectType typeId="9992eed9-6e20-46b8-8af1-d6329adc4292" valueTypeId="aa30282b-fb1b-475e-8a8b-e5e83a3983bb"/>
+    <refType typeId="40fdb179-5348-45f3-8a90-12483a96dafa" valueTypeId="efc60e11-5226-42b9-8594-aaec00047cad"/>
+    <selectionType typeId="a8cdb19a-de56-4b7a-bb58-f29d12dfa7c6" valueTypeId="487eff81-f524-4872-943e-5795aed0b792"/>
+    <listType typeId="e6032cda-7f38-47c9-982f-8a958336ef73" valueTypeId="a1980d75-ba6d-4fac-8e8c-ca63acdc81d4"/>
+    <managerType typeId="e34e0234-927f-46b3-b21e-506a43bbce7b" valueTypeId="0baf0b1e-d95f-416d-8610-41aadcf3e057"/>
+  </producedTypes>
+  <name>ХарактеристикиНоменклатурыПрисоединенныеФайлы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="9489b43d-2a44-48f7-9e0b-f46e101abaa7" extendedConfigurationObject="ea8f86f0-45f9-4cea-afd6-60497f51c97b">
+    <name>Автор</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

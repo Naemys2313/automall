@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="33751bb8-0e2f-4ca2-9be9-9de831017960" extendedConfigurationObject="d3c58b36-490c-4de2-8c9b-de22703503d7">
+  <producedTypes>
+    <objectType typeId="db663d7b-0265-4f82-8394-19c076b0ae47" valueTypeId="fa066d13-8cd4-484a-912f-9bb606185e86"/>
+    <refType typeId="d6384f80-46bc-40c0-acb8-27e09f4d940b" valueTypeId="955cc0a9-e3a6-457e-a260-9e2e74dea9ae"/>
+    <selectionType typeId="a4863948-e1b3-4177-bbc7-cbff46bbafa7" valueTypeId="c4ffe1bb-ff68-4e70-a2ca-ed2fae19c66a"/>
+    <listType typeId="29c43c9f-0a70-4757-9e88-b965a07028e2" valueTypeId="c24ed282-f6ba-4727-91dd-7d31828b00d3"/>
+    <managerType typeId="a01e387f-e510-490d-a196-ca8273c6c2a6" valueTypeId="ce46922e-d478-4dda-b565-e7ccb9988987"/>
+  </producedTypes>
+  <name>ЛицензииПоставщиковАлкогольнойПродукции</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

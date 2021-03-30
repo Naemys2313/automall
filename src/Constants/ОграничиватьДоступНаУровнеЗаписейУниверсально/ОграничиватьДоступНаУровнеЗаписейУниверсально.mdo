@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="04c99203-37c9-4246-9ee1-e01f43d3195c" extendedConfigurationObject="a6587758-f7af-4f85-81b4-4312c725824e">
+  <producedTypes>
+    <managerType typeId="790b51dc-62c0-44f0-abc1-c26a4a0373e0" valueTypeId="96cff586-fe30-45fa-95b4-6fb11262443c"/>
+    <valueManagerType typeId="1758e1b9-2f61-465b-999f-fecd485b6b27" valueTypeId="73d15ea6-09fe-43be-8751-a6877ca12546"/>
+    <valueKeyType typeId="f25c14ac-60a5-4aa3-9898-c30d9739a68b" valueTypeId="6d423ae8-3fc5-4b0e-be41-18e6f8ebdbf2"/>
+  </producedTypes>
+  <name>ОграничиватьДоступНаУровнеЗаписейУниверсально</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

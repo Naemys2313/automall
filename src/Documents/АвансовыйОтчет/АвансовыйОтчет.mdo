@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5b152281-1523-4b4f-bc3a-5f05b0806c6c" extendedConfigurationObject="84e4c0c3-2a21-4aba-a7b0-f92b3f2878ec">
+  <producedTypes>
+    <objectType typeId="2a77d593-3e64-4ee1-b281-8ba487cf21da" valueTypeId="47b376ff-5b2c-4844-8b98-173cb0ba1197"/>
+    <refType typeId="be81b6fa-3921-4841-87e2-cf77fffca659" valueTypeId="d576381f-440f-48cf-8173-a3d8b9827099"/>
+    <selectionType typeId="304fd01d-bcfe-47f7-81d1-40fca51f3322" valueTypeId="72c27a4c-0754-450a-8238-1578bc96c215"/>
+    <listType typeId="1f797406-9d77-4c17-bfe8-b76edf8dcc3a" valueTypeId="a1a71e13-c853-4766-b6ea-d61edb11f646"/>
+    <managerType typeId="bbf9e251-55d6-41cf-9589-143431038052" valueTypeId="a640e07b-5707-4b95-8244-eb9a668a53d9"/>
+  </producedTypes>
+  <name>АвансовыйОтчет</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <tabularSections uuid="d8385609-295f-4372-9a6b-8dac7131f6e0" extendedConfigurationObject="19568e93-36ec-4577-949d-9cbbc194a22d">
+    <producedTypes>
+      <objectType typeId="7e32df7e-0f22-42b5-9e98-eccc1d1b5e34" valueTypeId="a6ac65bb-e06f-44e0-aec8-0a2df8fb5913"/>
+      <rowType typeId="64ba00d6-3711-4655-90fc-bea2997fcbdb" valueTypeId="0c43839c-1648-4b9f-86d5-ed7846746b96"/>
+    </producedTypes>
+    <name>Оплаты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="fa62ba17-16a8-4f3c-8039-6d37e1196a92" extendedConfigurationObject="c9f71060-0dd1-4dfc-a37e-9fc246306729">
+      <name>Контрагент</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Контрагенты</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

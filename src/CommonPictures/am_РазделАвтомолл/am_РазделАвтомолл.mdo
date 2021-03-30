@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="017bdec4-c6eb-4129-b549-98867c0a922c">
+  <name>am_РазделАвтомолл</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раздел автомолл</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cf353ab2-3543-431d-aff3-a3ba87211389" extendedConfigurationObject="475ff28a-ba7e-46dc-91a2-1de2cca4300c">
+  <producedTypes>
+    <objectType typeId="8fecc826-88bc-45ec-b4b6-cd5b11a18bcd" valueTypeId="aa19578c-8b23-4104-ba49-093fa5617f1e"/>
+    <refType typeId="3ba9edc9-f34c-44f0-895c-aed9e39822fe" valueTypeId="87f6872f-c9d8-49a4-bfdf-2debb048ee49"/>
+    <selectionType typeId="2badc410-3255-4172-8bf9-c53f1cacd0eb" valueTypeId="f66c430b-8b4a-4ab6-86d5-171dd0920897"/>
+    <listType typeId="6198a0c9-c9a5-45e8-8c4a-afa4a21e312d" valueTypeId="5798fefa-4f69-48ce-aff7-b42837f43010"/>
+    <managerType typeId="54e9adcc-c02e-48fd-b1d0-e885d036066e" valueTypeId="c86f7a15-99d0-490a-b1ac-d79feeef87c8"/>
+  </producedTypes>
+  <name>КатегорииНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <hierarchical>Checked</hierarchical>
+    <hierarchyType>Checked</hierarchyType>
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+  </extension>
+  <hierarchical>true</hierarchical>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <predefined>
+    <items id="e7fd6109-3d99-4fa1-8589-825ab91e51b8">
+      <name>БезКатегории</name>
+      <description>&lt;Без категории></description>
+      <code xsi:type="core:StringValue">
+        <value>00-000001</value>
+      </code>
+    </items>
+  </predefined>
+  <attributes uuid="c82d7f72-4386-457c-9575-b1bfa42b63d1" extendedConfigurationObject="b3f59801-6919-4c03-8e95-5df61240d6cb">
+    <name>Весовой</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="5cb00426-cd95-4f54-a6ae-aac85279e033" extendedConfigurationObject="5bccc612-9e0f-4e5a-a72d-86459623feb6">
+    <name>ВидАлкогольнойПродукции</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ВидыАлкогольнойПродукции</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="ad8db6b5-222a-4b3f-8fb1-e21e7efcc0d4" extendedConfigurationObject="e16f458f-1e6b-4334-b26f-342941b3cef9">
+    <name>ВидСтавкиНДС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ВидыСтавокНДС</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="ee1aaf56-1cd1-44a3-a03f-a590240bb642" extendedConfigurationObject="f8549faf-b43e-4985-8fb4-57825aa87aa2">
+    <name>ЕдиницаИзмерения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.КлассификаторЕдиницИзмерения</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="7689a70f-8f47-4a4d-bfe4-f45e53e0be19" extendedConfigurationObject="373b93b3-2a18-4aa0-9ed1-424a033bc2bf">
+    <name>ИмпортнаяАлкогольнаяПродукция</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

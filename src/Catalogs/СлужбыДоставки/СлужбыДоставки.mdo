@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="410389e1-a6b6-4a54-a68f-449ea80a24bb" extendedConfigurationObject="7e46ff2d-480e-4be6-bdca-f780bb4123f0">
+  <producedTypes>
+    <objectType typeId="617fdb26-0936-4154-8b6c-37383958902b" valueTypeId="5dd2b87b-c51f-4444-9a45-fc717d4b4fd3"/>
+    <refType typeId="611270b6-46f9-4de5-a07e-c6081bf0bb6e" valueTypeId="70f1c446-39ba-4391-86d9-6e2735399c65"/>
+    <selectionType typeId="435c3e30-65b9-4bd9-b837-5863481c8bc2" valueTypeId="efb164df-7ea1-4e24-ac7c-7b02f61f8951"/>
+    <listType typeId="304a0ab8-b897-4e94-a154-8410c42bf748" valueTypeId="6afa87a5-2ec2-4b69-a247-88ceda6a7b1c"/>
+    <managerType typeId="3e0fb4d3-2ae2-4939-adba-51487a354b42" valueTypeId="e180a4a5-df2b-4aa0-a249-f4bca91cb1f4"/>
+  </producedTypes>
+  <name>СлужбыДоставки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+    <codeAllowedLength>Checked</codeAllowedLength>
+  </extension>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <attributes uuid="bb9b7b82-efcc-48ec-b181-43d9262a4ff9" extendedConfigurationObject="e1e6792d-b91e-432a-963a-b70b41534b20">
+    <name>ВозможенЗаборНаЕдиныйСклад</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="2e5dfcc6-97aa-4128-9f5d-ece0e35f9fd5" extendedConfigurationObject="a0ce3c10-fa06-4da5-9e9c-100818206667">
+    <name>ВозможенЗаборНаСкладСлужбыДоставки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="9c36c7a5-497b-456b-b644-bc9b3507b733" extendedConfigurationObject="4dfcd574-c240-4a05-9bd6-c44ebf25ca8e">
+    <name>ИдентификаторЯндекса</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="4d2b5bb2-40de-4a8b-adc3-545175b5aa30" extendedConfigurationObject="80d61626-8356-4ec1-98d4-a85288111174">
+    <name>ВариантУчета</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ВариантыУчетаДоставки</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="a64bec0c-dc27-438f-9821-f7aadfef5a88" extendedConfigurationObject="3c809a77-ec6d-41f0-815a-f09264f01ee8">
+    <name>ВозможенСамопривозНаЕдиныйСклад</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="a83df48c-9bf1-4269-b370-7c330fa5ce9d" extendedConfigurationObject="25e00069-2d5d-4f57-b3a7-250595fa49d9">
+    <name>ВозможенСамопривозНаСкладСлужбыДоставки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

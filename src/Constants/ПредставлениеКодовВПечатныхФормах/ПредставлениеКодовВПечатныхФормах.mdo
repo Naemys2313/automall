@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2dce5937-9c25-4512-b7d8-34ec34022a2c" extendedConfigurationObject="5fb44799-3016-4892-8a2e-a30ebf32a296">
+  <producedTypes>
+    <managerType typeId="66a988ae-f420-47b2-97f1-673d1e74410a" valueTypeId="464aaabd-5713-4062-b612-57aecd32fb36"/>
+    <valueManagerType typeId="c235341e-34a8-41cb-88da-454185c75c77" valueTypeId="c2b446bb-0c23-48a4-9713-99d795ad8d58"/>
+    <valueKeyType typeId="217b2030-dde8-4aa0-8870-2dc09f40b448" valueTypeId="0b462877-6d9d-4fd3-83b2-70d9fca44252"/>
+  </producedTypes>
+  <name>ПредставлениеКодовВПечатныхФормах</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>EnumRef.КодыНоменклатурыВДокументах</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

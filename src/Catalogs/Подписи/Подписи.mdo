@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e806024c-f046-4f87-8f4b-25a6f4edbcc0" extendedConfigurationObject="789e41a0-7388-441a-a0ed-de329b8862fe">
+  <producedTypes>
+    <objectType typeId="8509f87b-917d-4947-87fe-9e401fec3607" valueTypeId="ab2f5e62-c460-43c1-a54f-2a2639ae1888"/>
+    <refType typeId="5e417756-571e-48b3-9d19-14de88b9227c" valueTypeId="f6de8888-51c0-4419-8dfd-cb637fcd62d3"/>
+    <selectionType typeId="1187d58c-55be-4486-8206-1039262e25a1" valueTypeId="8bc62647-6ab4-4450-9760-26e82fa01113"/>
+    <listType typeId="58f2267d-237c-4af1-8414-039ff99b0afc" valueTypeId="1f23b624-94d3-41f8-af62-467b923788c4"/>
+    <managerType typeId="4f858cc9-bada-4b9a-8ef6-d342419f0744" valueTypeId="b8215652-e70b-4c28-aee6-1edffa517fe9"/>
+  </producedTypes>
+  <name>Подписи</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="c54c3caf-49e8-411b-b2b8-13a6ee4cdf44" extendedConfigurationObject="14b0823a-d28c-4de2-964e-b85cdecf1f2e">
+    <name>РасшифровкаПодписи</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="2b741dfb-74c7-4681-967d-6ef6ce9a29e4" extendedConfigurationObject="35cca871-03f4-4163-8b14-00962d381ec9">
+    <name>Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="8a9123fd-08ae-4aec-875c-b86b3fc39a58" extendedConfigurationObject="63c215f8-c294-4abe-97c1-d4f1fec022fd">
+    <name>ФизическоеЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ФизическиеЛица</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="1da834f6-a4b2-4b63-9fe2-2dca8ef9d645" extendedConfigurationObject="c71c8fe9-fa72-4a95-bb86-c9d20d8da780">
+    <name>Факсимиле</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ФизическиеЛицаПрисоединенныеФайлы</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

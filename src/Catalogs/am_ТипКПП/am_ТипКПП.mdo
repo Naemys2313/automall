@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d3f49b4-b135-4d72-a185-3a441033bf9d">
+  <producedTypes>
+    <objectType typeId="957f1fe7-c1e8-4f4b-a02d-034a724c5a58" valueTypeId="f9510484-8200-4171-aa7e-8860bc9c6cd3"/>
+    <refType typeId="8e643342-d56a-4153-992e-9e427dc6961a" valueTypeId="4b31ac71-f215-4a76-ab1b-6fc5a3a3c502"/>
+    <selectionType typeId="e87723a1-bb12-40cf-bd54-310766eac1fc" valueTypeId="13f45387-1b79-4000-b995-df06f071be37"/>
+    <listType typeId="1f9ab8d5-8203-4dc4-9cbf-b9ca83880a83" valueTypeId="36a17c86-08a2-4e2c-9e6d-ad96fc6aa881"/>
+    <managerType typeId="48ee0ec6-7436-4a55-a6ef-d6510ef10784" valueTypeId="daaaa1c1-6088-427f-8352-c8c0e8f3f1f4"/>
+  </producedTypes>
+  <name>am_ТипКПП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы КПП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.am_ТипКПП.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.am_ТипКПП.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.am_ТипКПП.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="a6996505-ce51-4337-b439-8c0c2b17c807">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

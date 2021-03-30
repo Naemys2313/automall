@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="19253cf4-8487-42d3-9c70-7c22647c6bc0" extendedConfigurationObject="8e6d7abc-75c6-442a-9379-d58c95677dce">
+  <producedTypes>
+    <objectType typeId="65826a74-639b-4c76-8d24-874a8890b1fe" valueTypeId="0ad47dfa-b24e-4c28-a52f-62235025ee49"/>
+    <refType typeId="38093291-8f16-411e-bcdb-83df7f3d1e13" valueTypeId="1e713a03-71fe-4c00-8765-dc79018cd911"/>
+    <selectionType typeId="a1903e97-b4f8-4481-9a36-770d3aaddf53" valueTypeId="3e3fe523-5be7-41ed-9191-0b86efc7a4d9"/>
+    <listType typeId="2c6e25f9-efe8-4845-a3cf-4cdb8d68a191" valueTypeId="a608c5bc-19f3-45c3-b1cd-1b39be265700"/>
+    <managerType typeId="611f263c-0b7d-453c-b9fe-5c63972a75fd" valueTypeId="3977ad74-ef5f-4cf6-95db-e9de3ef79bf0"/>
+  </producedTypes>
+  <name>РасходДСПлан</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <forms uuid="bea10036-3476-4b1e-9a4c-a8d1476d6f27" extendedConfigurationObject="e61d2d86-5a7d-45fa-ab0f-7550ce4997cd">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

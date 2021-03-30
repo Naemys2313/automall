@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d1bfa525-e77d-4a79-b825-fb2de8165ebb" extendedConfigurationObject="46568b9a-a765-4037-8a86-b184a570ab37">
+  <producedTypes>
+    <managerType typeId="b04607c6-c0db-4915-a1c5-48d41027da8e" valueTypeId="e53f76c9-dbbb-4fa3-88a3-8a4fbe120304"/>
+    <valueManagerType typeId="7aa0972e-84da-4bb0-af9e-045b5a6e55f8" valueTypeId="1d9626a9-1f9c-4024-bb3a-3bc3dfd1ae63"/>
+    <valueKeyType typeId="578b9500-5ad4-41da-8fe4-9b771a4edb07" valueTypeId="b230a560-a159-466e-bb60-009491de066f"/>
+  </producedTypes>
+  <name>СписокЗапрещенныхРасширенийОбластиДанных</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>String</type>
+      </types>
+      <stringQualifiers/>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

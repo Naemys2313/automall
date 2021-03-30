@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7144625d-aa86-4164-91f6-78fb8498c484" extendedConfigurationObject="b2771ac2-9f29-4547-bfd7-6a7e80fc8b02">
+  <producedTypes>
+    <managerType typeId="ce80a4c0-8215-4227-887c-0fadface19cc" valueTypeId="37c55c04-9dff-4ccf-8907-70c7b448ebc2"/>
+    <valueManagerType typeId="6230ef49-689c-4469-ae7a-d0a976e22ce6" valueTypeId="a40b8ae7-af1e-4c68-bf25-6057d7a03cbf"/>
+    <valueKeyType typeId="64ed1351-5436-4b8d-912d-c0f7ba02a254" valueTypeId="9684cdd7-2066-4dc6-8ccc-ec36166c57cd"/>
+  </producedTypes>
+  <name>ИспользоватьРучноеРаспределениеМатериаловПоУмолчанию</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>EnumRef.ДаНет</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

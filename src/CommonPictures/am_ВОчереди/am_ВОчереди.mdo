@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e7a299d-64b0-49f0-a7a0-17737e125c84">
+  <name>am_ВОчереди</name>
+  <synonym>
+    <key>ru</key>
+    <value>Am в очереди</value>
+  </synonym>
+</mdclass:CommonPicture>

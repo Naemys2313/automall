@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="110ffa50-3ed5-4cc1-ad9d-30c19f3915db">
+  <producedTypes>
+    <refType typeId="fa099834-2c88-42fb-bb72-f40c9b41a21d" valueTypeId="151349fd-58f9-48e4-b307-502c269514bf"/>
+    <listType typeId="d1139734-70ba-4c2e-a0ba-b7b905701a99" valueTypeId="2afaa5ae-e479-404b-b026-7f085c052631"/>
+    <managerType typeId="f64c7f55-bad2-4b3d-9601-4f5e54b791af" valueTypeId="45e63f97-1385-4f34-929f-55170a160e55"/>
+  </producedTypes>
+  <name>am_КачествоТовара</name>
+  <synonym>
+    <key>ru</key>
+    <value>Am качество товара</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d1cd701d-e109-4dcc-8aa1-0d758ba98f3e">
+    <name>АКласс</name>
+    <synonym>
+      <key>ru</key>
+      <value>А - класс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4848d7e0-df03-4442-8d6b-3e7de53e5337">
+    <name>ВКласс</name>
+    <synonym>
+      <key>ru</key>
+      <value>В - класс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3da9f91e-273f-474f-bb7a-4426d62703a3">
+    <name>СКласс</name>
+    <synonym>
+      <key>ru</key>
+      <value>С - класс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ab3c289e-f984-4be6-9717-63a28c5506fb">
+    <name>НеЗаполнено</name>
+    <synonym>
+      <key>ru</key>
+      <value>не заполнено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec4cb192-3d1d-4a57-90dc-c57e33ecce62">
+  <producedTypes>
+    <objectType typeId="ee4b3198-7112-4673-b1ca-1e12ae169822" valueTypeId="ce29073a-3672-449f-a828-605e9ce180fd"/>
+    <managerType typeId="bffae082-c3e7-4ec5-8f79-e74c7b43fa8f" valueTypeId="450b62f6-db08-42a7-b31b-8f64103e8f5b"/>
+  </producedTypes>
+  <name>am_ПредоплатаПоЧекам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предоплата по чекам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчетаУНФ</defaultForm>
+  <mainDataCompositionSchema>Report.am_ПредоплатаПоЧекам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <attributes uuid="82a9f344-f379-4c3b-b251-e5f7155ec9b0">
+    <name>ЭтоОтчетУНФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширенные настройки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="d81c84a1-ff92-472d-b182-9cb8aa05db89">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
